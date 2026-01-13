@@ -1,0 +1,129 @@
+name: Track Virginia Bills
+
+on:
+  # Run daily at 8 AM ET (1 PM UTC)
+  schedule:
+    - cron: '0 13 * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+  
+  # Run on push to main (for testing and config updates)
+  push:
+    branches: [ main ]
+    paths:
+      - 'bills_to_track.json'
+      - 'track_bills.py'
+      - '.github/workflows/**'
+
+jobs:
+  track-bills:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # Needed to commit changes and push to gh-pages
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for all branches
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 selenium
+      
+      - name: Create data directory if needed
+        run: |
+          mkdir -p data
+          mkdir -p docs
+      
+      - name: Run bill tracker
+        run: |
+          python track_bills_v2.py
+        env:
+          TZ: 'America/New_York'
+          GITHUB_REPOSITORY: ${{ github.repository }}
+      
+      - name: Commit data changes to main branch
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          git diff --quiet && git diff --staged --quiet || \
+            git commit -m "Update bill tracking data - $(date +'%Y-%m-%d %H:%M')"
+          git push
+      
+      - name: Setup gh-pages branch if it doesn't exist
+        run: |
+          # Check if gh-pages branch exists on remote
+          if git ls-remote --heads origin gh-pages | grep gh-pages > /dev/null; then
+            echo "gh-pages branch exists"
+          else
+            echo "Creating gh-pages branch..."
+            # Create orphan branch
+            git checkout --orphan gh-pages
+            # Remove all files
+            git rm -rf .
+            # Create placeholder
+            cat > index.html << 'EOF'
+          <!DOCTYPE html>
+          <html>
+          <head>
+              <title>Virginia Bill Tracker</title>
+              <meta http-equiv="refresh" content="30">
+              <style>
+                  body {
+                      font-family: Arial, sans-serif;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      height: 100vh;
+                      margin: 0;
+                      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                      color: white;
+                  }
+                  .container {
+                      text-align: center;
+                      padding: 40px;
+                      background: rgba(255,255,255,0.1);
+                      border-radius: 10px;
+                  }
+              </style>
+          </head>
+          <body>
+              <div class="container">
+                  <h1>🏛️ Virginia Bill Tracker</h1>
+                  <p>Dashboard is being generated...</p>
+                  <p style="font-size: 14px;">This page will refresh automatically.</p>
+              </div>
+          </body>
+          </html>
+          EOF
+            git add index.html
+            git commit -m "Initialize gh-pages branch"
+            git push -u origin gh-pages
+            # Switch back to main
+            git checkout main
+          fi
+      
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          publish_branch: gh-pages
+          enable_jekyll: false
+          force_orphan: false  # Keep history
+      
+      - name: Output dashboard URL
+        run: |
+          echo "✅ Dashboard updated successfully!"
+          echo "🌐 View your dashboard at:"
+          echo "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
