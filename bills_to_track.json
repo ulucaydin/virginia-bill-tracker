@@ -1,0 +1,13 @@
+{
+  "bills": [
+    "HB1",
+    "HB7",
+    "SB200",
+    "SB201"
+  ],
+  "settings": {
+    "notification_email": null,
+    "sync_frequency": "daily",
+    "timezone": "America/New_York"
+  }
+}
