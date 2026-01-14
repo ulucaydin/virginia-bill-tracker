@@ -301,19 +301,44 @@
             <h1>🏛️ Virginia Bill Tracker</h1>
             <div class="header-actions">
                 <div class="sync-info">
-                    Last synced: <span class="sync-time">January 13, 2026 at 09:05 PM ET</span>
+                    Last synced: <span class="sync-time">January 13, 2026 at 09:06 PM ET</span>
                 </div>
                 <button class="btn" onclick="openConfigModal()">⚙️ Configure Bills</button>
             </div>
         </div>
         
-        <div class="changes-banner no-changes">
-            <strong>✅ No changes detected</strong>
+        <div class="changes-banner ">
+            <strong>⚠️ 1 change(s) detected since last sync</strong>
+        </div>
+        <div class="bills-grid">
+
+            <div class="bill-card has-changes">
+                <div class="bill-number">
+                    HB1
+                    <span class="change-badge">UPDATED</span>
+                </div>
+                <div class="bill-status status-in-committee">
+                    In Committee
+                </div>
+                <div class="bill-summary">
+                    Summary for HB1
+                </div>
+                <a href="https://lis.virginia.gov/bill-details/20261/HB1" target="_blank" class="bill-link">
+                    View on LIS →
+                </a>
+            </div>
         </div>
 
-        <div class="no-bills">
-            <h2>No Bills Tracked</h2>
-            <p>Click "Configure Bills" above to add bills to track</p>
+        <div class="changes-section">
+            <h2>Recent Changes</h2>
+
+            <div class="change-item">
+                <div>Started tracking HB1</div>
+                <div class="change-timestamp">
+                    January 13, 2026 at 09:06 PM
+                </div>
+            </div>
+
         </div>
 
     <!-- Configuration Modal -->
@@ -362,7 +387,7 @@
     
     <script>
         // Configuration data
-        let trackedBills = [];
+        let trackedBills = ["HB1"];
         const REPO_NAME = 'ulucaydin/virginia-bill-tracker';
         const CONFIG_FILE_PATH = 'bills_to_track.json';
         
