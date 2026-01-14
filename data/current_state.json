@@ -1,1 +1,10 @@
-{}
+{
+  "HB1": {
+    "bill_number": "HB1",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1",
+    "status": "In Committee",
+    "summary": "Summary for HB1",
+    "last_action": "Referred to committee",
+    "last_action_date": "2026-01-13"
+  }
+}
