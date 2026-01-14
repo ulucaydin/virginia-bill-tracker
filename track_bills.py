@@ -7,12 +7,17 @@ Now includes web-based configuration interface
 
 import json
 import requests
+import csv
+import io
 from datetime import datetime
-from typing import Dict, List, Set
+from typing import Dict, List, Optional
 import os
 
 # Configuration
 BILLS_TO_TRACK_FILE = "bills_to_track.json"
+# Virginia LIS data URL - 20251 = 2025 Regular Session
+LIS_DATA_BASE_URL = "https://lis.blob.core.windows.net/lisfiles"
+CURRENT_SESSION = "20251"
 PREVIOUS_STATE_FILE = "data/previous_state.json"
 CURRENT_STATE_FILE = "data/current_state.json"
 CHANGES_LOG_FILE = "data/changes_log.json"
@@ -27,28 +32,172 @@ def load_bills_to_track() -> List[str]:
         print(f"Warning: {BILLS_TO_TRACK_FILE} not found. Using empty list.")
         return []
 
+def fetch_lis_csv(filename: str, session: str = CURRENT_SESSION) -> Optional[List[Dict]]:
+    """Fetch and parse a CSV file from Virginia LIS blob storage"""
+    url = f"{LIS_DATA_BASE_URL}/{session}/{filename}"
+    try:
+        response = requests.get(url, timeout=30)
+        response.raise_for_status()
+        # Parse CSV content
+        content = response.content.decode('utf-8-sig')  # Handle BOM if present
+        reader = csv.DictReader(io.StringIO(content))
+        return list(reader)
+    except requests.RequestException as e:
+        print(f"Error fetching {filename}: {e}")
+        return None
+
+
+def normalize_bill_id(bill_id: str) -> str:
+    """Normalize bill ID to standard format (e.g., HB0009 -> HB9, HB9 -> HB9)"""
+    import re
+    match = re.match(r'^([A-Z]+)0*(\d+)$', bill_id.upper().strip())
+    if match:
+        return f"{match.group(1)}{match.group(2)}"
+    return bill_id.upper().strip()
+
+
+def strip_html(text: str) -> str:
+    """Remove HTML tags from text"""
+    import re
+    # Remove HTML tags
+    clean = re.sub(r'<[^>]+>', '', text)
+    # Decode common HTML entities
+    clean = clean.replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>')
+    clean = clean.replace('&quot;', '"').replace('&#39;', "'").replace('&nbsp;', ' ')
+    return clean.strip()
+
+
+def get_bill_status(bill_row: Dict) -> str:
+    """Determine bill status from CSV row data"""
+    # Check governor action first
+    gov_action = bill_row.get('Last_governor_action', '').strip()
+    if gov_action:
+        if 'Approved' in gov_action or 'Signed' in gov_action:
+            return 'Signed into Law'
+        elif 'Vetoed' in gov_action:
+            return 'Vetoed'
+
+    # Check if passed both chambers
+    passed_house = bill_row.get('Passed_house', '').strip().upper()
+    passed_senate = bill_row.get('Passed_senate', '').strip().upper()
+    if passed_house == 'Y' and passed_senate == 'Y':
+        return 'Passed Both Chambers'
+    elif passed_house == 'Y':
+        return 'Passed House'
+    elif passed_senate == 'Y':
+        return 'Passed Senate'
+
+    # Check last action for status clues
+    house_action = bill_row.get('Last_house_action', '').strip()
+    senate_action = bill_row.get('Last_senate_action', '').strip()
+    last_action = house_action or senate_action
+
+    if 'Left in' in last_action:
+        return 'Left in Committee'
+    elif 'Continued to' in last_action:
+        return 'Continued'
+    elif 'Failed' in last_action or 'Defeated' in last_action:
+        return 'Failed'
+    elif 'Committee' in last_action or 'Referred' in last_action:
+        return 'In Committee'
+
+    return 'Pending'
+
+
 def fetch_bill_data(bill_numbers: List[str]) -> Dict:
     """
-    Fetch current data for specified bills from Virginia LIS
+    Fetch current data for specified bills from Virginia LIS CSV files
     """
     bills_data = {}
-    
-    for bill_num in bill_numbers:
-        try:
-            # Placeholder - actual implementation would scrape from Virginia LIS
+
+    if not bill_numbers:
+        return bills_data
+
+    # Fetch bills and summaries CSVs
+    print(f"   Fetching data from Virginia LIS (session {CURRENT_SESSION})...")
+    bills_csv = fetch_lis_csv("BILLS.CSV")
+    summaries_csv = fetch_lis_csv("Summaries.csv")
+
+    if not bills_csv:
+        print("   Warning: Could not fetch BILLS.CSV, using fallback data")
+        # Return placeholder data if CSV fetch fails
+        for bill_num in bill_numbers:
             bills_data[bill_num] = {
                 'bill_number': bill_num,
-                'bill_url': f"https://lis.virginia.gov/bill-details/20261/{bill_num}",
-                'status': 'In Committee',
-                'summary': f'Summary for {bill_num}',
-                'last_action': 'Referred to committee',
-                'last_action_date': datetime.now().strftime('%Y-%m-%d')
+                'bill_url': f"https://lis.virginia.gov/bill-details/{CURRENT_SESSION}/{bill_num}",
+                'status': 'Data unavailable',
+                'summary': 'Could not fetch bill data from Virginia LIS',
+                'last_action': 'Unknown',
+                'last_action_date': ''
             }
-            
-        except Exception as e:
-            print(f"Error fetching {bill_num}: {str(e)}")
-            bills_data[bill_num] = {'error': str(e)}
-    
+        return bills_data
+
+    # Build lookup dictionaries - normalize bill IDs
+    bills_by_number = {}
+    for row in bills_csv:
+        bill_id = row.get('Bill_id', '').strip()
+        if bill_id:
+            normalized = normalize_bill_id(bill_id)
+            bills_by_number[normalized] = row
+
+    summaries_by_number = {}
+    if summaries_csv:
+        for row in summaries_csv:
+            # Summaries use SUM_BILNO column with zero-padded IDs (e.g., HB0009)
+            bill_id = row.get('SUM_BILNO', '').strip()
+            if bill_id:
+                normalized = normalize_bill_id(bill_id)
+                summary_text = row.get('SUMMARY_TEXT', '').strip()
+                # Strip HTML and store
+                summaries_by_number[normalized] = strip_html(summary_text)
+
+    # Process requested bills
+    for bill_num in bill_numbers:
+        bill_num_normalized = normalize_bill_id(bill_num)
+
+        if bill_num_normalized in bills_by_number:
+            row = bills_by_number[bill_num_normalized]
+
+            # Get summary from summaries CSV or fall back to description
+            summary = summaries_by_number.get(bill_num_normalized, '')
+            if not summary:
+                summary = row.get('Bill_description', 'No summary available').strip()
+
+            # Get last action info
+            house_action = row.get('Last_house_action', '').strip()
+            house_action_date = row.get('Last_house_action_date', '').strip()
+            senate_action = row.get('Last_senate_action', '').strip()
+            senate_action_date = row.get('Last_senate_action_date', '').strip()
+
+            # Use most recent action
+            if senate_action_date and (not house_action_date or senate_action_date > house_action_date):
+                last_action = senate_action
+                last_action_date = senate_action_date
+            else:
+                last_action = house_action
+                last_action_date = house_action_date
+
+            bills_data[bill_num_normalized] = {
+                'bill_number': bill_num_normalized,
+                'bill_url': f"https://lis.virginia.gov/bill-details/{CURRENT_SESSION}/{bill_num_normalized}",
+                'status': get_bill_status(row),
+                'summary': summary,
+                'last_action': last_action or 'No action recorded',
+                'last_action_date': last_action_date,
+                'patron': row.get('Patron_name', '').strip()
+            }
+            print(f"   Found {bill_num_normalized}: {bills_data[bill_num_normalized]['status']}")
+        else:
+            print(f"   Warning: {bill_num_normalized} not found in session {CURRENT_SESSION}")
+            bills_data[bill_num_normalized] = {
+                'bill_number': bill_num_normalized,
+                'bill_url': f"https://lis.virginia.gov/bill-details/{CURRENT_SESSION}/{bill_num_normalized}",
+                'status': 'Not Found',
+                'summary': f'Bill {bill_num_normalized} not found in the {CURRENT_SESSION[:4]} session',
+                'last_action': 'N/A',
+                'last_action_date': ''
+            }
+
     return bills_data
 
 def load_previous_state() -> Dict:

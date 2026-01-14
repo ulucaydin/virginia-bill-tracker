@@ -19,5 +19,61 @@
     "message": "Started tracking HB53",
     "current_status": "In Committee",
     "timestamp": "2026-01-13T21:08:52.868981"
+  },
+  {
+    "bill": "HB1",
+    "type": "new_tracking",
+    "message": "Started tracking HB1",
+    "current_status": "Not Found",
+    "timestamp": "2026-01-13T21:33:14.385967"
+  },
+  {
+    "bill": "HB53",
+    "type": "new_tracking",
+    "message": "Started tracking HB53",
+    "current_status": "Not Found",
+    "timestamp": "2026-01-13T21:33:14.385979"
+  },
+  {
+    "bill": "HB9",
+    "type": "new_tracking",
+    "message": "Started tracking HB9",
+    "current_status": "Left in Committee",
+    "timestamp": "2026-01-13T21:34:38.224537"
+  },
+  {
+    "bill": "HB1400",
+    "type": "new_tracking",
+    "message": "Started tracking HB1400",
+    "current_status": "Not Found",
+    "timestamp": "2026-01-13T21:34:38.224545"
+  },
+  {
+    "bill": "SB1",
+    "type": "new_tracking",
+    "message": "Started tracking SB1",
+    "current_status": "Not Found",
+    "timestamp": "2026-01-13T21:34:38.224546"
+  },
+  {
+    "bill": "HB9",
+    "type": "new_tracking",
+    "message": "Started tracking HB9",
+    "current_status": "Left in Committee",
+    "timestamp": "2026-01-13T21:35:00.713413"
+  },
+  {
+    "bill": "SB10",
+    "type": "new_tracking",
+    "message": "Started tracking SB10",
+    "current_status": "Left in Committee",
+    "timestamp": "2026-01-13T21:35:00.713422"
+  },
+  {
+    "bill": "SB33",
+    "type": "new_tracking",
+    "message": "Started tracking SB33",
+    "current_status": "Passed Senate",
+    "timestamp": "2026-01-13T21:35:00.713423"
   }
 ]

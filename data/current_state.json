@@ -1,18 +1,29 @@
 {
-  "HB1": {
-    "bill_number": "HB1",
-    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1",
-    "status": "In Committee",
-    "summary": "Summary for HB1",
-    "last_action": "Referred to committee",
-    "last_action_date": "2026-01-13"
+  "HB9": {
+    "bill_number": "HB9",
+    "bill_url": "https://lis.virginia.gov/bill-details/20251/HB9",
+    "status": "Left in Committee",
+    "summary": "Animal control officers; additional training. Increases the number of hours of required additional training in animal control and protection from 15 to 24 every three years for all animal control officers and deputy animal control officers employed by a locality.",
+    "last_action": "Left in Agriculture, Chesapeake and Natural Resources",
+    "last_action_date": "11/18/2024",
+    "patron": "Ennis"
   },
-  "HB53": {
-    "bill_number": "HB53",
-    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB53",
-    "status": "In Committee",
-    "summary": "Summary for HB53",
-    "last_action": "Referred to committee",
-    "last_action_date": "2026-01-13"
+  "SB10": {
+    "bill_number": "SB10",
+    "bill_url": "https://lis.virginia.gov/bill-details/20251/SB10",
+    "status": "Left in Committee",
+    "summary": "Income tax subtraction; military  retirement\r\nbenefits; uniformed services. Expands the definition of 'military\r\nbenefits' to  include an income tax subtraction of retirement income\r\nreceived for  service in the uniformed services of the United  States,\r\nwhich includes the United States Armed  Forces, the commissioned corps\r\nof the National  Oceanic and Atmospheric Administration, and the \r\ncommissioned corps of the United States  Public Health Service. Under\r\ncurrent law, the subtraction is only allowed for  military retirement\r\nincome received for service in the  United States Armed Forces.",
+    "last_action": "Left in Finance and Appropriations",
+    "last_action_date": "11/19/2024",
+    "patron": "Reeves"
+  },
+  "SB33": {
+    "bill_number": "SB33",
+    "bill_url": "https://lis.virginia.gov/bill-details/20251/SB33",
+    "status": "Passed Senate",
+    "summary": "Supervision of certified registered nurse anesthetists;\r\n work group; report. Clarifies that supervision  of a certified\r\nregistered nurse anesthetist requires that a  licensed doctor of medicine,\r\nosteopathy, podiatry,  or dentistry is present during an operation\r\nor procedure or is immediately available to respond  and provide patient\r\ncare as needed. The bill directs the Secretary of Health  and Human\r\nResources, in collaboration with the Board of Medicine, Board of \r\nNursing, and Department of Health Professions, to convene a work group\r\n of relevant stakeholders to evaluate and make recommendations to\r\nincrease the  anesthesia provider workforce in the Commonwealth. The\r\nbill requires the work  group to report its recommendations to the\r\nChairmen of the Senate Committee on Education and Health and the House\r\nCommittee on Health and Human Services by November  1, 2024.",
+    "last_action": "Left in Health and Human Services",
+    "last_action_date": "11/18/2024",
+    "patron": "Locke"
   }
 }
