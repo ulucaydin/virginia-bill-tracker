@@ -1,0 +1,8 @@
+{
+  "bills": [],
+  "settings": {
+    "notification_email": null,
+    "sync_frequency": "daily",
+    "timezone": "America/New_York"
+  }
+}
