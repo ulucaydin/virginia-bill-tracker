@@ -301,45 +301,81 @@
             <h1>🏛️ Virginia Bill Tracker</h1>
             <div class="header-actions">
                 <div class="sync-info">
-                    Last synced: <span class="sync-time">January 13, 2026 at 09:08 PM ET</span>
+                    Last synced: <span class="sync-time">January 13, 2026 at 09:35 PM ET</span>
                 </div>
                 <button class="btn" onclick="openConfigModal()">⚙️ Configure Bills</button>
             </div>
         </div>
         
         <div class="changes-banner ">
-            <strong>⚠️ 2 change(s) detected since last sync</strong>
+            <strong>⚠️ 3 change(s) detected since last sync</strong>
         </div>
         <div class="bills-grid">
 
             <div class="bill-card has-changes">
                 <div class="bill-number">
-                    HB1
+                    HB9
                     <span class="change-badge">UPDATED</span>
                 </div>
-                <div class="bill-status status-in-committee">
-                    In Committee
+                <div class="bill-status status-left-in-committee">
+                    Left in Committee
                 </div>
                 <div class="bill-summary">
-                    Summary for HB1
+                    Animal control officers; additional training. Increases the number of hours of required additional training in animal control and protection from 15 to 24 every three years for all animal control officers and deputy animal control officers employed by a locality.
                 </div>
-                <a href="https://lis.virginia.gov/bill-details/20261/HB1" target="_blank" class="bill-link">
+                <a href="https://lis.virginia.gov/bill-details/20251/HB9" target="_blank" class="bill-link">
                     View on LIS →
                 </a>
             </div>
 
             <div class="bill-card has-changes">
                 <div class="bill-number">
-                    HB53
+                    SB10
                     <span class="change-badge">UPDATED</span>
                 </div>
-                <div class="bill-status status-in-committee">
-                    In Committee
+                <div class="bill-status status-left-in-committee">
+                    Left in Committee
                 </div>
                 <div class="bill-summary">
-                    Summary for HB53
+                    Income tax subtraction; military  retirement
+benefits; uniformed services. Expands the definition of 'military
+benefits' to  include an income tax subtraction of retirement income
+received for  service in the uniformed services of the United  States,
+which includes the United States Armed  Forces, the commissioned corps
+of the National  Oceanic and Atmospheric Administration, and the 
+commissioned corps of the United States  Public Health Service. Under
+current law, the subtraction is only allowed for  military retirement
+income received for service in the  United States Armed Forces.
                 </div>
-                <a href="https://lis.virginia.gov/bill-details/20261/HB53" target="_blank" class="bill-link">
+                <a href="https://lis.virginia.gov/bill-details/20251/SB10" target="_blank" class="bill-link">
+                    View on LIS →
+                </a>
+            </div>
+
+            <div class="bill-card has-changes">
+                <div class="bill-number">
+                    SB33
+                    <span class="change-badge">UPDATED</span>
+                </div>
+                <div class="bill-status status-passed-senate">
+                    Passed Senate
+                </div>
+                <div class="bill-summary">
+                    Supervision of certified registered nurse anesthetists;
+ work group; report. Clarifies that supervision  of a certified
+registered nurse anesthetist requires that a  licensed doctor of medicine,
+osteopathy, podiatry,  or dentistry is present during an operation
+or procedure or is immediately available to respond  and provide patient
+care as needed. The bill directs the Secretary of Health  and Human
+Resources, in collaboration with the Board of Medicine, Board of 
+Nursing, and Department of Health Professions, to convene a work group
+ of relevant stakeholders to evaluate and make recommendations to
+increase the  anesthesia provider workforce in the Commonwealth. The
+bill requires the work  group to report its recommendations to the
+Chairmen of the Senate Committee on Education and Health and the House
+Committee on Health and Human Services by November  1, 2024.
+                </div>
+                <a href="https://lis.virginia.gov/bill-details/20251/SB33" target="_blank" class="bill-link">
                     View on LIS →
                 </a>
             </div>
@@ -349,16 +385,23 @@
             <h2>Recent Changes</h2>
 
             <div class="change-item">
-                <div>Started tracking HB1</div>
+                <div>Started tracking HB9</div>
                 <div class="change-timestamp">
-                    January 13, 2026 at 09:08 PM
+                    January 13, 2026 at 09:35 PM
                 </div>
             </div>
 
             <div class="change-item">
-                <div>Started tracking HB53</div>
+                <div>Started tracking SB10</div>
                 <div class="change-timestamp">
-                    January 13, 2026 at 09:08 PM
+                    January 13, 2026 at 09:35 PM
+                </div>
+            </div>
+
+            <div class="change-item">
+                <div>Started tracking SB33</div>
+                <div class="change-timestamp">
+                    January 13, 2026 at 09:35 PM
                 </div>
             </div>
 
@@ -410,7 +453,7 @@
     
     <script>
         // Configuration data
-        let trackedBills = ["HB1", "HB53"];
+        let trackedBills = ["HB9", "SB10", "SB33"];
         const REPO_NAME = 'ulucaydin/virginia-bill-tracker';
         const CONFIG_FILE_PATH = 'bills_to_track.json';
         
