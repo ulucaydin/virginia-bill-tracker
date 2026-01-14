@@ -523,6 +523,24 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
             font-size: 14px;
             line-height: 1.6;
             margin-bottom: 15px;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            min-height: calc(5 * 1.6 * 14px);
+        }}
+        .bill-card {{
+            cursor: pointer;
+        }}
+        .bill-card:hover .bill-summary {{
+            color: #333;
+        }}
+        .expand-hint {{
+            color: #667eea;
+            font-size: 12px;
+            font-weight: 500;
+            margin-top: 8px;
         }}
         .bill-link {{
             color: #667eea;
@@ -593,7 +611,10 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
             <strong>{'✅ No changes detected' if not changes else f'⚠️ {len(changes)} change(s) detected since last sync'}</strong>
         </div>
 """
-    
+
+    # Initialize bills data for detail modal
+    bills_json_data = {}
+
     if not current_data:
         html += """
         <div class="no-bills">
@@ -606,16 +627,27 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
         changed_bills = {change['bill'] for change in changes if change.get('type') != 'new_tracking'}
         
         html += '        <div class="bills-grid">\n'
-        
+
         for bill_num, data in sorted(current_data.items()):
             if 'error' in data:
                 continue
-                
+
             has_changes = bill_num in changed_bills
             status_class = data.get('status', '').lower().replace(' ', '-')
-            
+
+            # Store data for modal
+            bills_json_data[bill_num] = {
+                'bill_number': bill_num,
+                'status': data.get('status', 'Unknown'),
+                'summary': data.get('summary', 'No summary available'),
+                'last_action': data.get('last_action', ''),
+                'last_action_date': data.get('last_action_date', ''),
+                'patron': data.get('patron', ''),
+                'bill_url': data.get('bill_url', '#')
+            }
+
             html += f"""
-            <div class="bill-card {'has-changes' if has_changes else ''}">
+            <div class="bill-card {'has-changes' if has_changes else ''}" onclick="openBillDetail('{bill_num}')">
                 <div class="bill-number">
                     {bill_num}
                     {f'<span class="change-badge">UPDATED</span>' if has_changes else ''}
@@ -626,7 +658,8 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
                 <div class="bill-summary">
                     {data.get('summary', 'No summary available')}
                 </div>
-                <a href="{data.get('bill_url', '#')}" target="_blank" class="bill-link">
+                <div class="expand-hint">Click to view details</div>
+                <a href="{data.get('bill_url', '#')}" target="_blank" class="bill-link" onclick="event.stopPropagation()">
                     View on LIS →
                 </a>
             </div>
@@ -652,10 +685,78 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
         </div>
 """
     
-    # Configuration Modal
+    # Configuration Modal and Bill Detail Modal
     tracked_bills_json = json.dumps(tracked_bills)
-    
+    # Encode bills data for JavaScript
+    bills_data_json = json.dumps(bills_json_data)
+
     html += f"""
+    <!-- Bill Detail Modal -->
+    <div id="billDetailModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="detailBillNumber">Bill Details</h2>
+                <button class="close-btn" onclick="closeBillDetail()">&times;</button>
+            </div>
+
+            <div class="detail-status-row">
+                <span class="bill-status" id="detailBillStatus"></span>
+                <span class="detail-patron" id="detailPatron"></span>
+            </div>
+
+            <div class="detail-section">
+                <h3>Summary</h3>
+                <p id="detailSummary" class="detail-summary-full"></p>
+            </div>
+
+            <div class="detail-section" id="detailActionSection">
+                <h3>Last Action</h3>
+                <p id="detailLastAction"></p>
+                <p class="detail-date" id="detailLastActionDate"></p>
+            </div>
+
+            <div style="display: flex; gap: 10px; justify-content: flex-end; margin-top: 20px;">
+                <button class="btn btn-secondary" onclick="closeBillDetail()">Close</button>
+                <a id="detailLisLink" href="#" target="_blank" class="btn">View on LIS →</a>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .detail-status-row {{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }}
+        .detail-patron {{
+            color: #666;
+            font-size: 14px;
+        }}
+        .detail-section {{
+            margin-bottom: 20px;
+        }}
+        .detail-section h3 {{
+            color: #333;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }}
+        .detail-summary-full {{
+            color: #333;
+            font-size: 15px;
+            line-height: 1.7;
+            white-space: pre-wrap;
+        }}
+        .detail-date {{
+            color: #666;
+            font-size: 13px;
+            margin-top: 5px;
+        }}
+    </style>
+
     <!-- Configuration Modal -->
     <div id="configModal" class="modal">
         <div class="modal-content">
@@ -705,7 +806,54 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
         let trackedBills = {tracked_bills_json};
         const REPO_NAME = '{repo_name}';
         const CONFIG_FILE_PATH = 'bills_to_track.json';
-        
+
+        // Bills data for detail modal
+        const billsData = {bills_data_json};
+
+        // Bill Detail Modal functions
+        function openBillDetail(billNum) {{
+            const bill = billsData[billNum];
+            if (!bill) return;
+
+            document.getElementById('detailBillNumber').textContent = bill.bill_number;
+            document.getElementById('detailBillStatus').textContent = bill.status;
+            document.getElementById('detailBillStatus').className = 'bill-status status-' + bill.status.toLowerCase().replace(/ /g, '-');
+            document.getElementById('detailSummary').textContent = bill.summary;
+            document.getElementById('detailLisLink').href = bill.bill_url;
+
+            // Show patron if available
+            const patronEl = document.getElementById('detailPatron');
+            if (bill.patron) {{
+                patronEl.textContent = 'Patron: ' + bill.patron;
+                patronEl.style.display = 'inline';
+            }} else {{
+                patronEl.style.display = 'none';
+            }}
+
+            // Show last action if available
+            const actionSection = document.getElementById('detailActionSection');
+            if (bill.last_action && bill.last_action !== 'No action recorded') {{
+                document.getElementById('detailLastAction').textContent = bill.last_action;
+                document.getElementById('detailLastActionDate').textContent = bill.last_action_date || '';
+                actionSection.style.display = 'block';
+            }} else {{
+                actionSection.style.display = 'none';
+            }}
+
+            document.getElementById('billDetailModal').classList.add('active');
+        }}
+
+        function closeBillDetail() {{
+            document.getElementById('billDetailModal').classList.remove('active');
+        }}
+
+        // Close detail modal on outside click
+        document.getElementById('billDetailModal').addEventListener('click', function(e) {{
+            if (e.target === this) {{
+                closeBillDetail();
+            }}
+        }});
+
         // Render bills list
         function renderBillsList() {{
             const container = document.getElementById('billsList');

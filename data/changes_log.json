@@ -81,41 +81,20 @@
     "type": "new_tracking",
     "message": "Started tracking HB9",
     "current_status": "Left in Committee",
-    "timestamp": "2026-01-13T21:35:59.970304"
+    "timestamp": "2026-01-13T21:47:23.004568"
   },
   {
     "bill": "SB10",
     "type": "new_tracking",
     "message": "Started tracking SB10",
     "current_status": "Left in Committee",
-    "timestamp": "2026-01-13T21:35:59.970314"
+    "timestamp": "2026-01-13T21:47:23.004576"
   },
   {
     "bill": "SB33",
     "type": "new_tracking",
     "message": "Started tracking SB33",
     "current_status": "Passed Senate",
-    "timestamp": "2026-01-13T21:35:59.970316"
-  },
-  {
-    "bill": "HB9",
-    "type": "new_tracking",
-    "message": "Started tracking HB9",
-    "current_status": "Left in Committee",
-    "timestamp": "2026-01-13T21:48:31.071684"
-  },
-  {
-    "bill": "SB10",
-    "type": "new_tracking",
-    "message": "Started tracking SB10",
-    "current_status": "Left in Committee",
-    "timestamp": "2026-01-13T21:48:31.071696"
-  },
-  {
-    "bill": "SB33",
-    "type": "new_tracking",
-    "message": "Started tracking SB33",
-    "current_status": "Passed Senate",
-    "timestamp": "2026-01-13T21:48:31.071698"
+    "timestamp": "2026-01-13T21:47:23.004578"
   }
 ]

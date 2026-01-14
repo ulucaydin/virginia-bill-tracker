@@ -241,6 +241,24 @@
             font-size: 14px;
             line-height: 1.6;
             margin-bottom: 15px;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            min-height: calc(5 * 1.6 * 14px);
+        }
+        .bill-card {
+            cursor: pointer;
+        }
+        .bill-card:hover .bill-summary {
+            color: #333;
+        }
+        .expand-hint {
+            color: #667eea;
+            font-size: 12px;
+            font-weight: 500;
+            margin-top: 8px;
         }
         .bill-link {
             color: #667eea;
@@ -301,7 +319,7 @@
             <h1>🏛️ Virginia Bill Tracker</h1>
             <div class="header-actions">
                 <div class="sync-info">
-                    Last synced: <span class="sync-time">January 13, 2026 at 09:47 PM ET</span>
+                    Last synced: <span class="sync-time">January 13, 2026 at 09:53 PM ET</span>
                 </div>
                 <button class="btn" onclick="openConfigModal()">⚙️ Configure Bills</button>
             </div>
@@ -312,7 +330,7 @@
         </div>
         <div class="bills-grid">
 
-            <div class="bill-card ">
+            <div class="bill-card " onclick="openBillDetail('HB9')">
                 <div class="bill-number">
                     HB9
                     
@@ -323,12 +341,13 @@
                 <div class="bill-summary">
                     Animal control officers; additional training. Increases the number of hours of required additional training in animal control and protection from 15 to 24 every three years for all animal control officers and deputy animal control officers employed by a locality.
                 </div>
-                <a href="https://lis.virginia.gov/bill-details/20251/HB9" target="_blank" class="bill-link">
+                <div class="expand-hint">Click to view details</div>
+                <a href="https://lis.virginia.gov/bill-details/20251/HB9" target="_blank" class="bill-link" onclick="event.stopPropagation()">
                     View on LIS →
                 </a>
             </div>
 
-            <div class="bill-card ">
+            <div class="bill-card " onclick="openBillDetail('SB10')">
                 <div class="bill-number">
                     SB10
                     
@@ -347,12 +366,13 @@ commissioned corps of the United States  Public Health Service. Under
 current law, the subtraction is only allowed for  military retirement
 income received for service in the  United States Armed Forces.
                 </div>
-                <a href="https://lis.virginia.gov/bill-details/20251/SB10" target="_blank" class="bill-link">
+                <div class="expand-hint">Click to view details</div>
+                <a href="https://lis.virginia.gov/bill-details/20251/SB10" target="_blank" class="bill-link" onclick="event.stopPropagation()">
                     View on LIS →
                 </a>
             </div>
 
-            <div class="bill-card ">
+            <div class="bill-card " onclick="openBillDetail('SB33')">
                 <div class="bill-number">
                     SB33
                     
@@ -375,7 +395,8 @@ bill requires the work  group to report its recommendations to the
 Chairmen of the Senate Committee on Education and Health and the House
 Committee on Health and Human Services by November  1, 2024.
                 </div>
-                <a href="https://lis.virginia.gov/bill-details/20251/SB33" target="_blank" class="bill-link">
+                <div class="expand-hint">Click to view details</div>
+                <a href="https://lis.virginia.gov/bill-details/20251/SB33" target="_blank" class="bill-link" onclick="event.stopPropagation()">
                     View on LIS →
                 </a>
             </div>
@@ -387,25 +408,91 @@ Committee on Health and Human Services by November  1, 2024.
             <div class="change-item">
                 <div>Started tracking HB9</div>
                 <div class="change-timestamp">
-                    January 13, 2026 at 09:47 PM
+                    January 13, 2026 at 09:53 PM
                 </div>
             </div>
 
             <div class="change-item">
                 <div>Started tracking SB10</div>
                 <div class="change-timestamp">
-                    January 13, 2026 at 09:47 PM
+                    January 13, 2026 at 09:53 PM
                 </div>
             </div>
 
             <div class="change-item">
                 <div>Started tracking SB33</div>
                 <div class="change-timestamp">
-                    January 13, 2026 at 09:47 PM
+                    January 13, 2026 at 09:53 PM
                 </div>
             </div>
 
         </div>
+
+    <!-- Bill Detail Modal -->
+    <div id="billDetailModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="detailBillNumber">Bill Details</h2>
+                <button class="close-btn" onclick="closeBillDetail()">&times;</button>
+            </div>
+
+            <div class="detail-status-row">
+                <span class="bill-status" id="detailBillStatus"></span>
+                <span class="detail-patron" id="detailPatron"></span>
+            </div>
+
+            <div class="detail-section">
+                <h3>Summary</h3>
+                <p id="detailSummary" class="detail-summary-full"></p>
+            </div>
+
+            <div class="detail-section" id="detailActionSection">
+                <h3>Last Action</h3>
+                <p id="detailLastAction"></p>
+                <p class="detail-date" id="detailLastActionDate"></p>
+            </div>
+
+            <div style="display: flex; gap: 10px; justify-content: flex-end; margin-top: 20px;">
+                <button class="btn btn-secondary" onclick="closeBillDetail()">Close</button>
+                <a id="detailLisLink" href="#" target="_blank" class="btn">View on LIS →</a>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .detail-status-row {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .detail-patron {
+            color: #666;
+            font-size: 14px;
+        }
+        .detail-section {
+            margin-bottom: 20px;
+        }
+        .detail-section h3 {
+            color: #333;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .detail-summary-full {
+            color: #333;
+            font-size: 15px;
+            line-height: 1.7;
+            white-space: pre-wrap;
+        }
+        .detail-date {
+            color: #666;
+            font-size: 13px;
+            margin-top: 5px;
+        }
+    </style>
 
     <!-- Configuration Modal -->
     <div id="configModal" class="modal">
@@ -456,7 +543,54 @@ Committee on Health and Human Services by November  1, 2024.
         let trackedBills = ["HB9", "SB10", "SB33"];
         const REPO_NAME = 'YOUR-USERNAME/virginia-bill-tracker';
         const CONFIG_FILE_PATH = 'bills_to_track.json';
-        
+
+        // Bills data for detail modal
+        const billsData = {"HB9": {"bill_number": "HB9", "status": "Left in Committee", "summary": "Animal control officers; additional training. Increases the number of hours of required additional training in animal control and protection from 15 to 24 every three years for all animal control officers and deputy animal control officers employed by a locality.", "last_action": "Left in Agriculture, Chesapeake and Natural Resources", "last_action_date": "11/18/2024", "patron": "Ennis", "bill_url": "https://lis.virginia.gov/bill-details/20251/HB9"}, "SB10": {"bill_number": "SB10", "status": "Left in Committee", "summary": "Income tax subtraction; military  retirement\r\nbenefits; uniformed services. Expands the definition of 'military\r\nbenefits' to  include an income tax subtraction of retirement income\r\nreceived for  service in the uniformed services of the United  States,\r\nwhich includes the United States Armed  Forces, the commissioned corps\r\nof the National  Oceanic and Atmospheric Administration, and the \r\ncommissioned corps of the United States  Public Health Service. Under\r\ncurrent law, the subtraction is only allowed for  military retirement\r\nincome received for service in the  United States Armed Forces.", "last_action": "Left in Finance and Appropriations", "last_action_date": "11/19/2024", "patron": "Reeves", "bill_url": "https://lis.virginia.gov/bill-details/20251/SB10"}, "SB33": {"bill_number": "SB33", "status": "Passed Senate", "summary": "Supervision of certified registered nurse anesthetists;\r\n work group; report. Clarifies that supervision  of a certified\r\nregistered nurse anesthetist requires that a  licensed doctor of medicine,\r\nosteopathy, podiatry,  or dentistry is present during an operation\r\nor procedure or is immediately available to respond  and provide patient\r\ncare as needed. The bill directs the Secretary of Health  and Human\r\nResources, in collaboration with the Board of Medicine, Board of \r\nNursing, and Department of Health Professions, to convene a work group\r\n of relevant stakeholders to evaluate and make recommendations to\r\nincrease the  anesthesia provider workforce in the Commonwealth. The\r\nbill requires the work  group to report its recommendations to the\r\nChairmen of the Senate Committee on Education and Health and the House\r\nCommittee on Health and Human Services by November  1, 2024.", "last_action": "Left in Health and Human Services", "last_action_date": "11/18/2024", "patron": "Locke", "bill_url": "https://lis.virginia.gov/bill-details/20251/SB33"}};
+
+        // Bill Detail Modal functions
+        function openBillDetail(billNum) {
+            const bill = billsData[billNum];
+            if (!bill) return;
+
+            document.getElementById('detailBillNumber').textContent = bill.bill_number;
+            document.getElementById('detailBillStatus').textContent = bill.status;
+            document.getElementById('detailBillStatus').className = 'bill-status status-' + bill.status.toLowerCase().replace(/ /g, '-');
+            document.getElementById('detailSummary').textContent = bill.summary;
+            document.getElementById('detailLisLink').href = bill.bill_url;
+
+            // Show patron if available
+            const patronEl = document.getElementById('detailPatron');
+            if (bill.patron) {
+                patronEl.textContent = 'Patron: ' + bill.patron;
+                patronEl.style.display = 'inline';
+            } else {
+                patronEl.style.display = 'none';
+            }
+
+            // Show last action if available
+            const actionSection = document.getElementById('detailActionSection');
+            if (bill.last_action && bill.last_action !== 'No action recorded') {
+                document.getElementById('detailLastAction').textContent = bill.last_action;
+                document.getElementById('detailLastActionDate').textContent = bill.last_action_date || '';
+                actionSection.style.display = 'block';
+            } else {
+                actionSection.style.display = 'none';
+            }
+
+            document.getElementById('billDetailModal').classList.add('active');
+        }
+
+        function closeBillDetail() {
+            document.getElementById('billDetailModal').classList.remove('active');
+        }
+
+        // Close detail modal on outside click
+        document.getElementById('billDetailModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeBillDetail();
+            }
+        });
+
         // Render bills list
         function renderBillsList() {
             const container = document.getElementById('billsList');
