@@ -602,7 +602,8 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
         </div>
 """
     else:
-        changed_bills = {change['bill'] for change in changes}
+        # Only mark bills as "UPDATED" for actual changes, not newly tracked bills
+        changed_bills = {change['bill'] for change in changes if change.get('type') != 'new_tracking'}
         
         html += '        <div class="bills-grid">\n'
         
