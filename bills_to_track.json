@@ -1,6 +1,7 @@
 {
   "bills": [
-    "HB1"
+    "HB1",
+    "HB53"
   ],
   "settings": {
     "notification_email": null,
