@@ -1,4 +1,28 @@
 {
+  "HB202": {
+    "bill_number": "HB202",
+    "bill_url": "https://lis.virginia.gov/bill-details/20251/HB202",
+    "status": "Not Found",
+    "summary": "Bill HB202 not found in the 2025 session",
+    "last_action": "N/A",
+    "last_action_date": ""
+  },
+  "HB379": {
+    "bill_number": "HB379",
+    "bill_url": "https://lis.virginia.gov/bill-details/20251/HB379",
+    "status": "Not Found",
+    "summary": "Bill HB379 not found in the 2025 session",
+    "last_action": "N/A",
+    "last_action_date": ""
+  },
+  "HB494": {
+    "bill_number": "HB494",
+    "bill_url": "https://lis.virginia.gov/bill-details/20251/HB494",
+    "status": "Not Found",
+    "summary": "Bill HB494 not found in the 2025 session",
+    "last_action": "N/A",
+    "last_action_date": ""
+  },
   "HB9": {
     "bill_number": "HB9",
     "bill_url": "https://lis.virginia.gov/bill-details/20251/HB9",
