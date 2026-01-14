@@ -613,24 +613,14 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
                 return;
             }}
             
+            if (trackedBills.length === 0) {{
+                showAlert('Please add at least one bill before saving', 'error');
+                return;
+            }}
+            
             showAlert('Saving...', 'info');
             
             try {{
-                // Get current file SHA
-                const getResponse = await fetch(`https://api.github.com/repos/${{REPO_NAME}}/contents/${{CONFIG_FILE_PATH}}`, {{
-                    headers: {{
-                        'Authorization': `token ${{token}}`,
-                        'Accept': 'application/vnd.github.v3+json'
-                    }}
-                }});
-                
-                if (!getResponse.ok) {{
-                    throw new Error('Failed to fetch current configuration. Check your token and repository name.');
-                }}
-                
-                const currentFile = await getResponse.json();
-                const sha = currentFile.sha;
-                
                 // Prepare new content
                 const newConfig = {{
                     bills: trackedBills,
@@ -643,24 +633,68 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
                 
                 const content = btoa(JSON.stringify(newConfig, null, 2));
                 
-                // Update file
-                const updateResponse = await fetch(`https://api.github.com/repos/${{REPO_NAME}}/contents/${{CONFIG_FILE_PATH}}`, {{
+                // Try to get current file to check if it exists
+                const getResponse = await fetch(`https://api.github.com/repos/${{REPO_NAME}}/contents/${{CONFIG_FILE_PATH}}`, {{
+                    headers: {{
+                        'Authorization': `token ${{token}}`,
+                        'Accept': 'application/vnd.github.v3+json'
+                    }}
+                }});
+                
+                let sha = null;
+                let method = 'PUT';
+                let commitMessage = '';
+                
+                if (getResponse.ok) {{
+                    // File exists - update it
+                    const currentFile = await getResponse.json();
+                    sha = currentFile.sha;
+                    commitMessage = `Update tracked bills via web interface - ${{new Date().toISOString()}}`;
+                }} else if (getResponse.status === 404) {{
+                    // File doesn't exist - create it
+                    commitMessage = `Create bills_to_track.json via web interface - ${{new Date().toISOString()}}`;
+                }} else {{
+                    // Some other error
+                    const errorData = await getResponse.json();
+                    throw new Error(errorData.message || 'Failed to check configuration file. Verify your token has repo access.');
+                }}
+                
+                // Create or update file
+                const saveBody = {{
+                    message: commitMessage,
+                    content: content
+                }};
+                
+                // Only include sha if file exists (for update)
+                if (sha) {{
+                    saveBody.sha = sha;
+                }}
+                
+                const saveResponse = await fetch(`https://api.github.com/repos/${{REPO_NAME}}/contents/${{CONFIG_FILE_PATH}}`, {{
                     method: 'PUT',
                     headers: {{
                         'Authorization': `token ${{token}}`,
                         'Accept': 'application/vnd.github.v3+json',
                         'Content-Type': 'application/json'
                     }},
-                    body: JSON.stringify({{
-                        message: `Update tracked bills via web interface - ${{new Date().toISOString()}}`,
-                        content: content,
-                        sha: sha
-                    }})
+                    body: JSON.stringify(saveBody)
                 }});
                 
-                if (!updateResponse.ok) {{
-                    const error = await updateResponse.json();
-                    throw new Error(error.message || 'Failed to update configuration');
+                if (!saveResponse.ok) {{
+                    const error = await saveResponse.json();
+                    
+                    // Provide helpful error messages
+                    let errorMessage = error.message || 'Failed to save configuration';
+                    
+                    if (error.message && error.message.includes('Bad credentials')) {{
+                        errorMessage = 'Invalid token. Please check your GitHub Personal Access Token.';
+                    }} else if (error.message && error.message.includes('Not Found')) {{
+                        errorMessage = 'Repository not found. Check that the repository name is correct.';
+                    }} else if (error.message && error.message.includes('Resource not accessible')) {{
+                        errorMessage = 'Token does not have access. Make sure your token has "repo" scope.';
+                    }}
+                    
+                    throw new Error(errorMessage);
                 }}
                 
                 showAlert('✅ Configuration saved! Changes will take effect on next sync.', 'success');

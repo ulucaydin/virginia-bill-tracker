@@ -34,24 +34,27 @@ If you don't have one: https://github.com/signup (it's free!)
 
 2. **In your new repository**, click **"Add file"** → **"Upload files"**
 
-3. **Drag and drop** ALL files:
+3. **Drag and drop** ALL files INCLUDING:
    - `track_bills.py` (rename to `track_bills.py`)
    - `.github/workflows/track-bills-v2.yml` (keep in `.github/workflows/` folder)
-   - `bills_to_track.json`
+   - **`bills_to_track.json`** ⭐ **IMPORTANT - Required for web interface!**
    - `scraper_improved.py`
    - `requirements.txt`
    - `README.md`
    - `GH_PAGES_SETUP.md`
+   - `TROUBLESHOOTING.md`
    - `setup_gh_pages.sh`
 
 4. **Commit message:** "Initial setup"
 5. Click **"Commit changes"**
 
+**⚠️ CRITICAL:** The `bills_to_track.json` file MUST exist before using the web configuration interface! If you skip this, the "Configure Bills" button won't work.
+
 **Important:** Make sure the `.github` folder structure is preserved:
 ```
 .github/
   workflows/
-    track-bills-v2.yml
+    track-bills.yml
 ```
 
 ### Option B: Git Command Line
@@ -64,7 +67,7 @@ cd virginia-bill-tracker
 # Copy all downloaded files to this directory
 
 # Rename files
-mv track_bills_v2.py track_bills.py
+mv track_bills.py track_bills.py
 mv .github/workflows/track-bills-v2.yml .github/workflows/track-bills.yml
 
 # Commit and push
@@ -319,11 +322,35 @@ schedule:
 
 ### "Configure Bills" button doesn't work
 
-**Check:**
-1. Token has `repo` scope
-2. Token hasn't expired  
-3. Repository name in dashboard matches your repo
-4. Browser console for errors (F12)
+**Possible causes:**
+
+1. **Most common: `bills_to_track.json` file missing**
+   - The file MUST exist before using web interface
+   - Solution: Upload `bills_to_track.json` to repository root
+   - OR: Create it manually with this content:
+```json
+{
+  "bills": [],
+  "settings": {
+    "notification_email": null,
+    "sync_frequency": "daily",
+    "timezone": "America/New_York"
+  }
+}
+```
+
+2. **Token has `repo` scope**
+   - Go to https://github.com/settings/tokens
+   - Find your token
+   - Verify "repo" is checked
+   - If not, create a new token with proper scope
+
+3. **Browser console for errors**
+   - Press F12 → Console tab
+   - Look for red error messages
+   - See TROUBLESHOOTING.md for solutions
+
+**For detailed troubleshooting, see `TROUBLESHOOTING.md`**
 
 ---
 
