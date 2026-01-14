@@ -301,14 +301,14 @@
             <h1>🏛️ Virginia Bill Tracker</h1>
             <div class="header-actions">
                 <div class="sync-info">
-                    Last synced: <span class="sync-time">January 13, 2026 at 09:06 PM ET</span>
+                    Last synced: <span class="sync-time">January 13, 2026 at 09:08 PM ET</span>
                 </div>
                 <button class="btn" onclick="openConfigModal()">⚙️ Configure Bills</button>
             </div>
         </div>
         
         <div class="changes-banner ">
-            <strong>⚠️ 1 change(s) detected since last sync</strong>
+            <strong>⚠️ 2 change(s) detected since last sync</strong>
         </div>
         <div class="bills-grid">
 
@@ -327,6 +327,22 @@
                     View on LIS →
                 </a>
             </div>
+
+            <div class="bill-card has-changes">
+                <div class="bill-number">
+                    HB53
+                    <span class="change-badge">UPDATED</span>
+                </div>
+                <div class="bill-status status-in-committee">
+                    In Committee
+                </div>
+                <div class="bill-summary">
+                    Summary for HB53
+                </div>
+                <a href="https://lis.virginia.gov/bill-details/20261/HB53" target="_blank" class="bill-link">
+                    View on LIS →
+                </a>
+            </div>
         </div>
 
         <div class="changes-section">
@@ -335,7 +351,14 @@
             <div class="change-item">
                 <div>Started tracking HB1</div>
                 <div class="change-timestamp">
-                    January 13, 2026 at 09:06 PM
+                    January 13, 2026 at 09:08 PM
+                </div>
+            </div>
+
+            <div class="change-item">
+                <div>Started tracking HB53</div>
+                <div class="change-timestamp">
+                    January 13, 2026 at 09:08 PM
                 </div>
             </div>
 
@@ -387,7 +410,7 @@
     
     <script>
         // Configuration data
-        let trackedBills = ["HB1"];
+        let trackedBills = ["HB1", "HB53"];
         const REPO_NAME = 'ulucaydin/virginia-bill-tracker';
         const CONFIG_FILE_PATH = 'bills_to_track.json';
         
