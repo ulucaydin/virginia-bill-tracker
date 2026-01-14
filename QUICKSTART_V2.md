@@ -35,7 +35,7 @@ If you don't have one: https://github.com/signup (it's free!)
 2. **In your new repository**, click **"Add file"** → **"Upload files"**
 
 3. **Drag and drop** ALL files:
-   - `track_bills_v2.py` (rename to `track_bills.py`)
+   - `track_bills.py` (rename to `track_bills.py`)
    - `.github/workflows/track-bills-v2.yml` (keep in `.github/workflows/` folder)
    - `bills_to_track.json`
    - `scraper_improved.py`

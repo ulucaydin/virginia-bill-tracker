@@ -46,7 +46,7 @@ jobs:
       
       - name: Run bill tracker
         run: |
-          python track_bills_v2.py
+          python track_bills.py
         env:
           TZ: 'America/New_York'
           GITHUB_REPOSITORY: ${{ github.repository }}
