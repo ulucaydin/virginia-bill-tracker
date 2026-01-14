@@ -607,8 +607,13 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
             </div>
         </div>
         
-        <div class="changes-banner {'no-changes' if not changes else ''}">
-            <strong>{'✅ No changes detected' if not changes else f'⚠️ {len(changes)} change(s) detected since last sync'}</strong>
+"""
+    # Filter out 'new_tracking' for the banner - only show actual status/action changes
+    actual_changes = [c for c in changes if c.get('type') != 'new_tracking']
+
+    html += f"""
+        <div class="changes-banner {'no-changes' if not actual_changes else ''}">
+            <strong>{'✅ No changes detected' if not actual_changes else f'⚠️ {len(actual_changes)} change(s) detected since last sync'}</strong>
         </div>
 """
 
@@ -693,29 +698,31 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
     html += f"""
     <!-- Bill Detail Modal -->
     <div id="billDetailModal" class="modal">
-        <div class="modal-content">
+        <div class="modal-content detail-modal">
             <div class="modal-header">
                 <h2 id="detailBillNumber">Bill Details</h2>
                 <button class="close-btn" onclick="closeBillDetail()">&times;</button>
             </div>
 
-            <div class="detail-status-row">
-                <span class="bill-status" id="detailBillStatus"></span>
+            <div class="detail-meta">
+                <span class="detail-status-pill" id="detailBillStatus"></span>
                 <span class="detail-patron" id="detailPatron"></span>
             </div>
 
             <div class="detail-section">
-                <h3>Summary</h3>
+                <div class="detail-label">Summary</div>
                 <p id="detailSummary" class="detail-summary-full"></p>
             </div>
 
             <div class="detail-section" id="detailActionSection">
-                <h3>Last Action</h3>
-                <p id="detailLastAction"></p>
-                <p class="detail-date" id="detailLastActionDate"></p>
+                <div class="detail-label">Last Action</div>
+                <div class="detail-action-box">
+                    <p id="detailLastAction" class="detail-action-text"></p>
+                    <p class="detail-date" id="detailLastActionDate"></p>
+                </div>
             </div>
 
-            <div style="display: flex; gap: 10px; justify-content: flex-end; margin-top: 20px;">
+            <div class="detail-footer">
                 <button class="btn btn-secondary" onclick="closeBillDetail()">Close</button>
                 <a id="detailLisLink" href="#" target="_blank" class="btn">View on LIS →</a>
             </div>
@@ -723,37 +730,97 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
     </div>
 
     <style>
-        .detail-status-row {{
+        .detail-modal {{
+            max-width: 650px;
+        }}
+        .detail-meta {{
             display: flex;
             align-items: center;
-            gap: 15px;
-            margin-bottom: 20px;
+            gap: 16px;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #e5e7eb;
         }}
-        .detail-patron {{
-            color: #666;
-            font-size: 14px;
-        }}
-        .detail-section {{
-            margin-bottom: 20px;
-        }}
-        .detail-section h3 {{
-            color: #333;
-            font-size: 14px;
+        .detail-status-pill {{
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 13px;
             font-weight: 600;
-            margin-bottom: 8px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }}
+        .detail-status-pill.status-left-in-committee {{
+            background: #fef3c7;
+            color: #92400e;
+        }}
+        .detail-status-pill.status-passed-senate,
+        .detail-status-pill.status-passed-house,
+        .detail-status-pill.status-passed-both-chambers {{
+            background: #d1fae5;
+            color: #065f46;
+        }}
+        .detail-status-pill.status-signed-into-law {{
+            background: #c7d2fe;
+            color: #3730a3;
+        }}
+        .detail-status-pill.status-vetoed,
+        .detail-status-pill.status-failed {{
+            background: #fee2e2;
+            color: #991b1b;
+        }}
+        .detail-status-pill.status-in-committee,
+        .detail-status-pill.status-pending {{
+            background: #dbeafe;
+            color: #1e40af;
+        }}
+        .detail-patron {{
+            color: #6b7280;
+            font-size: 14px;
+            font-style: italic;
+        }}
+        .detail-section {{
+            margin-bottom: 24px;
+        }}
+        .detail-label {{
+            color: #6b7280;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }}
         .detail-summary-full {{
-            color: #333;
+            color: #1f2937;
             font-size: 15px;
-            line-height: 1.7;
-            white-space: pre-wrap;
+            line-height: 1.75;
+            margin: 0;
+        }}
+        .detail-action-box {{
+            background: #f9fafb;
+            border-radius: 8px;
+            padding: 12px 16px;
+            border-left: 3px solid #667eea;
+        }}
+        .detail-action-text {{
+            color: #374151;
+            font-size: 14px;
+            line-height: 1.5;
+            margin: 0;
         }}
         .detail-date {{
-            color: #666;
-            font-size: 13px;
-            margin-top: 5px;
+            color: #9ca3af;
+            font-size: 12px;
+            margin-top: 6px;
+        }}
+        .detail-footer {{
+            display: flex;
+            gap: 12px;
+            justify-content: flex-end;
+            margin-top: 24px;
+            padding-top: 16px;
+            border-top: 1px solid #e5e7eb;
         }}
     </style>
 
@@ -769,13 +836,14 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
             
             <div class="form-group">
                 <label>GitHub Personal Access Token</label>
-                <input type="password" id="githubToken" placeholder="ghp_xxxxxxxxxxxx">
+                <input type="password" id="githubToken" placeholder="ghp_xxxxxxxxxxxx" onchange="saveTokenToStorage()">
                 <div class="form-help">
-                    Required to save changes. Create one at: 
+                    Required to save changes. Your token is saved locally in your browser for convenience.
+                    <br>Create one at:
                     <a href="https://github.com/settings/tokens/new?scopes=repo&description=Virginia%20Bill%20Tracker" target="_blank">
                         GitHub Settings → Tokens
                     </a>
-                    <br>Select "repo" scope when creating the token.
+                    (select "repo" scope)
                 </div>
             </div>
             
@@ -816,8 +884,9 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
             if (!bill) return;
 
             document.getElementById('detailBillNumber').textContent = bill.bill_number;
-            document.getElementById('detailBillStatus').textContent = bill.status;
-            document.getElementById('detailBillStatus').className = 'bill-status status-' + bill.status.toLowerCase().replace(/ /g, '-');
+            const statusEl = document.getElementById('detailBillStatus');
+            statusEl.textContent = bill.status;
+            statusEl.className = 'detail-status-pill status-' + bill.status.toLowerCase().replace(/ /g, '-');
             document.getElementById('detailSummary').textContent = bill.summary;
             document.getElementById('detailLisLink').href = bill.bill_url;
 
@@ -997,11 +1066,9 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
                 
                 showAlert('✅ Configuration saved! Changes will take effect on next sync.', 'success');
                 
-                // Clear token for security
-                setTimeout(() => {{
-                    document.getElementById('githubToken').value = '';
-                }}, 2000);
-                
+                // Save token to localStorage for future use
+                saveTokenToStorage();
+
             }} catch (error) {{
                 showAlert(`Error: ${{error.message}}`, 'error');
                 console.error('Save error:', error);
@@ -1025,15 +1092,31 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
             }}
         }}
         
+        // Token storage key
+        const TOKEN_STORAGE_KEY = 'va_bill_tracker_github_token';
+
         // Modal controls
         function openConfigModal() {{
             document.getElementById('configModal').classList.add('active');
             renderBillsList();
+            // Load saved token from localStorage
+            const savedToken = localStorage.getItem(TOKEN_STORAGE_KEY);
+            if (savedToken) {{
+                document.getElementById('githubToken').value = savedToken;
+            }}
         }}
-        
+
         function closeConfigModal() {{
             document.getElementById('configModal').classList.remove('active');
             document.getElementById('alertContainer').innerHTML = '';
+        }}
+
+        // Save token to localStorage when user types
+        function saveTokenToStorage() {{
+            const token = document.getElementById('githubToken').value.trim();
+            if (token) {{
+                localStorage.setItem(TOKEN_STORAGE_KEY, token);
+            }}
         }}
         
         // Close modal on outside click
