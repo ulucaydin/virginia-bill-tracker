@@ -6,5 +6,13 @@
     "summary": "Summary for HB1",
     "last_action": "Referred to committee",
     "last_action_date": "2026-01-13"
+  },
+  "HB53": {
+    "bill_number": "HB53",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB53",
+    "status": "In Committee",
+    "summary": "Summary for HB53",
+    "last_action": "Referred to committee",
+    "last_action_date": "2026-01-13"
   }
 }

@@ -5,5 +5,19 @@
     "message": "Started tracking HB1",
     "current_status": "In Committee",
     "timestamp": "2026-01-13T21:06:26.591361"
+  },
+  {
+    "bill": "HB1",
+    "type": "new_tracking",
+    "message": "Started tracking HB1",
+    "current_status": "In Committee",
+    "timestamp": "2026-01-13T21:08:52.868976"
+  },
+  {
+    "bill": "HB53",
+    "type": "new_tracking",
+    "message": "Started tracking HB53",
+    "current_status": "In Committee",
+    "timestamp": "2026-01-13T21:08:52.868981"
   }
 ]
