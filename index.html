@@ -572,7 +572,7 @@
             <h1>🏛️ Virginia Bill Tracker</h1>
             <div class="header-actions">
                 <div class="sync-info">
-                    Last synced: <span class="sync-time">January 13, 2026 at 10:10 PM ET</span>
+                    Last synced: <span class="sync-time">January 13, 2026 at 10:18 PM ET</span>
                 </div>
                 <button class="btn" onclick="openConfigModal()">⚙️ Configure Bills</button>
             </div>
@@ -583,6 +583,69 @@
             <strong>✅ No changes detected</strong>
         </div>
         <div class="bills-grid">
+
+            <div class="bill-card " onclick="openBillDetail('HB202')">
+                <div class="bill-header">
+                    <div class="bill-number">
+                        HB202
+                        
+                    </div>
+                    <div class="bill-status status-not-found">
+                        Not Found
+                    </div>
+                </div>
+                <div class="bill-summary">
+                    Bill HB202 not found in the 2025 session
+                </div>
+                <div class="bill-footer">
+                    <span class="expand-hint">Click to view details</span>
+                    <a href="https://lis.virginia.gov/bill-details/20251/HB202" target="_blank" class="bill-link" onclick="event.stopPropagation()">
+                        View on LIS →
+                    </a>
+                </div>
+            </div>
+
+            <div class="bill-card " onclick="openBillDetail('HB379')">
+                <div class="bill-header">
+                    <div class="bill-number">
+                        HB379
+                        
+                    </div>
+                    <div class="bill-status status-not-found">
+                        Not Found
+                    </div>
+                </div>
+                <div class="bill-summary">
+                    Bill HB379 not found in the 2025 session
+                </div>
+                <div class="bill-footer">
+                    <span class="expand-hint">Click to view details</span>
+                    <a href="https://lis.virginia.gov/bill-details/20251/HB379" target="_blank" class="bill-link" onclick="event.stopPropagation()">
+                        View on LIS →
+                    </a>
+                </div>
+            </div>
+
+            <div class="bill-card " onclick="openBillDetail('HB494')">
+                <div class="bill-header">
+                    <div class="bill-number">
+                        HB494
+                        
+                    </div>
+                    <div class="bill-status status-not-found">
+                        Not Found
+                    </div>
+                </div>
+                <div class="bill-summary">
+                    Bill HB494 not found in the 2025 session
+                </div>
+                <div class="bill-footer">
+                    <span class="expand-hint">Click to view details</span>
+                    <a href="https://lis.virginia.gov/bill-details/20251/HB494" target="_blank" class="bill-link" onclick="event.stopPropagation()">
+                        View on LIS →
+                    </a>
+                </div>
+            </div>
 
             <div class="bill-card " onclick="openBillDetail('HB9')">
                 <div class="bill-header">
@@ -643,16 +706,37 @@ Committee on Health and Human Services by November  1, 2024.
             <h2>Recent Changes</h2>
 
             <div class="change-item">
+                <div>Started tracking HB202</div>
+                <div class="change-timestamp">
+                    January 13, 2026 at 10:18 PM
+                </div>
+            </div>
+
+            <div class="change-item">
+                <div>Started tracking HB379</div>
+                <div class="change-timestamp">
+                    January 13, 2026 at 10:18 PM
+                </div>
+            </div>
+
+            <div class="change-item">
+                <div>Started tracking HB494</div>
+                <div class="change-timestamp">
+                    January 13, 2026 at 10:18 PM
+                </div>
+            </div>
+
+            <div class="change-item">
                 <div>Started tracking HB9</div>
                 <div class="change-timestamp">
-                    January 13, 2026 at 10:10 PM
+                    January 13, 2026 at 10:18 PM
                 </div>
             </div>
 
             <div class="change-item">
                 <div>Started tracking SB33</div>
                 <div class="change-timestamp">
-                    January 13, 2026 at 10:10 PM
+                    January 13, 2026 at 10:18 PM
                 </div>
             </div>
 
@@ -833,12 +917,12 @@ Committee on Health and Human Services by November  1, 2024.
     
     <script>
         // Configuration data
-        let trackedBills = ["HB9", "SB33"];
+        let trackedBills = ["HB202", "HB379", "HB494", "HB9", "SB33"];
         const REPO_NAME = 'ulucaydin/virginia-bill-tracker';
         const CONFIG_FILE_PATH = 'bills_to_track.json';
 
         // Bills data for detail modal
-        const billsData = {"HB9": {"bill_number": "HB9", "status": "Left in Committee", "summary": "Animal control officers; additional training. Increases the number of hours of required additional training in animal control and protection from 15 to 24 every three years for all animal control officers and deputy animal control officers employed by a locality.", "last_action": "Left in Agriculture, Chesapeake and Natural Resources", "last_action_date": "11/18/2024", "patron": "Ennis", "bill_url": "https://lis.virginia.gov/bill-details/20251/HB9"}, "SB33": {"bill_number": "SB33", "status": "Passed Senate", "summary": "Supervision of certified registered nurse anesthetists;\r\n work group; report. Clarifies that supervision  of a certified\r\nregistered nurse anesthetist requires that a  licensed doctor of medicine,\r\nosteopathy, podiatry,  or dentistry is present during an operation\r\nor procedure or is immediately available to respond  and provide patient\r\ncare as needed. The bill directs the Secretary of Health  and Human\r\nResources, in collaboration with the Board of Medicine, Board of \r\nNursing, and Department of Health Professions, to convene a work group\r\n of relevant stakeholders to evaluate and make recommendations to\r\nincrease the  anesthesia provider workforce in the Commonwealth. The\r\nbill requires the work  group to report its recommendations to the\r\nChairmen of the Senate Committee on Education and Health and the House\r\nCommittee on Health and Human Services by November  1, 2024.", "last_action": "Left in Health and Human Services", "last_action_date": "11/18/2024", "patron": "Locke", "bill_url": "https://lis.virginia.gov/bill-details/20251/SB33"}};
+        const billsData = {"HB202": {"bill_number": "HB202", "status": "Not Found", "summary": "Bill HB202 not found in the 2025 session", "last_action": "N/A", "last_action_date": "", "patron": "", "bill_url": "https://lis.virginia.gov/bill-details/20251/HB202"}, "HB379": {"bill_number": "HB379", "status": "Not Found", "summary": "Bill HB379 not found in the 2025 session", "last_action": "N/A", "last_action_date": "", "patron": "", "bill_url": "https://lis.virginia.gov/bill-details/20251/HB379"}, "HB494": {"bill_number": "HB494", "status": "Not Found", "summary": "Bill HB494 not found in the 2025 session", "last_action": "N/A", "last_action_date": "", "patron": "", "bill_url": "https://lis.virginia.gov/bill-details/20251/HB494"}, "HB9": {"bill_number": "HB9", "status": "Left in Committee", "summary": "Animal control officers; additional training. Increases the number of hours of required additional training in animal control and protection from 15 to 24 every three years for all animal control officers and deputy animal control officers employed by a locality.", "last_action": "Left in Agriculture, Chesapeake and Natural Resources", "last_action_date": "11/18/2024", "patron": "Ennis", "bill_url": "https://lis.virginia.gov/bill-details/20251/HB9"}, "SB33": {"bill_number": "SB33", "status": "Passed Senate", "summary": "Supervision of certified registered nurse anesthetists;\r\n work group; report. Clarifies that supervision  of a certified\r\nregistered nurse anesthetist requires that a  licensed doctor of medicine,\r\nosteopathy, podiatry,  or dentistry is present during an operation\r\nor procedure or is immediately available to respond  and provide patient\r\ncare as needed. The bill directs the Secretary of Health  and Human\r\nResources, in collaboration with the Board of Medicine, Board of \r\nNursing, and Department of Health Professions, to convene a work group\r\n of relevant stakeholders to evaluate and make recommendations to\r\nincrease the  anesthesia provider workforce in the Commonwealth. The\r\nbill requires the work  group to report its recommendations to the\r\nChairmen of the Senate Committee on Education and Health and the House\r\nCommittee on Health and Human Services by November  1, 2024.", "last_action": "Left in Health and Human Services", "last_action_date": "11/18/2024", "patron": "Locke", "bill_url": "https://lis.virginia.gov/bill-details/20251/SB33"}};
 
         // Bill Detail Modal functions
         function openBillDetail(billNum) {
