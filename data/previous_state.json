@@ -85,28 +85,5 @@
         "description": "S Referred to Committee on Education and Health"
       }
     ]
-  },
-  "SB33": {
-    "bill_number": "SB33",
-    "bill_url": "https://lis.virginia.gov/bill-details/20261/SB33",
-    "status": "Pending",
-    "summary": "Programs for at-risk students; permissible uses of funding. Includes as covered programs that are eligible for funding under the At-Risk Program initiatives to support both the physical and mental health of students in public schools, including the hiring of registered nurses and advanced practice registered nurses. The bill is a recommendation of the School Health Services Committee.",
-    "last_action": "Assigned Education sub: Public Education",
-    "last_action_date": "1/15/2026",
-    "patron": "Favola",
-    "history": [
-      {
-        "date": "11/19/2025",
-        "description": "S Prefiled and ordered printed; Offered 01-14-2026 26100144D"
-      },
-      {
-        "date": "11/19/2025",
-        "description": "S Referred to Committee on Education and Health"
-      },
-      {
-        "date": "1/15/2026",
-        "description": "S Assigned Education sub: Public Education"
-      }
-    ]
   }
 }
