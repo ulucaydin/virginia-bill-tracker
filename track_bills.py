@@ -299,8 +299,26 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
     
     now = datetime.now()
     
-    # Get repository info from environment (set by GitHub Actions)
-    repo_name = os.environ.get('GITHUB_REPOSITORY', 'YOUR-USERNAME/virginia-bill-tracker')
+    # Get repository info from environment (set by GitHub Actions) or git remote
+    repo_name = os.environ.get('GITHUB_REPOSITORY')
+    if not repo_name:
+        # Try to get from git remote
+        import subprocess
+        try:
+            result = subprocess.run(
+                ['git', 'config', '--get', 'remote.origin.url'],
+                capture_output=True, text=True, timeout=5
+            )
+            if result.returncode == 0:
+                url = result.stdout.strip()
+                # Parse repo name from URL (handles both HTTPS and SSH formats)
+                if 'github.com' in url:
+                    # SSH: git@github.com:user/repo.git or HTTPS: https://github.com/user/repo.git
+                    repo_name = url.split('github.com')[-1].lstrip('/:').rstrip('.git')
+        except Exception:
+            pass
+    if not repo_name:
+        repo_name = 'YOUR-USERNAME/virginia-bill-tracker'
     
     html = f"""<!DOCTYPE html>
 <html lang="en">
