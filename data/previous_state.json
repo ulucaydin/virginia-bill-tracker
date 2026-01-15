@@ -67,6 +67,25 @@
       }
     ]
   },
+  "SB200": {
+    "bill_number": "SB200",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/SB200",
+    "status": "In Committee",
+    "summary": "Board of Education; Standards of Learning assessments and  related assessment methods; development, administration, scoring, and release. Makes  several clarifying revisions to applicable law relating to the development,  administration, and scoring of Standards of Learning assessments and related  assessment methods for determining the level of achievement of Standards of  Learning objectives by all students. First, the bill clarifies that students  who are children with disabilities, as that term is defined by applicable law,  who participate in alternative methods of Standards of Learning assessment  administration or in alternate assessments through the Virginia Alternate  Assessment Program are exempt from several requirements set forth in applicable  law relating to the administration and grading of Standards of Learning  assessments and related assessments. The bill also repeals the provisions  requiring the Board of Education (the Board) to  establish a through-year growth assessment system in lieu of a one-time  end-of-year assessment.  The bill also specifies the requirements for local alternative  assessments, including permissive local alternative assessments and mandatory  local alternative assessments administered pursuant to applicable law, by (i)  requiring each school board to ensure that (a) each such assessment consists  only of prompts or assessment items to which no student had access prior to the  assessment's administration and (b) any teacher participating in grading any  such assessment does not grade any assessment completed by a student that such  teacher taught in a class or subject area that school year; (ii) directing the  Board of Education to develop and make available to each school board by  September 1, 2026, best practices for grading and scoring such local  alternative assessments; and (iii) directing the Board to perform an annual  audit of a certain percentage of any mandatory local alternative assessments  implemented by the school board, consistent with the procedures and requirements  set forth in the bill. The bill also requires the Board to make available to  each school division each Standards of Learning assessment administered the  previous school year, subject to the requirements and limitations set forth in  the bill.  The provisions of the bill limiting the number of  end-of-course assessments that may be administered to students in grades seven  through 12 and requiring the score received by each student in grades seven  through 12 on an end-of-course assessment to account for at least 10 percent of  the student's final grade in such course have a delayed effective date of the  date on which a contract is awarded to an assessment vendor for the new  statewide assessment system, pursuant to applicable law, as certified by the Department  of Education.",
+    "last_action": "Referred to Committee on Education and Health",
+    "last_action_date": "1/9/2026",
+    "patron": "VanValkenburg",
+    "history": [
+      {
+        "date": "1/9/2026",
+        "description": "S Prefiled and ordered printed; Offered 01-14-2026 26104348D"
+      },
+      {
+        "date": "1/9/2026",
+        "description": "S Referred to Committee on Education and Health"
+      }
+    ]
+  },
   "SB33": {
     "bill_number": "SB33",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/SB33",

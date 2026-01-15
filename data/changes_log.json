@@ -229,5 +229,12 @@
     "message": "Started tracking SB33",
     "current_status": "Pending",
     "timestamp": "2026-01-14T19:49:41.845587"
+  },
+  {
+    "bill": "SB200",
+    "type": "new_tracking",
+    "message": "Started tracking SB200",
+    "current_status": "In Committee",
+    "timestamp": "2026-01-14T20:03:24.261011"
   }
 ]
