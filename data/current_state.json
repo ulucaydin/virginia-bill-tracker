@@ -1,44 +1,29 @@
 {
-  "HB202": {
-    "bill_number": "HB202",
-    "bill_url": "https://lis.virginia.gov/bill-details/20251/HB202",
-    "status": "Not Found",
-    "summary": "Bill HB202 not found in the 2025 session",
-    "last_action": "N/A",
-    "last_action_date": ""
-  },
-  "HB379": {
-    "bill_number": "HB379",
-    "bill_url": "https://lis.virginia.gov/bill-details/20251/HB379",
-    "status": "Not Found",
-    "summary": "Bill HB379 not found in the 2025 session",
-    "last_action": "N/A",
-    "last_action_date": ""
-  },
-  "HB494": {
-    "bill_number": "HB494",
-    "bill_url": "https://lis.virginia.gov/bill-details/20251/HB494",
-    "status": "Not Found",
-    "summary": "Bill HB494 not found in the 2025 session",
-    "last_action": "N/A",
-    "last_action_date": ""
-  },
   "HB9": {
     "bill_number": "HB9",
-    "bill_url": "https://lis.virginia.gov/bill-details/20251/HB9",
-    "status": "Left in Committee",
-    "summary": "Animal control officers; additional training. Increases the number of hours of required additional training in animal control and protection from 15 to 24 every three years for all animal control officers and deputy animal control officers employed by a locality.",
-    "last_action": "Left in Agriculture, Chesapeake and Natural Resources",
-    "last_action_date": "11/18/2024",
-    "patron": "Ennis"
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB9",
+    "status": "In Committee",
+    "summary": "Time zone; permanent daylight saving time in the  Commonwealth. Provides that the Commonwealth shall observe Eastern Daylight  Time (Eastern Standard Time, advanced one hour) year-round upon the enactment  by Congress of a law allowing states to observe Eastern Daylight Time  year-round.",
+    "last_action": "Referred to Committee on Rules",
+    "last_action_date": "12/19/2025",
+    "patron": "McNamara"
+  },
+  "SB10": {
+    "bill_number": "SB10",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/SB10",
+    "status": "In Committee",
+    "summary": "Employment prohibition exceptions; apprenticeships;  children 16 years of age or older. Permits a child 16 years of age or older  to serve in an apprenticeship program or other  work-based learning experience, provided that the child (i)  is an apprentice registered pursuant to relevant law; (ii) is employed in a  work-training program administered pursuant to relevant law; or (iii) has obtained an industry certification, license, or  other verifiable proof of competency for the work being performed.",
+    "last_action": "Referred to Committee on Commerce and Labor",
+    "last_action_date": "11/17/2025",
+    "patron": "Suetterlein"
   },
   "SB33": {
     "bill_number": "SB33",
-    "bill_url": "https://lis.virginia.gov/bill-details/20251/SB33",
-    "status": "Passed Senate",
-    "summary": "Supervision of certified registered nurse anesthetists;\r\n work group; report. Clarifies that supervision  of a certified\r\nregistered nurse anesthetist requires that a  licensed doctor of medicine,\r\nosteopathy, podiatry,  or dentistry is present during an operation\r\nor procedure or is immediately available to respond  and provide patient\r\ncare as needed. The bill directs the Secretary of Health  and Human\r\nResources, in collaboration with the Board of Medicine, Board of \r\nNursing, and Department of Health Professions, to convene a work group\r\n of relevant stakeholders to evaluate and make recommendations to\r\nincrease the  anesthesia provider workforce in the Commonwealth. The\r\nbill requires the work  group to report its recommendations to the\r\nChairmen of the Senate Committee on Education and Health and the House\r\nCommittee on Health and Human Services by November  1, 2024.",
-    "last_action": "Left in Health and Human Services",
-    "last_action_date": "11/18/2024",
-    "patron": "Locke"
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/SB33",
+    "status": "Pending",
+    "summary": "Programs for at-risk students; permissible uses of funding. Includes as covered programs that are eligible for funding under the At-Risk Program initiatives to support both the physical and mental health of students in public schools, including the hiring of registered nurses and advanced practice registered nurses. The bill is a recommendation of the School Health Services Committee.",
+    "last_action": "Assigned Education sub: Public Education",
+    "last_action_date": "1/15/2026",
+    "patron": "Favola"
   }
 }

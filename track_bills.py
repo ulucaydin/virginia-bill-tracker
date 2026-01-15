@@ -15,9 +15,9 @@ import os
 
 # Configuration
 BILLS_TO_TRACK_FILE = "bills_to_track.json"
-# Virginia LIS data URL - 20251 = 2025 Regular Session
+# Virginia LIS data URL - 20261 = 2026 Regular Session
 LIS_DATA_BASE_URL = "https://lis.blob.core.windows.net/lisfiles"
-CURRENT_SESSION = "20251"
+CURRENT_SESSION = "20261"
 PREVIOUS_STATE_FILE = "data/previous_state.json"
 CURRENT_STATE_FILE = "data/current_state.json"
 CHANGES_LOG_FILE = "data/changes_log.json"
