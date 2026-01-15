@@ -9,6 +9,7 @@ import json
 import requests
 import csv
 import io
+import shutil
 from datetime import datetime
 from typing import Dict, List, Optional
 import os
@@ -1456,7 +1457,10 @@ def main():
         print("✅ No changes detected")
     
     save_current_state(current_data)
-    
+
+    # Update previous state for next run's comparison
+    shutil.copy(CURRENT_STATE_FILE, PREVIOUS_STATE_FILE)
+
     if changes:
         append_to_changes_log(changes)
     
