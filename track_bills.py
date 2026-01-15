@@ -113,10 +113,11 @@ def fetch_bill_data(bill_numbers: List[str]) -> Dict:
     if not bill_numbers:
         return bills_data
 
-    # Fetch bills and summaries CSVs
+    # Fetch bills, summaries, and history CSVs
     print(f"   Fetching data from Virginia LIS (session {CURRENT_SESSION})...")
     bills_csv = fetch_lis_csv("BILLS.CSV")
     summaries_csv = fetch_lis_csv("Summaries.csv")
+    history_csv = fetch_lis_csv("HISTORY.CSV")
 
     if not bills_csv:
         print("   Warning: Could not fetch BILLS.CSV, using fallback data")
@@ -151,6 +152,24 @@ def fetch_bill_data(bill_numbers: List[str]) -> Dict:
                 # Strip HTML and store
                 summaries_by_number[normalized] = strip_html(summary_text)
 
+    # Build history lookup - list of actions per bill, sorted by date
+    history_by_number = {}
+    if history_csv:
+        for row in history_csv:
+            bill_id = row.get('Bill_id', '').strip()
+            if bill_id:
+                normalized = normalize_bill_id(bill_id)
+                action = {
+                    'date': row.get('History_date', '').strip(),
+                    'description': row.get('History_description', '').strip()
+                }
+                if normalized not in history_by_number:
+                    history_by_number[normalized] = []
+                history_by_number[normalized].append(action)
+        # Sort each bill's history by date (newest first)
+        for bill_id in history_by_number:
+            history_by_number[bill_id].sort(key=lambda x: x['date'], reverse=True)
+
     # Process requested bills
     for bill_num in bill_numbers:
         bill_num_normalized = normalize_bill_id(bill_num)
@@ -184,7 +203,8 @@ def fetch_bill_data(bill_numbers: List[str]) -> Dict:
                 'summary': summary,
                 'last_action': last_action or 'No action recorded',
                 'last_action_date': last_action_date,
-                'patron': row.get('Patron_name', '').strip()
+                'patron': row.get('Patron_name', '').strip(),
+                'history': history_by_number.get(bill_num_normalized, [])
             }
             print(f"   Found {bill_num_normalized}: {bills_data[bill_num_normalized]['status']}")
         else:
@@ -195,7 +215,8 @@ def fetch_bill_data(bill_numbers: List[str]) -> Dict:
                 'status': 'Not Found',
                 'summary': f'Bill {bill_num_normalized} not found in the {CURRENT_SESSION[:4]} session',
                 'last_action': 'N/A',
-                'last_action_date': ''
+                'last_action_date': '',
+                'history': []
             }
 
     return bills_data
@@ -901,7 +922,8 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
                 'last_action': data.get('last_action', ''),
                 'last_action_date': data.get('last_action_date', ''),
                 'patron': data.get('patron', ''),
-                'bill_url': data.get('bill_url', '#')
+                'bill_url': data.get('bill_url', '#'),
+                'history': data.get('history', [])
             }
 
             html += f"""
@@ -971,11 +993,10 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
                 <p id="detailSummary" class="detail-summary-full"></p>
             </div>
 
-            <div class="detail-section" id="detailActionSection">
-                <div class="detail-label">Last Action</div>
-                <div class="detail-action-box">
-                    <p id="detailLastAction" class="detail-action-text"></p>
-                    <p class="detail-date" id="detailLastActionDate"></p>
+            <div class="detail-section" id="detailHistorySection">
+                <div class="detail-label">Action History</div>
+                <div class="history-timeline" id="detailHistory">
+                    <!-- History items will be rendered here -->
                 </div>
             </div>
 
@@ -1054,22 +1075,31 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
             line-height: 1.75;
             margin: 0;
         }}
-        .detail-action-box {{
-            background: #f9fafb;
-            border-radius: 8px;
-            padding: 12px 16px;
-            border-left: 3px solid #667eea;
+        .history-timeline {{
+            max-height: 300px;
+            overflow-y: auto;
+            padding-right: 8px;
         }}
-        .detail-action-text {{
+        .history-item {{
+            display: flex;
+            gap: 12px;
+            padding: 12px 0;
+            border-bottom: 1px solid #f3f4f6;
+        }}
+        .history-item:last-child {{
+            border-bottom: none;
+        }}
+        .history-date {{
+            flex-shrink: 0;
+            width: 90px;
+            color: #6366f1;
+            font-size: 13px;
+            font-weight: 600;
+        }}
+        .history-desc {{
             color: #374151;
             font-size: 14px;
             line-height: 1.5;
-            margin: 0;
-        }}
-        .detail-date {{
-            color: #9ca3af;
-            font-size: 12px;
-            margin-top: 6px;
         }}
         .detail-footer {{
             display: flex;
@@ -1156,14 +1186,20 @@ def generate_dashboard_html(current_data: Dict, changes: List[Dict], tracked_bil
                 patronEl.style.display = 'none';
             }}
 
-            // Show last action if available
-            const actionSection = document.getElementById('detailActionSection');
-            if (bill.last_action && bill.last_action !== 'No action recorded') {{
-                document.getElementById('detailLastAction').textContent = bill.last_action;
-                document.getElementById('detailLastActionDate').textContent = bill.last_action_date || '';
-                actionSection.style.display = 'block';
+            // Show action history
+            const historySection = document.getElementById('detailHistorySection');
+            const historyContainer = document.getElementById('detailHistory');
+            if (bill.history && bill.history.length > 0) {{
+                historyContainer.innerHTML = bill.history.map(item =>
+                    `<div class="history-item">
+                        <span class="history-date">${{item.date}}</span>
+                        <span class="history-desc">${{item.description}}</span>
+                    </div>`
+                ).join('');
+                historySection.style.display = 'block';
             }} else {{
-                actionSection.style.display = 'none';
+                historyContainer.innerHTML = '<p style="color: #9ca3af;">No action history available</p>';
+                historySection.style.display = 'block';
             }}
 
             document.getElementById('billDetailModal').classList.add('active');

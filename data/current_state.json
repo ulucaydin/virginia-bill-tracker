@@ -6,7 +6,17 @@
     "summary": "Prohibited acquisition of single-family  homes; affidavit; civil penalty. Restricts any partnership, corporation, or  real estate investment trust that manages funds pooled from investors, is a fiduciary to such investors, has net value or assets under management on any day  during a taxable year, and holds an interest in more  than 50 single-family homes from acquiring any  interest in any other single-family home, as defined in the bill to include  manufactured home parks and residential single-family homes  split into multiple dwellings, on or after July 1, 2026. The bill also  requires an offering purchaser of a manufactured home park to provide a  notarized affidavit certifying that the purchaser is not prohibited from  acquiring such an interest. Any false statements on  such affidavit is subject to a civil penalty of up  to $10,000 per occurrence.",
     "last_action": "Referred to Committee for Courts of Justice",
     "last_action_date": "1/7/2026",
-    "patron": "Griffin"
+    "patron": "Griffin",
+    "history": [
+      {
+        "date": "1/7/2026",
+        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26100172D"
+      },
+      {
+        "date": "1/7/2026",
+        "description": "H Referred to Committee for Courts of Justice"
+      }
+    ]
   },
   "HB379": {
     "bill_number": "HB379",
@@ -15,7 +25,13 @@
     "summary": "Virginia Residential Landlord and Tenant Act; application;  notice, deposit, fee, and additional information. Provides that, prior to  requesting or collecting any payment or information about a prospective tenant,  a landlord shall first notify the prospective tenant in writing or by posting  in a manner accessible to a prospective tenant certain information relating to  the rental application process. The bill provides that a landlord shall use the  information contained in an application to evaluate an applicant for  eligibility for all dwelling units that the landlord owns in the Commonwealth,  and if a landlord fails to review an application for any reason, the landlord  shall refund any application fee paid by or on behalf of the applicant. The  bill also provides that if a landlord takes adverse action against an applicant  as defined in the bill, the landlord shall provide the applicant with a written  notice stating the reasons for the adverse action and a copy of any consumer  reports on which the landlord relied in whole or in part in making his  determination.",
     "last_action": "Committee Referral Pending",
     "last_action_date": "1/12/2026",
-    "patron": "Bennett-Parker"
+    "patron": "Bennett-Parker",
+    "history": [
+      {
+        "date": "1/12/2026",
+        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26102263D"
+      }
+    ]
   },
   "HB494": {
     "bill_number": "HB494",
@@ -24,7 +40,13 @@
     "summary": "Virginia Personnel Act; hiring preference in state  government; certain former federal employees. Establishes a hiring  preference in state government for any person who has been terminated from a position of employment with  the federal government on or after April 1, 2025, due to a reduction in the  federal budget, initiatives put in place by the federal Department of  Government Efficiency, or any other effort deemed unrelated to a violation in  the workplace, workplace performance, or a dereliction of duty, provided that  such person meets all of the knowledge, skill, and ability requirements for the  available position. The bill defines the term  'preference' as requiring that a person who has been terminated from  a position of employment with the federal government be hired over a person who  has not been terminated from a position of employment with the federal  government when the two individuals are substantially equal in qualifications  for an eligible position. The bill sunsets on  January 21, 2029.",
     "last_action": "Committee Referral Pending",
     "last_action_date": "1/12/2026",
-    "patron": "Guzman"
+    "patron": "Guzman",
+    "history": [
+      {
+        "date": "1/12/2026",
+        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26102456D"
+      }
+    ]
   },
   "HB9": {
     "bill_number": "HB9",
@@ -33,7 +55,17 @@
     "summary": "Time zone; permanent daylight saving time in the  Commonwealth. Provides that the Commonwealth shall observe Eastern Daylight  Time (Eastern Standard Time, advanced one hour) year-round upon the enactment  by Congress of a law allowing states to observe Eastern Daylight Time  year-round.",
     "last_action": "Referred to Committee on Rules",
     "last_action_date": "12/19/2025",
-    "patron": "McNamara"
+    "patron": "McNamara",
+    "history": [
+      {
+        "date": "12/19/2025",
+        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26101668D"
+      },
+      {
+        "date": "12/19/2025",
+        "description": "H Referred to Committee on Rules"
+      }
+    ]
   },
   "SB33": {
     "bill_number": "SB33",
@@ -42,6 +74,20 @@
     "summary": "Programs for at-risk students; permissible uses of funding. Includes as covered programs that are eligible for funding under the At-Risk Program initiatives to support both the physical and mental health of students in public schools, including the hiring of registered nurses and advanced practice registered nurses. The bill is a recommendation of the School Health Services Committee.",
     "last_action": "Assigned Education sub: Public Education",
     "last_action_date": "1/15/2026",
-    "patron": "Favola"
+    "patron": "Favola",
+    "history": [
+      {
+        "date": "11/19/2025",
+        "description": "S Prefiled and ordered printed; Offered 01-14-2026 26100144D"
+      },
+      {
+        "date": "11/19/2025",
+        "description": "S Referred to Committee on Education and Health"
+      },
+      {
+        "date": "1/15/2026",
+        "description": "S Assigned Education sub: Public Education"
+      }
+    ]
   }
 }
