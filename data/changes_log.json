@@ -251,5 +251,13 @@
     "current_action": "Referred to Committee on General Laws",
     "message": "HB379 new action: Referred to Committee on General Laws",
     "timestamp": "2026-01-16T08:19:56.480296"
+  },
+  {
+    "bill": "HB494",
+    "type": "action_update",
+    "previous_action": "Committee Referral Pending",
+    "current_action": "Referred to Committee on General Laws",
+    "message": "HB494 new action: Referred to Committee on General Laws",
+    "timestamp": "2026-01-17T08:15:13.621589"
   }
 ]
