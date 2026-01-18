@@ -572,15 +572,15 @@
             <h1>🏛️ Virginia Bill Tracker</h1>
             <div class="header-actions">
                 <div class="sync-info">
-                    Last synced: <span class="sync-time">January 17, 2026 at 08:15 AM ET</span>
+                    Last synced: <span class="sync-time">January 18, 2026 at 08:15 AM ET</span>
                 </div>
                 <button class="btn" onclick="openConfigModal()">⚙️ Configure Bills</button>
             </div>
         </div>
         
 
-        <div class="changes-banner ">
-            <strong>⚠️ 1 change(s) detected since last sync</strong>
+        <div class="changes-banner no-changes">
+            <strong>✅ No changes detected</strong>
         </div>
         <div class="bills-grid">
 
@@ -626,11 +626,11 @@
                 </div>
             </div>
 
-            <div class="bill-card has-changes" onclick="openBillDetail('HB494')">
+            <div class="bill-card " onclick="openBillDetail('HB494')">
                 <div class="bill-header">
                     <div class="bill-number">
                         HB494
-                        <span class="change-badge">UPDATED</span>
+                        
                     </div>
                     <div class="bill-status status-in-committee">
                         In Committee
@@ -709,18 +709,6 @@
                     </a>
                 </div>
             </div>
-        </div>
-
-        <div class="changes-section">
-            <h2>Recent Changes</h2>
-
-            <div class="change-item">
-                <div>HB494 new action: Referred to Committee on General Laws</div>
-                <div class="change-timestamp">
-                    January 17, 2026 at 08:15 AM
-                </div>
-            </div>
-
         </div>
 
     <!-- Bill Detail Modal -->
