@@ -67,21 +67,6 @@
       }
     ]
   },
-  "HB1265": {
-    "bill_number": "HB1265",
-    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1265",
-    "status": "In Committee",
-    "summary": "Certain civil arrests prohibited in  courthouses; penalty. Provides that a party who is required to attend any  court of the Commonwealth, or such party's family or household member or person  attending the court with such party to serve as a witness, shall be privileged  from civil arrest, defined in the bill, while attending, going to, or coming  from the court. The bill also prohibits a person with the lawful authority to  perform civil arrests from entering a courthouse to conduct a civil arrest  unless he complies with certain requirements, including presenting a judicial  warrant or judicial order authorizing the civil arrest to the appropriate  courthouse officer or employee. Additionally, the bill requires that any  judicial warrant or judicial order authorizing the civil arrest be reviewed by  a designated judicial officer or attorney before a civil arrest pursuant to  such warrant or order can be performed. Finally, the bill provides that any  person who conducts a civil arrest, or facilitates or assists with the  performance of, a civil arrest in violation of the provisions of the bill shall  be punished with contempt of court.",
-    "last_action": "Committee Referral Pending",
-    "last_action_date": "1/14/2026",
-    "patron": "Glass",
-    "history": [
-      {
-        "date": "1/14/2026",
-        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26103200D"
-      }
-    ]
-  },
   "HB650": {
     "bill_number": "HB650",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB650",
@@ -94,25 +79,6 @@
       {
         "date": "1/13/2026",
         "description": "H Prefiled and ordered printed; Offered 01-14-2026 26105002D"
-      },
-      {
-        "date": "1/13/2026",
-        "description": "H Referred to Committee for Courts of Justice"
-      }
-    ]
-  },
-  "HB667": {
-    "bill_number": "HB667",
-    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB667",
-    "status": "In Committee",
-    "summary": "Juvenile and domestic relations district courts;  jurisdiction; definitions; petition by noncitizen aged 18 to 21 years for legal  custody and other relief. Allows an unmarried noncitizen between the ages  of 18 and 21 to petition a juvenile and domestic relations district court to be  placed in the custody of a proposed legal custodian and to receive services to  address the impacts of prior abuse, neglect, or abandonment that occurred  before such noncitizen reached 18 years of age. The bill  also includes such unmarried noncitizen in the definitions of  'child,' 'juvenile,' and 'minor,' as such terms  are related to juvenile and domestic relations district courts. The bill also  directs the Office of the Executive Secretary of the Supreme Court of Virginia  to develop and publish a form for such petition.",
-    "last_action": "Referred to Committee for Courts of Justice",
-    "last_action_date": "1/13/2026",
-    "patron": "Maldonado",
-    "history": [
-      {
-        "date": "1/13/2026",
-        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26104483D"
       },
       {
         "date": "1/13/2026",
@@ -147,36 +113,6 @@
       }
     ]
   },
-  "HB879": {
-    "bill_number": "HB879",
-    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB879",
-    "status": "In Committee",
-    "summary": "Department of Social Services; requests for records or  information concerning applicants for and recipients of public assistance;  public notice required. Requires the Commissioner of Social Services or a local  director of social services to make a public notice available on the Department  of Social Services' website within 10 days of receiving a request for a record  or information concerning 25 or more applicants for or recipients of public  assistance or child support for a purpose not directly connected to the  administration of such programs. The bill establishes the form of such public  notice and requires such notice to be made available (i) regardless of whether  such information has been previously been shared; (ii) regardless of the  identity of the requestor, unless such request is permitted under existing law;  and (iii) even when a request is made in compliance with state and federal law  and regulation.",
-    "last_action": "Committee Referral Pending",
-    "last_action_date": "1/13/2026",
-    "patron": "Shin",
-    "history": [
-      {
-        "date": "1/13/2026",
-        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26104792D"
-      }
-    ]
-  },
-  "HB911": {
-    "bill_number": "HB911",
-    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB911",
-    "status": "In Committee",
-    "summary": "Limited-duration licenses, driver  privilege cards and permits, and identification privilege cards; expiration.  Extends the validity of limited-duration licenses, driver privilege cards and  permits, and identification privilege cards, other than REAL ID credentials, as  defined in the bill, and commercial driver's licenses and permits, to a period  of time consistent with the validity of (i) driver's licenses, which under  current law is a period not to exceed eight years or for a person age 75 or  older, a period not to exceed five years; (ii) permits, which under current law  is the period of time until a driver's license is issued or the person is no  longer eligible for such permit, a period of 12 months for motorcycle permits,  or a period of the 60 days prior to the person's first behind-the-wheel exam  for persons 25 years of age or older; and (iii) special identification cards,  which under current law is a period between three and eight years, with exceptions,  or for a person younger than the age of 15, until such person's sixteenth  birthday, unless extended under certain circumstances for a period no longer  than 90 days. The bill directs the Department of Motor Vehicles to implement  the extended validity periods for such documents upon reissuance.",
-    "last_action": "Committee Referral Pending",
-    "last_action_date": "1/13/2026",
-    "patron": "Lopez",
-    "history": [
-      {
-        "date": "1/13/2026",
-        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26102215D"
-      }
-    ]
-  },
   "HB912": {
     "bill_number": "HB912",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB912",
@@ -207,26 +143,22 @@
       }
     ]
   },
-  "SB90": {
-    "bill_number": "SB90",
-    "bill_url": "https://lis.virginia.gov/bill-details/20261/SB90",
-    "status": "Pending",
-    "summary": "Public schools; Standards of Quality; certain calculations;  At-Risk Program established. The bill establishes (i) the At-Risk Program  for the purpose of supporting programs and services for students who are educationally  at-risk, including programs and services of prevention, intervention, or  remediation; (ii) a state-funded, flexible per pupil  Standards of Quality funding add-on to be applied for each special education  student, calculated in accordance with the provisions of the bill, for the  purpose of better meeting the educational needs of students with disabilities;  and (iii) a state-funded, flexible per-pupil  Standards of Quality funding add-on to be provided for each English language  learner student, calculated in accordance with the provisions of the bill, for  the purpose of better meeting the educational needs of English language learner  students. The bill also establishes requirements and conditions for each school  division receiving funding pursuant to the At-Risk Program or either of the per pupil Standards of Quality funding add-ons  established pursuant to the bill, including a requirement that each such school  division annually report to the Department of Education  on the planned and actual uses of such funds. The bill directs the Department  to annually compile and publish on its website a summary of the reports  received from each school division on the use of such funds. Finally, the bill  authorizes the Department, upon providing notice and an opportunity for  corrective action, withhold, recover, or redirect funds provided pursuant to  the bill from any school division found to be in noncompliance with the  requirements set forth in the bill.",
-    "last_action": "Assigned Education sub: Public Education",
-    "last_action_date": "1/15/2026",
-    "patron": "Favola",
+  "SB351": {
+    "bill_number": "SB351",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/SB351",
+    "status": "In Committee",
+    "summary": "Certain civil arrests prohibited in courthouses; penalty. Provides  that a party who is required to attend any court of the Commonwealth, or such  party's family or household member or person attending the court with such party  to serve as a witness, shall be privileged from civil arrest, defined in the  bill, while attending, going to, or coming from the court. The bill also  prohibits a person with the lawful authority to perform civil arrests from  entering a courthouse to conduct a civil arrest unless he complies with certain  requirements, including presenting a judicial warrant or judicial order  authorizing the civil arrest to the appropriate courthouse officer or employee.  Additionally, the bill requires that any judicial warrant or judicial order  authorizing the civil arrest be reviewed by a designated judicial officer or  attorney before a civil arrest pursuant to such warrant or order can be  performed. Finally, the bill provides that any person who conducts a civil arrest,  or facilitates or assists with the performance of, a civil arrest in violation  of the provisions of the bill shall be punished with contempt of court.",
+    "last_action": "Referred to Committee for Courts of Justice",
+    "last_action_date": "1/13/2026",
+    "patron": "Salim",
     "history": [
       {
-        "date": "12/31/2025",
-        "description": "S Prefiled and ordered printed; Offered 01-14-2026 26102657D"
+        "date": "1/13/2026",
+        "description": "S Prefiled and ordered printed; Offered 01-14-2026 26101062D"
       },
       {
-        "date": "12/31/2025",
-        "description": "S Referred to Committee on Education and Health"
-      },
-      {
-        "date": "1/15/2026",
-        "description": "S Assigned Education sub: Public Education"
+        "date": "1/13/2026",
+        "description": "S Referred to Committee for Courts of Justice"
       }
     ]
   }

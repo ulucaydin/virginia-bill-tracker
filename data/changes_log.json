@@ -366,5 +366,12 @@
     "message": "Started tracking SB90",
     "current_status": "Pending",
     "timestamp": "2026-01-20T11:25:57.627729"
+  },
+  {
+    "bill": "SB351",
+    "type": "new_tracking",
+    "message": "Started tracking SB351",
+    "current_status": "In Committee",
+    "timestamp": "2026-01-20T11:29:15.177282"
   }
 ]
