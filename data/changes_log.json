@@ -331,5 +331,40 @@
     "message": "Started tracking HB993",
     "current_status": "In Committee",
     "timestamp": "2026-01-20T11:21:40.266100"
+  },
+  {
+    "bill": "HB1265",
+    "type": "new_tracking",
+    "message": "Started tracking HB1265",
+    "current_status": "In Committee",
+    "timestamp": "2026-01-20T11:25:57.627711"
+  },
+  {
+    "bill": "HB667",
+    "type": "new_tracking",
+    "message": "Started tracking HB667",
+    "current_status": "In Committee",
+    "timestamp": "2026-01-20T11:25:57.627720"
+  },
+  {
+    "bill": "HB879",
+    "type": "new_tracking",
+    "message": "Started tracking HB879",
+    "current_status": "In Committee",
+    "timestamp": "2026-01-20T11:25:57.627725"
+  },
+  {
+    "bill": "HB911",
+    "type": "new_tracking",
+    "message": "Started tracking HB911",
+    "current_status": "In Committee",
+    "timestamp": "2026-01-20T11:25:57.627726"
+  },
+  {
+    "bill": "SB90",
+    "type": "new_tracking",
+    "message": "Started tracking SB90",
+    "current_status": "Pending",
+    "timestamp": "2026-01-20T11:25:57.627729"
   }
 ]
