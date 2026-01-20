@@ -259,5 +259,21 @@
     "current_action": "Referred to Committee on General Laws",
     "message": "HB494 new action: Referred to Committee on General Laws",
     "timestamp": "2026-01-17T08:15:13.621589"
+  },
+  {
+    "bill": "HB494",
+    "type": "status_change",
+    "previous_status": "In Committee",
+    "current_status": "Pending",
+    "message": "HB494 status changed: In Committee \u2192 Pending",
+    "timestamp": "2026-01-20T08:23:55.834523"
+  },
+  {
+    "bill": "HB494",
+    "type": "action_update",
+    "previous_action": "Referred to Committee on General Laws",
+    "current_action": "Assigned HGL sub: Professions/Occupations and Administrative Process",
+    "message": "HB494 new action: Assigned HGL sub: Professions/Occupations and Administrative Process",
+    "timestamp": "2026-01-20T08:23:55.834533"
   }
 ]

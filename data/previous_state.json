@@ -40,12 +40,16 @@
   "HB494": {
     "bill_number": "HB494",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB494",
-    "status": "In Committee",
+    "status": "Pending",
     "summary": "Virginia Personnel Act; hiring preference in state  government; certain former federal employees. Establishes a hiring  preference in state government for any person who has been terminated from a position of employment with  the federal government on or after April 1, 2025, due to a reduction in the  federal budget, initiatives put in place by the federal Department of  Government Efficiency, or any other effort deemed unrelated to a violation in  the workplace, workplace performance, or a dereliction of duty, provided that  such person meets all of the knowledge, skill, and ability requirements for the  available position. The bill defines the term  'preference' as requiring that a person who has been terminated from  a position of employment with the federal government be hired over a person who  has not been terminated from a position of employment with the federal  government when the two individuals are substantially equal in qualifications  for an eligible position. The bill sunsets on  January 21, 2029.",
-    "last_action": "Referred to Committee on General Laws",
-    "last_action_date": "1/12/2026",
+    "last_action": "Assigned HGL sub: Professions/Occupations and Administrative Process",
+    "last_action_date": "1/19/2026",
     "patron": "Guzman",
     "history": [
+      {
+        "date": "1/19/2026",
+        "description": "H Assigned HGL sub: Professions/Occupations and Administrative Process"
+      },
       {
         "date": "1/12/2026",
         "description": "H Prefiled and ordered printed; Offered 01-14-2026 26102456D"
