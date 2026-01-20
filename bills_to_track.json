@@ -1,11 +1,13 @@
 {
   "bills": [
-    "HB202",
-    "HB379",
-    "HB494",
-    "HB9",
-    "SB200",
-    "SB33"
+    "HB1161",
+    "HB126",
+    "HB1260",
+    "HB1264",
+    "HB650",
+    "HB7",
+    "HB912",
+    "HB993"
   ],
   "settings": {
     "notification_email": null,
