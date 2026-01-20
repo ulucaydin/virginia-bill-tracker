@@ -275,5 +275,61 @@
     "current_action": "Assigned HGL sub: Professions/Occupations and Administrative Process",
     "message": "HB494 new action: Assigned HGL sub: Professions/Occupations and Administrative Process",
     "timestamp": "2026-01-20T08:23:55.834533"
+  },
+  {
+    "bill": "HB1161",
+    "type": "new_tracking",
+    "message": "Started tracking HB1161",
+    "current_status": "In Committee",
+    "timestamp": "2026-01-20T11:21:40.266078"
+  },
+  {
+    "bill": "HB126",
+    "type": "new_tracking",
+    "message": "Started tracking HB126",
+    "current_status": "Pending",
+    "timestamp": "2026-01-20T11:21:40.266089"
+  },
+  {
+    "bill": "HB1260",
+    "type": "new_tracking",
+    "message": "Started tracking HB1260",
+    "current_status": "In Committee",
+    "timestamp": "2026-01-20T11:21:40.266091"
+  },
+  {
+    "bill": "HB1264",
+    "type": "new_tracking",
+    "message": "Started tracking HB1264",
+    "current_status": "In Committee",
+    "timestamp": "2026-01-20T11:21:40.266092"
+  },
+  {
+    "bill": "HB650",
+    "type": "new_tracking",
+    "message": "Started tracking HB650",
+    "current_status": "In Committee",
+    "timestamp": "2026-01-20T11:21:40.266094"
+  },
+  {
+    "bill": "HB7",
+    "type": "new_tracking",
+    "message": "Started tracking HB7",
+    "current_status": "Pending",
+    "timestamp": "2026-01-20T11:21:40.266095"
+  },
+  {
+    "bill": "HB912",
+    "type": "new_tracking",
+    "message": "Started tracking HB912",
+    "current_status": "In Committee",
+    "timestamp": "2026-01-20T11:21:40.266096"
+  },
+  {
+    "bill": "HB993",
+    "type": "new_tracking",
+    "message": "Started tracking HB993",
+    "current_status": "In Committee",
+    "timestamp": "2026-01-20T11:21:40.266100"
   }
 ]

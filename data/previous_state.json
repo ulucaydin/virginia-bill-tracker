@@ -1,123 +1,145 @@
 {
-  "HB202": {
-    "bill_number": "HB202",
-    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB202",
+  "HB1161": {
+    "bill_number": "HB1161",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1161",
     "status": "In Committee",
-    "summary": "Prohibited acquisition of single-family  homes; affidavit; civil penalty. Restricts any partnership, corporation, or  real estate investment trust that manages funds pooled from investors, is a fiduciary to such investors, has net value or assets under management on any day  during a taxable year, and holds an interest in more  than 50 single-family homes from acquiring any  interest in any other single-family home, as defined in the bill to include  manufactured home parks and residential single-family homes  split into multiple dwellings, on or after July 1, 2026. The bill also  requires an offering purchaser of a manufactured home park to provide a  notarized affidavit certifying that the purchaser is not prohibited from  acquiring such an interest. Any false statements on  such affidavit is subject to a civil penalty of up  to $10,000 per occurrence.",
-    "last_action": "Referred to Committee for Courts of Justice",
-    "last_action_date": "1/7/2026",
-    "patron": "Griffin",
+    "summary": "Government Data Collection and Dissemination Practices Act;  dissemination of personal information to federal government; civil penalties.  Provides that any agency or political subdivision of the Commonwealth shall only  disseminate personal information (i) to the extent necessary to comply with  state or federal law, including the federal Health Insurance Portability and  Accountability Act; (ii) to the extent necessary to carry out the  administration of a state or federal program pursuant to state or federal law;  (iii) to comply with a subpoena, court order, or administrative proceeding;  (iv) to the extent necessary to ensure fulfillment of the obligations of a  purchase or contract made in accordance with the Virginia Public Procurement  Act; or (v) when the data subject has given consent. The bill authorizes a  court, in the case of a willful and knowing violation, to subject a specific  public officer, appointee, or employee of any agency to civil penalties.",
+    "last_action": "Committee Referral Pending",
+    "last_action_date": "1/14/2026",
+    "patron": "Tran",
     "history": [
       {
-        "date": "1/7/2026",
-        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26100172D"
+        "date": "1/14/2026",
+        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26105209D"
+      }
+    ]
+  },
+  "HB126": {
+    "bill_number": "HB126",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB126",
+    "status": "Pending",
+    "summary": "Local, regional, and community correctional facilities;  access to counsel for inmates. Requires the State Board of Local and  Regional Jails to establish additional standards no later than January 1, 2027,  to ensure access to legal counsel for inmates held in any local, regional, or  community correctional facility and enumerates the standards that the Board  shall include in such additional standards.",
+    "last_action": "Assigned HMPPS sub: Subcommittee #2",
+    "last_action_date": "1/16/2026",
+    "patron": "Callsen",
+    "history": [
+      {
+        "date": "1/2/2026",
+        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26101260D"
       },
       {
-        "date": "1/7/2026",
+        "date": "1/2/2026",
+        "description": "H Referred to Committee on Public Safety"
+      },
+      {
+        "date": "1/16/2026",
+        "description": "H Assigned HMPPS sub: Subcommittee #2"
+      }
+    ]
+  },
+  "HB1260": {
+    "bill_number": "HB1260",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1260",
+    "status": "In Committee",
+    "summary": "Public elementary and secondary schools and public  institutions of higher education; certain federal immigration investigation and  enforcement activities; certain notifications and prohibitions. Requires, no  later than July 1, 2027, and subject to certain enumerated conditions and  requirements, (i) the written school crisis,  emergency management, and medical emergency response plan for each public  elementary or secondary school to include (a) a requirement  that whenever the division superintendent confirms that an individual is  present on the property of a public elementary or secondary school in the  school division to investigate compliance with, enforce, or assist in the  investigation for compliance with or enforcement of any federal civil  immigration law or any federal criminal immigration law that penalizes an  individual's presence in, entry or reentry into, or employment in the United  States, each school board employee at such school and the parents of each  student enrolled in such school shall be notified of such presence and (b) a  prohibition against any individual present on the property of a public  elementary or secondary school in the school division to investigate compliance  with, enforce, or assist in the investigation for compliance with or  enforcement of any federal civil immigration law or any federal criminal  immigration law that penalizes an individual's presence in, entry or reentry  into, or employment in the United States from accessing any nonpublic area of  such school property without a warrant signed by a judge or magistrate and (ii) each public institution of higher education to  (a) notify all students, faculty, and staff whenever the  institution confirms that an individual is present on campus to investigate  compliance with, enforce, or assist in the investigation for compliance with or  enforcement of any federal civil immigration law or any federal criminal  immigration law that penalizes an individual's presence in, entry or reentry into,  or employment in the United States and (b) prohibit  any individual present on campus to investigate compliance with, enforce, or  assist in the investigation for compliance with or enforcement of any federal  civil immigration law or any federal criminal immigration law that penalizes an  individual's presence in, entry or reentry into, or employment in the United  States from accessing any nonpublic area of campus without a warrant signed by  a judge or magistrate.",
+    "last_action": "Committee Referral Pending",
+    "last_action_date": "1/14/2026",
+    "patron": "Shin",
+    "history": [
+      {
+        "date": "1/14/2026",
+        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26104922D"
+      }
+    ]
+  },
+  "HB1264": {
+    "bill_number": "HB1264",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1264",
+    "status": "In Committee",
+    "summary": "Virginia Accountability Commission established. Creates  the Virginia Accountability Commission (the Commission).  The Commission shall (i) create a public record of the conduct of federal  agents and any federal military-style operations throughout the Commonwealth,  (ii) examine the impact of that conduct on individuals and communities, and  (iii) consider policy recommendations to prevent future harms to these  individuals and communities. The bill requires the Commission to provide, not  later than January 31, 2027, an initial status report outlining its findings  and recommendations to the Governor, and not later than April 30, 2027, any  supplementary reports the Commission deems appropriate. The bill provides that  the Commission shall be composed of a chair, vice-chair,  and up to seven additional members, for a total membership of up to nine  uncompensated members, as appointed by the Governor, the House of Delegates,  and the Senate. The bill also provides that the term of each Commission member  shall expire one year from the date of his  appointment, and Commissioners may be reappointed or replaced at the pleasure  of the appointing authority. Finally, the bill requires the Office of Civil  Rights with the Office of the Attorney General to provide administrative and  professional staff support to the operations of the Commission. The Commission  may also work with subject matter experts and non-profit organizations as it  deems appropriate.",
+    "last_action": "Committee Referral Pending",
+    "last_action_date": "1/14/2026",
+    "patron": "Shin",
+    "history": [
+      {
+        "date": "1/14/2026",
+        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26105283D"
+      }
+    ]
+  },
+  "HB650": {
+    "bill_number": "HB650",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB650",
+    "status": "In Committee",
+    "summary": "Certain civil arrests prohibited in  courthouses; penalty. Provides that a party who is required to attend any  court of the Commonwealth, or such party's family or household member or person  attending the court with such party to serve as a witness, shall be privileged  from civil arrest, defined in the bill, while attending, going to, or coming  from the court. The bill also prohibits a person with the lawful authority to  perform civil arrests from entering a courthouse to conduct a civil arrest  unless he complies with certain requirements, including presenting a judicial  warrant or judicial order authorizing the civil arrest to the appropriate  courthouse officer or employee. Additionally, the bill requires that any  judicial warrant or judicial order authorizing the civil arrest be reviewed by  a designated judicial officer or attorney before a civil arrest pursuant to  such warrant or order can be performed. Finally, the bill provides that any  person who conducts a civil arrest, or facilitates or assists with the  performance of, a civil arrest in violation of the provisions of the bill shall  be punished with contempt of court.",
+    "last_action": "Referred to Committee for Courts of Justice",
+    "last_action_date": "1/13/2026",
+    "patron": "Callsen",
+    "history": [
+      {
+        "date": "1/13/2026",
+        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26105002D"
+      },
+      {
+        "date": "1/13/2026",
         "description": "H Referred to Committee for Courts of Justice"
       }
     ]
   },
-  "HB379": {
-    "bill_number": "HB379",
-    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB379",
-    "status": "In Committee",
-    "summary": "Virginia Residential Landlord and Tenant Act; application;  notice, deposit, fee, and additional information. Provides that, prior to  requesting or collecting any payment or information about a prospective tenant,  a landlord shall first notify the prospective tenant in writing or by posting  in a manner accessible to a prospective tenant certain information relating to  the rental application process. The bill provides that a landlord shall use the  information contained in an application to evaluate an applicant for  eligibility for all dwelling units that the landlord owns in the Commonwealth,  and if a landlord fails to review an application for any reason, the landlord  shall refund any application fee paid by or on behalf of the applicant. The  bill also provides that if a landlord takes adverse action against an applicant  as defined in the bill, the landlord shall provide the applicant with a written  notice stating the reasons for the adverse action and a copy of any consumer  reports on which the landlord relied in whole or in part in making his  determination.",
-    "last_action": "Referred to Committee on General Laws",
-    "last_action_date": "1/12/2026",
-    "patron": "Bennett-Parker",
+  "HB7": {
+    "bill_number": "HB7",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB7",
+    "status": "Pending",
+    "summary": "Law-enforcement officers; restrictions  on wearing of facial coverings; exceptions; civil liability; penalty. Prohibits  certain state and federal law-enforcement officers from wearing facial  coverings, defined in the bill, while engaged in the performance of their  official duties. The bill sets out several exceptions to such prohibition,  including protective facial coverings to protect against disease, infection,  and exposure to toxic substances and facial coverings worn  by any law-enforcement officer assigned to a special weapons and tactics  team while engaged in the performance of his official duties with such team.  The bill subjects the law-enforcement officer to  disciplinary action, including dismissal, demotion, suspension, transfer, or  decertification, and creates a Class 1 misdemeanor for any  law-enforcement officer who wears a facial covering in violation of the  provisions of the bill unless the law-enforcement agency that employs such  law-enforcement officer has adopted and established a written policy for and  restrictions on the use of facial coverings. The  bill also directs the Department of Criminal Justice Services to develop a  model policy for and restrictions on the use of  facial coverings by law-enforcement officers.  Finally, the bill creates a civil cause of action for any  person injured as a result of tortious conduct by a law-enforcement officer who  knowingly and intentionally wears a facial covering in violation of the  provisions of the bill. The bill provides that sovereign immunity shall not be  a defense to civil liability for such tortious conduct.",
+    "last_action": "Fiscal Impact Statement from Department of Planning and Budget (HB7)",
+    "last_action_date": "1/19/2026",
+    "patron": "Jones",
     "history": [
       {
-        "date": "1/12/2026",
-        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26102263D"
+        "date": "11/20/2025",
+        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26101899D"
       },
       {
-        "date": "1/12/2026",
-        "description": "H Referred to Committee on General Laws"
-      }
-    ]
-  },
-  "HB494": {
-    "bill_number": "HB494",
-    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB494",
-    "status": "Pending",
-    "summary": "Virginia Personnel Act; hiring preference in state  government; certain former federal employees. Establishes a hiring  preference in state government for any person who has been terminated from a position of employment with  the federal government on or after April 1, 2025, due to a reduction in the  federal budget, initiatives put in place by the federal Department of  Government Efficiency, or any other effort deemed unrelated to a violation in  the workplace, workplace performance, or a dereliction of duty, provided that  such person meets all of the knowledge, skill, and ability requirements for the  available position. The bill defines the term  'preference' as requiring that a person who has been terminated from  a position of employment with the federal government be hired over a person who  has not been terminated from a position of employment with the federal  government when the two individuals are substantially equal in qualifications  for an eligible position. The bill sunsets on  January 21, 2029.",
-    "last_action": "Assigned HGL sub: Professions/Occupations and Administrative Process",
-    "last_action_date": "1/19/2026",
-    "patron": "Guzman",
-    "history": [
+        "date": "11/20/2025",
+        "description": "H Referred to Committee on Public Safety"
+      },
       {
         "date": "1/19/2026",
-        "description": "H Assigned HGL sub: Professions/Occupations and Administrative Process"
+        "description": "H Fiscal Impact Statement from Department of Planning and Budget (HB7)"
       },
       {
-        "date": "1/12/2026",
-        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26102456D"
-      },
-      {
-        "date": "1/12/2026",
-        "description": "H Referred to Committee on General Laws"
+        "date": "1/16/2026",
+        "description": "H Assigned HMPPS sub: Subcommittee #2"
       }
     ]
   },
-  "HB9": {
-    "bill_number": "HB9",
-    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB9",
+  "HB912": {
+    "bill_number": "HB912",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB912",
     "status": "In Committee",
-    "summary": "Time zone; permanent daylight saving time in the  Commonwealth. Provides that the Commonwealth shall observe Eastern Daylight  Time (Eastern Standard Time, advanced one hour) year-round upon the enactment  by Congress of a law allowing states to observe Eastern Daylight Time  year-round.",
-    "last_action": "Referred to Committee on Rules",
-    "last_action_date": "12/19/2025",
-    "patron": "McNamara",
+    "summary": "Public schools; right to free public elementary and  secondary education; discrimination based on immigration status prohibited;  requirements; civil cause of action. Prohibits any child in the Commonwealth  from being denied a free public education through secondary school on the basis  of the actual or perceived immigration or citizenship status of the child or  the child's parents, in accordance with the Constitution of Virginia and  consistent with the requirements of the Fourteenth Amendment to the United  States Constitution. The bill prohibits any school board or public elementary  or secondary school from engaging in certain enumerated actions and practices  that involve or result in the denial of a free public education, or denial of  the benefits or exclusion from participation in any program or activity  thereof, of a child on the basis of the actual or perceived immigration or  citizenship status of the child or the child's parents. The bill also requires  each public elementary and secondary school to develop and implement procedures  for reviewing and authorizing requests from law enforcement agents to enter a  public school or public school facility. The bill establishes a civil cause of  action for any party aggrieved by conduct that violates the provisions of the  bill, in accordance with the provisions of the bill.   Finally, the bill directs (i) the Department of Education to  develop and make available to each school board by August 1, 2026, guidance for  school personnel on the requirements of the bill and training guidelines and  materials for the training of all public school principals and administrators  on compliance with the provisions of the bill, and (ii) each school board to  (a) develop and implement by August 1, 2026, policies and procedures in  accordance with the provisions of the bill and (b) require each public school  principal and administrator to complete training on compliance with the  provisions of the bill by the beginning of the 2026-2027 school year.",
+    "last_action": "Committee Referral Pending",
+    "last_action_date": "1/13/2026",
+    "patron": "Lopez",
     "history": [
       {
-        "date": "12/19/2025",
-        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26101668D"
-      },
-      {
-        "date": "12/19/2025",
-        "description": "H Referred to Committee on Rules"
+        "date": "1/13/2026",
+        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26102214D"
       }
     ]
   },
-  "SB200": {
-    "bill_number": "SB200",
-    "bill_url": "https://lis.virginia.gov/bill-details/20261/SB200",
+  "HB993": {
+    "bill_number": "HB993",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB993",
     "status": "In Committee",
-    "summary": "Board of Education; Standards of Learning assessments and  related assessment methods; development, administration, scoring, and release. Makes  several clarifying revisions to applicable law relating to the development,  administration, and scoring of Standards of Learning assessments and related  assessment methods for determining the level of achievement of Standards of  Learning objectives by all students. First, the bill clarifies that students  who are children with disabilities, as that term is defined by applicable law,  who participate in alternative methods of Standards of Learning assessment  administration or in alternate assessments through the Virginia Alternate  Assessment Program are exempt from several requirements set forth in applicable  law relating to the administration and grading of Standards of Learning  assessments and related assessments. The bill also repeals the provisions  requiring the Board of Education (the Board) to  establish a through-year growth assessment system in lieu of a one-time  end-of-year assessment.  The bill also specifies the requirements for local alternative  assessments, including permissive local alternative assessments and mandatory  local alternative assessments administered pursuant to applicable law, by (i)  requiring each school board to ensure that (a) each such assessment consists  only of prompts or assessment items to which no student had access prior to the  assessment's administration and (b) any teacher participating in grading any  such assessment does not grade any assessment completed by a student that such  teacher taught in a class or subject area that school year; (ii) directing the  Board of Education to develop and make available to each school board by  September 1, 2026, best practices for grading and scoring such local  alternative assessments; and (iii) directing the Board to perform an annual  audit of a certain percentage of any mandatory local alternative assessments  implemented by the school board, consistent with the procedures and requirements  set forth in the bill. The bill also requires the Board to make available to  each school division each Standards of Learning assessment administered the  previous school year, subject to the requirements and limitations set forth in  the bill.  The provisions of the bill limiting the number of  end-of-course assessments that may be administered to students in grades seven  through 12 and requiring the score received by each student in grades seven  through 12 on an end-of-course assessment to account for at least 10 percent of  the student's final grade in such course have a delayed effective date of the  date on which a contract is awarded to an assessment vendor for the new  statewide assessment system, pursuant to applicable law, as certified by the Department  of Education.",
-    "last_action": "Referred to Committee on Education and Health",
-    "last_action_date": "1/9/2026",
-    "patron": "VanValkenburg",
+    "summary": "Driver privilege cards and permits; discontinued.  Discontinues the issuance of driver privilege cards and provides that any issued  driver privilege card is invalid as of July 1, 2026. The bill requires the Department  of Motor Vehicles to notify any person who has been issued a driver privilege card  that such driver privilege card is invalid.",
+    "last_action": "Committee Referral Pending",
+    "last_action_date": "1/13/2026",
+    "patron": "Garrett",
     "history": [
       {
-        "date": "1/9/2026",
-        "description": "S Prefiled and ordered printed; Offered 01-14-2026 26104348D"
-      },
-      {
-        "date": "1/9/2026",
-        "description": "S Referred to Committee on Education and Health"
-      }
-    ]
-  },
-  "SB33": {
-    "bill_number": "SB33",
-    "bill_url": "https://lis.virginia.gov/bill-details/20261/SB33",
-    "status": "Pending",
-    "summary": "Programs for at-risk students; permissible uses of funding. Includes as covered programs that are eligible for funding under the At-Risk Program initiatives to support both the physical and mental health of students in public schools, including the hiring of registered nurses and advanced practice registered nurses. The bill is a recommendation of the School Health Services Committee.",
-    "last_action": "Assigned Education sub: Public Education",
-    "last_action_date": "1/15/2026",
-    "patron": "Favola",
-    "history": [
-      {
-        "date": "11/19/2025",
-        "description": "S Prefiled and ordered printed; Offered 01-14-2026 26100144D"
-      },
-      {
-        "date": "11/19/2025",
-        "description": "S Referred to Committee on Education and Health"
-      },
-      {
-        "date": "1/15/2026",
-        "description": "S Assigned Education sub: Public Education"
+        "date": "1/13/2026",
+        "description": "H Prefiled and ordered printed; Offered 01-14-2026 26102108D"
       }
     ]
   }
