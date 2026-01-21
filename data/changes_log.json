@@ -373,5 +373,13 @@
     "message": "Started tracking SB351",
     "current_status": "In Committee",
     "timestamp": "2026-01-20T11:29:15.177282"
+  },
+  {
+    "bill": "HB126",
+    "type": "action_update",
+    "previous_action": "Assigned HMPPS sub: Subcommittee #2",
+    "current_action": "Assigned HPS sub: Subcommittee #2",
+    "message": "HB126 new action: Assigned HPS sub: Subcommittee #2",
+    "timestamp": "2026-01-21T08:23:08.575653"
   }
 ]
