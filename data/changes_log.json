@@ -381,5 +381,21 @@
     "current_action": "Assigned HPS sub: Subcommittee #2",
     "message": "HB126 new action: Assigned HPS sub: Subcommittee #2",
     "timestamp": "2026-01-21T08:23:08.575653"
+  },
+  {
+    "bill": "HB912",
+    "type": "action_update",
+    "previous_action": "Committee Referral Pending",
+    "current_action": "Referred to Committee on Education",
+    "message": "HB912 new action: Referred to Committee on Education",
+    "timestamp": "2026-01-22T08:23:14.219906"
+  },
+  {
+    "bill": "HB993",
+    "type": "action_update",
+    "previous_action": "Committee Referral Pending",
+    "current_action": "Referred to Committee on Transportation",
+    "message": "HB993 new action: Referred to Committee on Transportation",
+    "timestamp": "2026-01-22T08:23:14.219920"
   }
 ]
