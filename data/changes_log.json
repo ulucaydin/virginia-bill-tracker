@@ -397,5 +397,45 @@
     "current_action": "Referred to Committee on Transportation",
     "message": "HB993 new action: Referred to Committee on Transportation",
     "timestamp": "2026-01-22T08:23:14.219920"
+  },
+  {
+    "bill": "HB1161",
+    "type": "action_update",
+    "previous_action": "Committee Referral Pending",
+    "current_action": "Referred to Committee on General Laws",
+    "message": "HB1161 new action: Referred to Committee on General Laws",
+    "timestamp": "2026-01-23T08:22:15.688768"
+  },
+  {
+    "bill": "HB1260",
+    "type": "action_update",
+    "previous_action": "Committee Referral Pending",
+    "current_action": "Referred to Committee on Education",
+    "message": "HB1260 new action: Referred to Committee on Education",
+    "timestamp": "2026-01-23T08:22:15.688777"
+  },
+  {
+    "bill": "HB1264",
+    "type": "action_update",
+    "previous_action": "Committee Referral Pending",
+    "current_action": "Referred to Committee on Public Safety",
+    "message": "HB1264 new action: Referred to Committee on Public Safety",
+    "timestamp": "2026-01-23T08:22:15.688779"
+  },
+  {
+    "bill": "HB993",
+    "type": "status_change",
+    "previous_status": "In Committee",
+    "current_status": "Pending",
+    "message": "HB993 status changed: In Committee \u2192 Pending",
+    "timestamp": "2026-01-23T08:22:15.688785"
+  },
+  {
+    "bill": "HB993",
+    "type": "action_update",
+    "previous_action": "Referred to Committee on Transportation",
+    "current_action": "Assigned HTRAN sub: Department of Motor Vehicles",
+    "message": "HB993 new action: Assigned HTRAN sub: Department of Motor Vehicles",
+    "timestamp": "2026-01-23T08:22:15.688788"
   }
 ]

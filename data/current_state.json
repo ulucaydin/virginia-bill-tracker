@@ -4,13 +4,17 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1161",
     "status": "In Committee",
     "summary": "Government Data Collection and Dissemination Practices Act;  dissemination of personal information to federal government; civil penalties.  Provides that any agency or political subdivision of the Commonwealth shall only  disseminate personal information (i) to the extent necessary to comply with  state or federal law, including the federal Health Insurance Portability and  Accountability Act; (ii) to the extent necessary to carry out the  administration of a state or federal program pursuant to state or federal law;  (iii) to comply with a subpoena, court order, or administrative proceeding;  (iv) to the extent necessary to ensure fulfillment of the obligations of a  purchase or contract made in accordance with the Virginia Public Procurement  Act; or (v) when the data subject has given consent. The bill authorizes a  court, in the case of a willful and knowing violation, to subject a specific  public officer, appointee, or employee of any agency to civil penalties.",
-    "last_action": "Committee Referral Pending",
+    "last_action": "Referred to Committee on General Laws",
     "last_action_date": "1/14/2026",
     "patron": "Tran",
     "history": [
       {
         "date": "1/14/2026",
         "description": "H Prefiled and ordered printed; Offered 01-14-2026 26105209D"
+      },
+      {
+        "date": "1/14/2026",
+        "description": "H Referred to Committee on General Laws"
       }
     ]
   },
@@ -42,13 +46,17 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1260",
     "status": "In Committee",
     "summary": "Public elementary and secondary schools and public  institutions of higher education; certain federal immigration investigation and  enforcement activities; certain notifications and prohibitions. Requires, no  later than July 1, 2027, and subject to certain enumerated conditions and  requirements, (i) the written school crisis,  emergency management, and medical emergency response plan for each public  elementary or secondary school to include (a) a requirement  that whenever the division superintendent confirms that an individual is  present on the property of a public elementary or secondary school in the  school division to investigate compliance with, enforce, or assist in the  investigation for compliance with or enforcement of any federal civil  immigration law or any federal criminal immigration law that penalizes an  individual's presence in, entry or reentry into, or employment in the United  States, each school board employee at such school and the parents of each  student enrolled in such school shall be notified of such presence and (b) a  prohibition against any individual present on the property of a public  elementary or secondary school in the school division to investigate compliance  with, enforce, or assist in the investigation for compliance with or  enforcement of any federal civil immigration law or any federal criminal  immigration law that penalizes an individual's presence in, entry or reentry  into, or employment in the United States from accessing any nonpublic area of  such school property without a warrant signed by a judge or magistrate and (ii) each public institution of higher education to  (a) notify all students, faculty, and staff whenever the  institution confirms that an individual is present on campus to investigate  compliance with, enforce, or assist in the investigation for compliance with or  enforcement of any federal civil immigration law or any federal criminal  immigration law that penalizes an individual's presence in, entry or reentry into,  or employment in the United States and (b) prohibit  any individual present on campus to investigate compliance with, enforce, or  assist in the investigation for compliance with or enforcement of any federal  civil immigration law or any federal criminal immigration law that penalizes an  individual's presence in, entry or reentry into, or employment in the United  States from accessing any nonpublic area of campus without a warrant signed by  a judge or magistrate.",
-    "last_action": "Committee Referral Pending",
+    "last_action": "Referred to Committee on Education",
     "last_action_date": "1/14/2026",
     "patron": "Shin",
     "history": [
       {
         "date": "1/14/2026",
         "description": "H Prefiled and ordered printed; Offered 01-14-2026 26104922D"
+      },
+      {
+        "date": "1/14/2026",
+        "description": "H Referred to Committee on Education"
       }
     ]
   },
@@ -57,13 +65,17 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1264",
     "status": "In Committee",
     "summary": "Virginia Accountability Commission established. Creates  the Virginia Accountability Commission (the Commission).  The Commission shall (i) create a public record of the conduct of federal  agents and any federal military-style operations throughout the Commonwealth,  (ii) examine the impact of that conduct on individuals and communities, and  (iii) consider policy recommendations to prevent future harms to these  individuals and communities. The bill requires the Commission to provide, not  later than January 31, 2027, an initial status report outlining its findings  and recommendations to the Governor, and not later than April 30, 2027, any  supplementary reports the Commission deems appropriate. The bill provides that  the Commission shall be composed of a chair, vice-chair,  and up to seven additional members, for a total membership of up to nine  uncompensated members, as appointed by the Governor, the House of Delegates,  and the Senate. The bill also provides that the term of each Commission member  shall expire one year from the date of his  appointment, and Commissioners may be reappointed or replaced at the pleasure  of the appointing authority. Finally, the bill requires the Office of Civil  Rights with the Office of the Attorney General to provide administrative and  professional staff support to the operations of the Commission. The Commission  may also work with subject matter experts and non-profit organizations as it  deems appropriate.",
-    "last_action": "Committee Referral Pending",
+    "last_action": "Referred to Committee on Public Safety",
     "last_action_date": "1/14/2026",
     "patron": "Shin",
     "history": [
       {
         "date": "1/14/2026",
         "description": "H Prefiled and ordered printed; Offered 01-14-2026 26105283D"
+      },
+      {
+        "date": "1/14/2026",
+        "description": "H Referred to Committee on Public Safety"
       }
     ]
   },
@@ -135,12 +147,16 @@
   "HB993": {
     "bill_number": "HB993",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB993",
-    "status": "In Committee",
+    "status": "Pending",
     "summary": "Driver privilege cards and permits; discontinued.  Discontinues the issuance of driver privilege cards and provides that any issued  driver privilege card is invalid as of July 1, 2026. The bill requires the Department  of Motor Vehicles to notify any person who has been issued a driver privilege card  that such driver privilege card is invalid.",
-    "last_action": "Referred to Committee on Transportation",
-    "last_action_date": "1/13/2026",
+    "last_action": "Assigned HTRAN sub: Department of Motor Vehicles",
+    "last_action_date": "1/22/2026",
     "patron": "Garrett",
     "history": [
+      {
+        "date": "1/22/2026",
+        "description": "H Assigned HTRAN sub: Department of Motor Vehicles"
+      },
       {
         "date": "1/13/2026",
         "description": "H Prefiled and ordered printed; Offered 01-14-2026 26102108D"
