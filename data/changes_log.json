@@ -437,5 +437,42 @@
     "current_action": "Assigned HTRAN sub: Department of Motor Vehicles",
     "message": "HB993 new action: Assigned HTRAN sub: Department of Motor Vehicles",
     "timestamp": "2026-01-23T08:22:15.688788"
+  },
+  {
+    "bill": "HB1161",
+    "type": "status_change",
+    "previous_status": "In Committee",
+    "current_status": "Pending",
+    "message": "HB1161 status changed: In Committee \u2192 Pending",
+    "timestamp": "2026-01-26T11:11:48.512733"
+  },
+  {
+    "bill": "HB1161",
+    "type": "action_update",
+    "previous_action": "Referred to Committee on General Laws",
+    "current_action": "Assigned HGL sub: Procurement/Open Government",
+    "message": "HB1161 new action: Assigned HGL sub: Procurement/Open Government",
+    "timestamp": "2026-01-26T11:11:48.512743"
+  },
+  {
+    "bill": "HB1459",
+    "type": "new_tracking",
+    "message": "Started tracking HB1459",
+    "current_status": "In Committee",
+    "timestamp": "2026-01-26T11:11:48.512747"
+  },
+  {
+    "bill": "HB1482",
+    "type": "new_tracking",
+    "message": "Started tracking HB1482",
+    "current_status": "In Committee",
+    "timestamp": "2026-01-26T11:11:48.512748"
+  },
+  {
+    "bill": "HB1492",
+    "type": "new_tracking",
+    "message": "Started tracking HB1492",
+    "current_status": "Pending",
+    "timestamp": "2026-01-26T11:11:48.512749"
   }
 ]

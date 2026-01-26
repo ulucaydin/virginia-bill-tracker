@@ -2,10 +2,10 @@
   "HB1161": {
     "bill_number": "HB1161",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1161",
-    "status": "In Committee",
+    "status": "Pending",
     "summary": "Government Data Collection and Dissemination Practices Act;  dissemination of personal information to federal government; civil penalties.  Provides that any agency or political subdivision of the Commonwealth shall only  disseminate personal information (i) to the extent necessary to comply with  state or federal law, including the federal Health Insurance Portability and  Accountability Act; (ii) to the extent necessary to carry out the  administration of a state or federal program pursuant to state or federal law;  (iii) to comply with a subpoena, court order, or administrative proceeding;  (iv) to the extent necessary to ensure fulfillment of the obligations of a  purchase or contract made in accordance with the Virginia Public Procurement  Act; or (v) when the data subject has given consent. The bill authorizes a  court, in the case of a willful and knowing violation, to subject a specific  public officer, appointee, or employee of any agency to civil penalties.",
-    "last_action": "Referred to Committee on General Laws",
-    "last_action_date": "1/14/2026",
+    "last_action": "Assigned HGL sub: Procurement/Open Government",
+    "last_action_date": "1/26/2026",
     "patron": "Tran",
     "history": [
       {
@@ -76,6 +76,55 @@
       {
         "date": "1/14/2026",
         "description": "H Referred to Committee on Public Safety"
+      }
+    ]
+  },
+  "HB1459": {
+    "bill_number": "HB1459",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1459",
+    "status": "In Committee",
+    "summary": "Ice-Free Communities Act; notification  to federal immigration authorities of pending release of certain persons from  custody.",
+    "last_action": "Committee Referral Pending",
+    "last_action_date": "1/23/2026",
+    "patron": "Zehr",
+    "history": [
+      {
+        "date": "1/23/2026",
+        "description": "H Presented and ordered printed 26106083D"
+      }
+    ]
+  },
+  "HB1482": {
+    "bill_number": "HB1482",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1482",
+    "status": "In Committee",
+    "summary": "Law-enforcement officers; restrictions on wearing of facial  coverings; required identification; exceptions; civil liability; penalty. Prohibits  state and local law-enforcement officers from wearing facial coverings, defined  in the bill, while engaged in the performance of their official duties. The  bill sets out several exceptions to such prohibition, including protective  facial coverings to protect against disease, infection, and exposure to toxic  substances and facial coverings worn by any  law-enforcement officer assigned to a special weapons and tactics team while  engaged in the performance of his official duties with such team. The bill subjects the law-enforcement officer to disciplinary action,  including dismissal, demotion, suspension, transfer, or decertification. The  bill also requires law-enforcement officers to visibly display certain  identification while engaged in the performance of their duties and creates  a Class 1 misdemeanor for any law-enforcement officer who wears a facial  covering or fails to visibly display such identification in violation of the  provisions of the bill. Finally, the bill creates a civil cause of action for  any person injured as a result of tortious conduct by a law-enforcement officer  who knowingly and intentionally wears a facial covering in violation of the  provisions of the bill. The bill provides that sovereign immunity shall not be  a defense to civil liability for such tortious conduct.",
+    "last_action": "Committee Referral Pending",
+    "last_action_date": "1/23/2026",
+    "patron": "Schmidt",
+    "history": [
+      {
+        "date": "1/23/2026",
+        "description": "H Presented and ordered printed 26105678D"
+      }
+    ]
+  },
+  "HB1492": {
+    "bill_number": "HB1492",
+    "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1492",
+    "status": "Pending",
+    "summary": "Impersonating federal law-enforcement officer; penalties. Increases from a Class 1 misdemeanor to a  Class 6 felony the penalty for impersonating a federal law-enforcement officer  and increases the penalty for a second or subsequent violation from a Class 6  felony to a Class 5 felony.",
+    "last_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1492)",
+    "last_action_date": "1/26/2026",
+    "patron": "Shin",
+    "history": [
+      {
+        "date": "1/23/2026",
+        "description": "H Presented and ordered printed 26105681D"
+      },
+      {
+        "date": "1/23/2026",
+        "description": "H Fiscal Impact statement From VCSC (1/23/2026 3:11 pm)"
       }
     ]
   },
