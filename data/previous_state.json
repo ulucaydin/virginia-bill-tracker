@@ -9,6 +9,14 @@
     "patron": "Tran",
     "history": [
       {
+        "date": "1/26/2026",
+        "description": "H Assigned HGL sub: Procurement/Open Government"
+      },
+      {
+        "date": "1/26/2026",
+        "description": "H Placed on General Laws Agenda"
+      },
+      {
         "date": "1/14/2026",
         "description": "H Prefiled and ordered printed; Offered 01-14-2026 26105209D"
       },
@@ -119,6 +127,10 @@
     "patron": "Shin",
     "history": [
       {
+        "date": "1/26/2026",
+        "description": "H Fiscal Impact Statement from Department of Planning and Budget (HB1492)"
+      },
+      {
         "date": "1/23/2026",
         "description": "H Presented and ordered printed 26105681D"
       },
@@ -202,6 +214,10 @@
     "last_action_date": "1/22/2026",
     "patron": "Garrett",
     "history": [
+      {
+        "date": "1/26/2026",
+        "description": "H Placed on Transportation Agenda"
+      },
       {
         "date": "1/22/2026",
         "description": "H Assigned HTRAN sub: Department of Motor Vehicles"
