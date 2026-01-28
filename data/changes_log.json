@@ -474,5 +474,53 @@
     "message": "Started tracking HB1492",
     "current_status": "Pending",
     "timestamp": "2026-01-26T11:11:48.512749"
+  },
+  {
+    "bill": "HB1161",
+    "type": "action_update",
+    "previous_action": "Assigned HGL sub: Procurement/Open Government",
+    "current_action": "Subcommittee recommends reporting (7-Y 3-N)",
+    "message": "HB1161 new action: Subcommittee recommends reporting (7-Y 3-N)",
+    "timestamp": "2026-01-28T08:24:48.530738"
+  },
+  {
+    "bill": "HB1260",
+    "type": "status_change",
+    "previous_status": "In Committee",
+    "current_status": "Pending",
+    "message": "HB1260 status changed: In Committee \u2192 Pending",
+    "timestamp": "2026-01-28T08:24:48.530749"
+  },
+  {
+    "bill": "HB1260",
+    "type": "action_update",
+    "previous_action": "Referred to Committee on Education",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1260)",
+    "message": "HB1260 new action: Fiscal Impact Statement from Department of Planning and Budget (HB1260)",
+    "timestamp": "2026-01-28T08:24:48.530752"
+  },
+  {
+    "bill": "HB1459",
+    "type": "action_update",
+    "previous_action": "Committee Referral Pending",
+    "current_action": "Referred to Committee on Public Safety",
+    "message": "HB1459 new action: Referred to Committee on Public Safety",
+    "timestamp": "2026-01-28T08:24:48.530755"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "Committee Referral Pending",
+    "current_action": "Referred to Committee on Public Safety",
+    "message": "HB1482 new action: Referred to Committee on Public Safety",
+    "timestamp": "2026-01-28T08:24:48.530756"
+  },
+  {
+    "bill": "HB993",
+    "type": "action_update",
+    "previous_action": "Assigned HTRAN sub: Department of Motor Vehicles",
+    "current_action": "Subcommittee recommends laying on the table (6-Y 4-N)",
+    "message": "HB993 new action: Subcommittee recommends laying on the table (6-Y 4-N)",
+    "timestamp": "2026-01-28T08:24:48.530762"
   }
 ]
