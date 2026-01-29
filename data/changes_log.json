@@ -522,5 +522,77 @@
     "current_action": "Subcommittee recommends laying on the table (6-Y 4-N)",
     "message": "HB993 new action: Subcommittee recommends laying on the table (6-Y 4-N)",
     "timestamp": "2026-01-28T08:24:48.530762"
+  },
+  {
+    "bill": "HB126",
+    "type": "action_update",
+    "previous_action": "Assigned HPS sub: Subcommittee #2",
+    "current_action": "Subcommittee recommends reporting",
+    "message": "HB126 new action: Subcommittee recommends reporting",
+    "timestamp": "2026-01-29T08:30:36.705627"
+  },
+  {
+    "bill": "HB1459",
+    "type": "status_change",
+    "previous_status": "In Committee",
+    "current_status": "Pending",
+    "message": "HB1459 status changed: In Committee \u2192 Pending",
+    "timestamp": "2026-01-29T08:30:36.705640"
+  },
+  {
+    "bill": "HB1459",
+    "type": "action_update",
+    "previous_action": "Referred to Committee on Public Safety",
+    "current_action": "Assigned HMPPS sub: Subcommittee #3",
+    "message": "HB1459 new action: Assigned HMPPS sub: Subcommittee #3",
+    "timestamp": "2026-01-29T08:30:36.705643"
+  },
+  {
+    "bill": "HB1482",
+    "type": "status_change",
+    "previous_status": "In Committee",
+    "current_status": "Pending",
+    "message": "HB1482 status changed: In Committee \u2192 Pending",
+    "timestamp": "2026-01-29T08:30:36.705644"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "Referred to Committee on Public Safety",
+    "current_action": "Assigned HMPPS sub: Subcommittee #3",
+    "message": "HB1482 new action: Assigned HMPPS sub: Subcommittee #3",
+    "timestamp": "2026-01-29T08:30:36.705646"
+  },
+  {
+    "bill": "HB1492",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1492)",
+    "current_action": "Assigned HMPPS sub: Subcommittee #3",
+    "message": "HB1492 new action: Assigned HMPPS sub: Subcommittee #3",
+    "timestamp": "2026-01-29T08:30:36.705648"
+  },
+  {
+    "bill": "HB650",
+    "type": "action_update",
+    "previous_action": "Referred to Committee for Courts of Justice",
+    "current_action": "Referred from Courts of Justice and referred to Public Safety (Voice Vote)",
+    "message": "HB650 new action: Referred from Courts of Justice and referred to Public Safety (Voice Vote)",
+    "timestamp": "2026-01-29T08:30:36.705652"
+  },
+  {
+    "bill": "SB351",
+    "type": "status_change",
+    "previous_status": "In Committee",
+    "current_status": "Pending",
+    "message": "SB351 status changed: In Committee \u2192 Pending",
+    "timestamp": "2026-01-29T08:30:36.705655"
+  },
+  {
+    "bill": "SB351",
+    "type": "action_update",
+    "previous_action": "Referred to Committee for Courts of Justice",
+    "current_action": "Senate committee offered",
+    "message": "SB351 new action: Senate committee offered",
+    "timestamp": "2026-01-29T08:30:36.705657"
   }
 ]
