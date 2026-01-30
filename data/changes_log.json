@@ -594,5 +594,61 @@
     "current_action": "Senate committee offered",
     "message": "SB351 new action: Senate committee offered",
     "timestamp": "2026-01-29T08:30:36.705657"
+  },
+  {
+    "bill": "HB1161",
+    "type": "action_update",
+    "previous_action": "Subcommittee recommends reporting (7-Y 3-N)",
+    "current_action": "Reported from General Laws (15-Y 6-N)",
+    "message": "HB1161 new action: Reported from General Laws (15-Y 6-N)",
+    "timestamp": "2026-01-30T08:29:12.854002"
+  },
+  {
+    "bill": "HB126",
+    "type": "action_update",
+    "previous_action": "Subcommittee recommends reporting",
+    "current_action": "Subcommittee recommends reporting (7-Y 0-N)",
+    "message": "HB126 new action: Subcommittee recommends reporting (7-Y 0-N)",
+    "timestamp": "2026-01-30T08:29:12.854013"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "Assigned HMPPS sub: Subcommittee #3",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1482)",
+    "message": "HB1482 new action: Fiscal Impact Statement from Department of Planning and Budget (HB1482)",
+    "timestamp": "2026-01-30T08:29:12.854017"
+  },
+  {
+    "bill": "HB650",
+    "type": "status_change",
+    "previous_status": "In Committee",
+    "current_status": "Pending",
+    "message": "HB650 status changed: In Committee \u2192 Pending",
+    "timestamp": "2026-01-30T08:29:12.854023"
+  },
+  {
+    "bill": "HB650",
+    "type": "action_update",
+    "previous_action": "Referred from Courts of Justice and referred to Public Safety (Voice Vote)",
+    "current_action": "Assigned HMPPS sub: Subcommittee #3",
+    "message": "HB650 new action: Assigned HMPPS sub: Subcommittee #3",
+    "timestamp": "2026-01-30T08:29:12.854026"
+  },
+  {
+    "bill": "HB912",
+    "type": "status_change",
+    "previous_status": "In Committee",
+    "current_status": "Pending",
+    "message": "HB912 status changed: In Committee \u2192 Pending",
+    "timestamp": "2026-01-30T08:29:12.854028"
+  },
+  {
+    "bill": "HB912",
+    "type": "action_update",
+    "previous_action": "Referred to Committee on Education",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB912)",
+    "message": "HB912 new action: Fiscal Impact Statement from Department of Planning and Budget (HB912)",
+    "timestamp": "2026-01-30T08:29:12.854030"
   }
 ]
