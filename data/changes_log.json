@@ -650,5 +650,21 @@
     "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB912)",
     "message": "HB912 new action: Fiscal Impact Statement from Department of Planning and Budget (HB912)",
     "timestamp": "2026-01-30T08:29:12.854030"
+  },
+  {
+    "bill": "HB126",
+    "type": "action_update",
+    "previous_action": "Subcommittee recommends reporting (7-Y 0-N)",
+    "current_action": "House committee offered",
+    "message": "HB126 new action: House committee offered",
+    "timestamp": "2026-01-31T08:21:17.837172"
+  },
+  {
+    "bill": "SB351",
+    "type": "action_update",
+    "previous_action": "Senate committee offered",
+    "current_action": "Passed by for the day  Block Vote (Voice Vote)",
+    "message": "SB351 new action: Passed by for the day  Block Vote (Voice Vote)",
+    "timestamp": "2026-01-31T08:21:17.837188"
   }
 ]

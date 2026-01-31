@@ -43,10 +43,22 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB126",
     "status": "Pending",
     "summary": "Local, regional, and community correctional facilities;  access to counsel for inmates. Requires the State Board of Local and  Regional Jails to establish additional standards no later than January 1, 2027,  to ensure access to legal counsel for inmates held in any local, regional, or  community correctional facility and enumerates the standards that the Board  shall include in such additional standards.",
-    "last_action": "Subcommittee recommends reporting (7-Y 0-N)",
-    "last_action_date": "1/29/2026",
+    "last_action": "House committee offered",
+    "last_action_date": "1/30/2026",
     "patron": "Callsen",
     "history": [
+      {
+        "date": "1/30/2026",
+        "description": "H Reported from Public Safety with amendment(s) (17-Y 4-N)"
+      },
+      {
+        "date": "1/30/2026",
+        "description": "H House committee offered"
+      },
+      {
+        "date": "1/30/2026",
+        "description": "H House committee offered"
+      },
       {
         "date": "1/29/2026",
         "description": "H Subcommittee recommends reporting (7-Y 0-N)"
@@ -82,6 +94,10 @@
     "last_action_date": "1/28/2026",
     "patron": "Shin",
     "history": [
+      {
+        "date": "1/30/2026",
+        "description": "H Placed on Education Agenda"
+      },
       {
         "date": "1/28/2026",
         "description": "H Fiscal Impact Statement from Department of Planning and Budget (HB1260)"
@@ -313,10 +329,22 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/SB351",
     "status": "Pending",
     "summary": "Certain civil arrests prohibited in courthouses; penalty. Provides  that a party who is required to attend any court of the Commonwealth, or such  party's family or household member or person attending the court with such party  to serve as a witness, shall be privileged from civil arrest, defined in the  bill, while attending, going to, or coming from the court. The bill also  prohibits a person with the lawful authority to perform civil arrests from  entering a courthouse to conduct a civil arrest unless he complies with certain  requirements, including presenting a judicial warrant or judicial order  authorizing the civil arrest to the appropriate courthouse officer or employee.  Additionally, the bill requires that any judicial warrant or judicial order  authorizing the civil arrest be reviewed by a designated judicial officer or  attorney before a civil arrest pursuant to such warrant or order can be  performed. Finally, the bill provides that any person who conducts a civil arrest,  or facilitates or assists with the performance of, a civil arrest in violation  of the provisions of the bill shall be punished with contempt of court.",
-    "last_action": "Senate committee offered",
-    "last_action_date": "1/28/2026",
+    "last_action": "Passed by for the day  Block Vote (Voice Vote)",
+    "last_action_date": "1/30/2026",
     "patron": "Salim",
     "history": [
+      {
+        "date": "1/30/2026",
+        "description": "S Rules suspended"
+      },
+      {
+        "date": "1/30/2026",
+        "description": "S Constitutional reading dispensed  Block Vote (on 1st reading) (38-Y 0-N 0-A)"
+      },
+      {
+        "date": "1/30/2026",
+        "description": "S Passed by for the day  Block Vote (Voice Vote)"
+      },
       {
         "date": "1/28/2026",
         "description": "S Senate committee offered"
