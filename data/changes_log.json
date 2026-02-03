@@ -666,5 +666,61 @@
     "current_action": "Passed by for the day  Block Vote (Voice Vote)",
     "message": "SB351 new action: Passed by for the day  Block Vote (Voice Vote)",
     "timestamp": "2026-01-31T08:21:17.837188"
+  },
+  {
+    "bill": "HB1161",
+    "type": "action_update",
+    "previous_action": "Reported from General Laws (15-Y 6-N)",
+    "current_action": "Read first time",
+    "message": "HB1161 new action: Read first time",
+    "timestamp": "2026-02-03T08:32:07.817295"
+  },
+  {
+    "bill": "HB1260",
+    "type": "status_change",
+    "previous_status": "Pending",
+    "current_status": "In Committee",
+    "message": "HB1260 status changed: Pending \u2192 In Committee",
+    "timestamp": "2026-02-03T08:32:07.817309"
+  },
+  {
+    "bill": "HB1260",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1260)",
+    "current_action": "Referred from Education and referred to Public Safety (Voice Vote)",
+    "message": "HB1260 new action: Referred from Education and referred to Public Safety (Voice Vote)",
+    "timestamp": "2026-02-03T08:32:07.817312"
+  },
+  {
+    "bill": "HB1459",
+    "type": "action_update",
+    "previous_action": "Assigned HMPPS sub: Subcommittee #3",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1459)",
+    "message": "HB1459 new action: Fiscal Impact Statement from Department of Planning and Budget (HB1459)",
+    "timestamp": "2026-02-03T08:32:07.817314"
+  },
+  {
+    "bill": "HB650",
+    "type": "action_update",
+    "previous_action": "Assigned HMPPS sub: Subcommittee #3",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB650)",
+    "message": "HB650 new action: Fiscal Impact Statement from Department of Planning and Budget (HB650)",
+    "timestamp": "2026-02-03T08:32:07.817320"
+  },
+  {
+    "bill": "SB351",
+    "type": "status_change",
+    "previous_status": "Pending",
+    "current_status": "In Committee",
+    "message": "SB351 status changed: Pending \u2192 In Committee",
+    "timestamp": "2026-02-03T08:32:07.817324"
+  },
+  {
+    "bill": "SB351",
+    "type": "action_update",
+    "previous_action": "Passed by for the day  Block Vote (Voice Vote)",
+    "current_action": "Committee substitute agreed to (Voice Vote)",
+    "message": "SB351 new action: Committee substitute agreed to (Voice Vote)",
+    "timestamp": "2026-02-03T08:32:07.817326"
   }
 ]
