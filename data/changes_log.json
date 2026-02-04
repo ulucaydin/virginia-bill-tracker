@@ -722,5 +722,69 @@
     "current_action": "Committee substitute agreed to (Voice Vote)",
     "message": "SB351 new action: Committee substitute agreed to (Voice Vote)",
     "timestamp": "2026-02-03T08:32:07.817326"
+  },
+  {
+    "bill": "HB1161",
+    "type": "action_update",
+    "previous_action": "Read first time",
+    "current_action": "Delegate Williams Floor amendments passed by (62-Y 34-N 0-A)",
+    "message": "HB1161 new action: Delegate Williams Floor amendments passed by (62-Y 34-N 0-A)",
+    "timestamp": "2026-02-04T08:32:26.565428"
+  },
+  {
+    "bill": "HB126",
+    "type": "action_update",
+    "previous_action": "House committee offered",
+    "current_action": "Read first time",
+    "message": "HB126 new action: Read first time",
+    "timestamp": "2026-02-04T08:32:26.565440"
+  },
+  {
+    "bill": "HB1260",
+    "type": "status_change",
+    "previous_status": "In Committee",
+    "current_status": "Pending",
+    "message": "HB1260 status changed: In Committee \u2192 Pending",
+    "timestamp": "2026-02-04T08:32:26.565443"
+  },
+  {
+    "bill": "HB1260",
+    "type": "action_update",
+    "previous_action": "Referred from Education and referred to Public Safety (Voice Vote)",
+    "current_action": "Assigned HMPPS sub: Subcommittee #3",
+    "message": "HB1260 new action: Assigned HMPPS sub: Subcommittee #3",
+    "timestamp": "2026-02-04T08:32:26.565444"
+  },
+  {
+    "bill": "HB1264",
+    "type": "status_change",
+    "previous_status": "In Committee",
+    "current_status": "Pending",
+    "message": "HB1264 status changed: In Committee \u2192 Pending",
+    "timestamp": "2026-02-04T08:32:26.565446"
+  },
+  {
+    "bill": "HB1264",
+    "type": "action_update",
+    "previous_action": "Referred to Committee on Public Safety",
+    "current_action": "Assigned HMPPS sub: Subcommittee #3",
+    "message": "HB1264 new action: Assigned HMPPS sub: Subcommittee #3",
+    "timestamp": "2026-02-04T08:32:26.565448"
+  },
+  {
+    "bill": "SB351",
+    "type": "status_change",
+    "previous_status": "In Committee",
+    "current_status": "Passed Senate",
+    "message": "SB351 status changed: In Committee \u2192 Passed Senate",
+    "timestamp": "2026-02-04T08:32:26.565455"
+  },
+  {
+    "bill": "SB351",
+    "type": "action_update",
+    "previous_action": "Committee substitute agreed to (Voice Vote)",
+    "current_action": "Read third time and passed Senate (21-Y 18-N 0-A)",
+    "message": "SB351 new action: Read third time and passed Senate (21-Y 18-N 0-A)",
+    "timestamp": "2026-02-04T08:32:26.565457"
   }
 ]
