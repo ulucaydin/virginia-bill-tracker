@@ -4,10 +4,14 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1161",
     "status": "Pending",
     "summary": "Government Data Collection and Dissemination Practices Act;  dissemination of personal information to federal government; civil penalties.  Provides that any agency or political subdivision of the Commonwealth shall only  disseminate personal information (i) to the extent necessary to comply with  state or federal law, including the federal Health Insurance Portability and  Accountability Act; (ii) to the extent necessary to carry out the  administration of a state or federal program pursuant to state or federal law;  (iii) to comply with a subpoena, court order, or administrative proceeding;  (iv) to the extent necessary to ensure fulfillment of the obligations of a  purchase or contract made in accordance with the Virginia Public Procurement  Act; or (v) when the data subject has given consent. The bill authorizes a  court, in the case of a willful and knowing violation, to subject a specific  public officer, appointee, or employee of any agency to civil penalties.",
-    "last_action": "Delegate Williams Floor amendments passed by (62-Y 34-N 0-A)",
-    "last_action_date": "2/3/2026",
+    "last_action": "Passed by for the day",
+    "last_action_date": "2/4/2026",
     "patron": "Tran",
     "history": [
+      {
+        "date": "2/4/2026",
+        "description": "H Passed by for the day"
+      },
       {
         "date": "2/3/2026",
         "description": "H Passed by temporarily"
@@ -19,10 +23,6 @@
       {
         "date": "2/3/2026",
         "description": "H Delegate Williams Floor amendments passed by (62-Y 34-N 0-A)"
-      },
-      {
-        "date": "2/3/2026",
-        "description": "H Engrossed by House"
       },
       {
         "date": "2/2/2026",
@@ -63,10 +63,22 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB126",
     "status": "Pending",
     "summary": "Local, regional, and community correctional facilities;  access to counsel for inmates. Requires the State Board of Local and  Regional Jails to establish additional standards no later than January 1, 2027,  to ensure access to legal counsel for inmates held in any local, regional, or  community correctional facility and enumerates the standards that the Board  shall include in such additional standards.",
-    "last_action": "Read first time",
-    "last_action_date": "2/3/2026",
+    "last_action": "Engrossed by House as amended",
+    "last_action_date": "2/4/2026",
     "patron": "Callsen",
     "history": [
+      {
+        "date": "2/4/2026",
+        "description": "H Read second time"
+      },
+      {
+        "date": "2/4/2026",
+        "description": "H committee amendments agreed to"
+      },
+      {
+        "date": "2/4/2026",
+        "description": "H Engrossed by House as amended"
+      },
       {
         "date": "2/3/2026",
         "description": "H Read first time"

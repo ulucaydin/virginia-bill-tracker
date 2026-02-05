@@ -786,5 +786,21 @@
     "current_action": "Read third time and passed Senate (21-Y 18-N 0-A)",
     "message": "SB351 new action: Read third time and passed Senate (21-Y 18-N 0-A)",
     "timestamp": "2026-02-04T08:32:26.565457"
+  },
+  {
+    "bill": "HB1161",
+    "type": "action_update",
+    "previous_action": "Delegate Williams Floor amendments passed by (62-Y 34-N 0-A)",
+    "current_action": "Passed by for the day",
+    "message": "HB1161 new action: Passed by for the day",
+    "timestamp": "2026-02-05T08:33:44.151037"
+  },
+  {
+    "bill": "HB126",
+    "type": "action_update",
+    "previous_action": "Read first time",
+    "current_action": "Engrossed by House as amended",
+    "message": "HB126 new action: Engrossed by House as amended",
+    "timestamp": "2026-02-05T08:33:44.151048"
   }
 ]
