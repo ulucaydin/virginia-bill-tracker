@@ -802,5 +802,69 @@
     "current_action": "Engrossed by House as amended",
     "message": "HB126 new action: Engrossed by House as amended",
     "timestamp": "2026-02-05T08:33:44.151048"
+  },
+  {
+    "bill": "HB126",
+    "type": "status_change",
+    "previous_status": "Pending",
+    "current_status": "Passed House",
+    "message": "HB126 status changed: Pending \u2192 Passed House",
+    "timestamp": "2026-02-06T08:31:39.075936"
+  },
+  {
+    "bill": "HB126",
+    "type": "action_update",
+    "previous_action": "Engrossed by House as amended",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB126)",
+    "message": "HB126 new action: Fiscal Impact Statement from Department of Planning and Budget (HB126)",
+    "timestamp": "2026-02-06T08:31:39.075947"
+  },
+  {
+    "bill": "HB1260",
+    "type": "action_update",
+    "previous_action": "Assigned HMPPS sub: Subcommittee #3",
+    "current_action": "Subcommittee recommends incorporating into HB650-Callsen (Voice Vote)",
+    "message": "HB1260 new action: Subcommittee recommends incorporating into HB650-Callsen (Voice Vote)",
+    "timestamp": "2026-02-06T08:31:39.075949"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1482)",
+    "current_action": "House subcommittee offered",
+    "message": "HB1482 new action: House subcommittee offered",
+    "timestamp": "2026-02-06T08:31:39.075953"
+  },
+  {
+    "bill": "HB1492",
+    "type": "action_update",
+    "previous_action": "Assigned HMPPS sub: Subcommittee #3",
+    "current_action": "House subcommittee offered",
+    "message": "HB1492 new action: House subcommittee offered",
+    "timestamp": "2026-02-06T08:31:39.075970"
+  },
+  {
+    "bill": "HB650",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB650)",
+    "current_action": "House subcommittee offered",
+    "message": "HB650 new action: House subcommittee offered",
+    "timestamp": "2026-02-06T08:31:39.075975"
+  },
+  {
+    "bill": "HB912",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB912)",
+    "current_action": "Assigned HED sub: K-12 Subcommittee",
+    "message": "HB912 new action: Assigned HED sub: K-12 Subcommittee",
+    "timestamp": "2026-02-06T08:31:39.075978"
+  },
+  {
+    "bill": "SB351",
+    "type": "action_update",
+    "previous_action": "Read third time and passed Senate (21-Y 18-N 0-A)",
+    "current_action": "Read first time",
+    "message": "SB351 new action: Read first time",
+    "timestamp": "2026-02-06T08:31:39.075981"
   }
 ]
