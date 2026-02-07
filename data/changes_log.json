@@ -866,5 +866,69 @@
     "current_action": "Read first time",
     "message": "SB351 new action: Read first time",
     "timestamp": "2026-02-06T08:31:39.075981"
+  },
+  {
+    "bill": "HB126",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB126)",
+    "current_action": "Referred to Committee on Rehabilitation and Social Services",
+    "message": "HB126 new action: Referred to Committee on Rehabilitation and Social Services",
+    "timestamp": "2026-02-07T08:22:23.366105"
+  },
+  {
+    "bill": "HB1260",
+    "type": "action_update",
+    "previous_action": "Subcommittee recommends incorporating into HB650-Callsen (Voice Vote)",
+    "current_action": "Incorporated by Public Safety (HB650-Callsen)  (Voice Vote)",
+    "message": "HB1260 new action: Incorporated by Public Safety (HB650-Callsen)  (Voice Vote)",
+    "timestamp": "2026-02-07T08:22:23.366117"
+  },
+  {
+    "bill": "HB1264",
+    "type": "status_change",
+    "previous_status": "Pending",
+    "current_status": "Continued",
+    "message": "HB1264 status changed: Pending \u2192 Continued",
+    "timestamp": "2026-02-07T08:22:23.366119"
+  },
+  {
+    "bill": "HB1264",
+    "type": "action_update",
+    "previous_action": "Assigned HMPPS sub: Subcommittee #3",
+    "current_action": "Continued to next session in Public Safety (Voice Vote)",
+    "message": "HB1264 new action: Continued to next session in Public Safety (Voice Vote)",
+    "timestamp": "2026-02-07T08:22:23.366121"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "House subcommittee offered",
+    "current_action": "Reported from Public Safety with amendment(s) (15-Y 7-N)",
+    "message": "HB1482 new action: Reported from Public Safety with amendment(s) (15-Y 7-N)",
+    "timestamp": "2026-02-07T08:22:23.366124"
+  },
+  {
+    "bill": "HB1492",
+    "type": "action_update",
+    "previous_action": "House subcommittee offered",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1492)",
+    "message": "HB1492 new action: Fiscal Impact Statement from Department of Planning and Budget (HB1492)",
+    "timestamp": "2026-02-07T08:22:23.366125"
+  },
+  {
+    "bill": "HB650",
+    "type": "status_change",
+    "previous_status": "Pending",
+    "current_status": "In Committee",
+    "message": "HB650 status changed: Pending \u2192 In Committee",
+    "timestamp": "2026-02-07T08:22:23.366129"
+  },
+  {
+    "bill": "HB650",
+    "type": "action_update",
+    "previous_action": "House subcommittee offered",
+    "current_action": "Committee substitute printed 26107314D-H1",
+    "message": "HB650 new action: Committee substitute printed 26107314D-H1",
+    "timestamp": "2026-02-07T08:22:23.366131"
   }
 ]
