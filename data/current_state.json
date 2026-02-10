@@ -9,6 +9,10 @@
     "patron": "Tran",
     "history": [
       {
+        "date": "2/9/2026",
+        "description": "H Passed by for the day"
+      },
+      {
         "date": "2/6/2026",
         "description": "H Passed by for the day"
       },
@@ -487,6 +491,10 @@
     "last_action_date": "2/5/2026",
     "patron": "Lopez",
     "history": [
+      {
+        "date": "2/9/2026",
+        "description": "H Placed on Education Agenda"
+      },
       {
         "date": "2/5/2026",
         "description": "H Assigned HED sub: K-12 Subcommittee"
