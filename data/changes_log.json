@@ -930,5 +930,45 @@
     "current_action": "Committee substitute printed 26107314D-H1",
     "message": "HB650 new action: Committee substitute printed 26107314D-H1",
     "timestamp": "2026-02-07T08:22:23.366131"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "Reported from Public Safety with amendment(s) (15-Y 7-N)",
+    "current_action": "Read first time",
+    "message": "HB1482 new action: Read first time",
+    "timestamp": "2026-02-11T08:37:21.583955"
+  },
+  {
+    "bill": "HB1492",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1492)",
+    "current_action": "Read first time",
+    "message": "HB1492 new action: Read first time",
+    "timestamp": "2026-02-11T08:37:21.583966"
+  },
+  {
+    "bill": "HB650",
+    "type": "status_change",
+    "previous_status": "In Committee",
+    "current_status": "Pending",
+    "message": "HB650 status changed: In Committee \u2192 Pending",
+    "timestamp": "2026-02-11T08:37:21.583993"
+  },
+  {
+    "bill": "HB650",
+    "type": "action_update",
+    "previous_action": "Committee substitute printed 26107314D-H1",
+    "current_action": "Read first time",
+    "message": "HB650 new action: Read first time",
+    "timestamp": "2026-02-11T08:37:21.583996"
+  },
+  {
+    "bill": "HB912",
+    "type": "action_update",
+    "previous_action": "Assigned HED sub: K-12 Subcommittee",
+    "current_action": "Subcommittee recommends incorporating (Voice Vote)",
+    "message": "HB912 new action: Subcommittee recommends incorporating (Voice Vote)",
+    "timestamp": "2026-02-11T08:37:21.583999"
   }
 ]
