@@ -970,5 +970,45 @@
     "current_action": "Subcommittee recommends incorporating (Voice Vote)",
     "message": "HB912 new action: Subcommittee recommends incorporating (Voice Vote)",
     "timestamp": "2026-02-11T08:37:21.583999"
+  },
+  {
+    "bill": "HB1161",
+    "type": "action_update",
+    "previous_action": "Passed by for the day",
+    "current_action": "Read second time and engrossed",
+    "message": "HB1161 new action: Read second time and engrossed",
+    "timestamp": "2026-02-12T08:37:05.689013"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "Read first time",
+    "current_action": "Engrossed by House as amended",
+    "message": "HB1482 new action: Engrossed by House as amended",
+    "timestamp": "2026-02-12T08:37:05.689029"
+  },
+  {
+    "bill": "HB1492",
+    "type": "action_update",
+    "previous_action": "Read first time",
+    "current_action": "Engrossed by House - committee substitute",
+    "message": "HB1492 new action: Engrossed by House - committee substitute",
+    "timestamp": "2026-02-12T08:37:05.689031"
+  },
+  {
+    "bill": "HB650",
+    "type": "action_update",
+    "previous_action": "Read first time",
+    "current_action": "Engrossed by House - committee substitute",
+    "message": "HB650 new action: Engrossed by House - committee substitute",
+    "timestamp": "2026-02-12T08:37:05.689037"
+  },
+  {
+    "bill": "HB912",
+    "type": "action_update",
+    "previous_action": "Subcommittee recommends incorporating (Voice Vote)",
+    "current_action": "Incorporated by Education (HB836-Rasoul)  (Voice Vote)",
+    "message": "HB912 new action: Incorporated by Education (HB836-Rasoul)  (Voice Vote)",
+    "timestamp": "2026-02-12T08:37:05.689040"
   }
 ]
