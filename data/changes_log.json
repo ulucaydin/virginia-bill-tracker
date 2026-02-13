@@ -1010,5 +1010,69 @@
     "current_action": "Incorporated by Education (HB836-Rasoul)  (Voice Vote)",
     "message": "HB912 new action: Incorporated by Education (HB836-Rasoul)  (Voice Vote)",
     "timestamp": "2026-02-12T08:37:05.689040"
+  },
+  {
+    "bill": "HB1161",
+    "type": "status_change",
+    "previous_status": "Pending",
+    "current_status": "Passed House",
+    "message": "HB1161 status changed: Pending \u2192 Passed House",
+    "timestamp": "2026-02-13T08:32:28.133394"
+  },
+  {
+    "bill": "HB1161",
+    "type": "action_update",
+    "previous_action": "Read second time and engrossed",
+    "current_action": "Read third time and passed House (66-Y 32-N 0-A)",
+    "message": "HB1161 new action: Read third time and passed House (66-Y 32-N 0-A)",
+    "timestamp": "2026-02-13T08:32:28.133406"
+  },
+  {
+    "bill": "HB1482",
+    "type": "status_change",
+    "previous_status": "Pending",
+    "current_status": "Passed House",
+    "message": "HB1482 status changed: Pending \u2192 Passed House",
+    "timestamp": "2026-02-13T08:32:28.133412"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "Engrossed by House as amended",
+    "current_action": "Read third time and passed House (63-Y 35-N 0-A)",
+    "message": "HB1482 new action: Read third time and passed House (63-Y 35-N 0-A)",
+    "timestamp": "2026-02-13T08:32:28.133414"
+  },
+  {
+    "bill": "HB1492",
+    "type": "status_change",
+    "previous_status": "Pending",
+    "current_status": "Passed House",
+    "message": "HB1492 status changed: Pending \u2192 Passed House",
+    "timestamp": "2026-02-13T08:32:28.133416"
+  },
+  {
+    "bill": "HB1492",
+    "type": "action_update",
+    "previous_action": "Engrossed by House - committee substitute",
+    "current_action": "Read third time and passed House (62-Y 35-N 0-A)",
+    "message": "HB1492 new action: Read third time and passed House (62-Y 35-N 0-A)",
+    "timestamp": "2026-02-13T08:32:28.133417"
+  },
+  {
+    "bill": "HB650",
+    "type": "status_change",
+    "previous_status": "Pending",
+    "current_status": "Passed House",
+    "message": "HB650 status changed: Pending \u2192 Passed House",
+    "timestamp": "2026-02-13T08:32:28.133423"
+  },
+  {
+    "bill": "HB650",
+    "type": "action_update",
+    "previous_action": "Engrossed by House - committee substitute",
+    "current_action": "Read third time and passed House (63-Y 35-N 0-A)",
+    "message": "HB650 new action: Read third time and passed House (63-Y 35-N 0-A)",
+    "timestamp": "2026-02-13T08:32:28.133426"
   }
 ]
