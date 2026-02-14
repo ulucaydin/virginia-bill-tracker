@@ -256,8 +256,8 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1459",
     "status": "Pending",
     "summary": "Ice-Free Communities Act; notification  to federal immigration authorities of pending release of certain persons from  custody.",
-    "last_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1459)",
-    "last_action_date": "2/2/2026",
+    "last_action": "Tabled in Public Safety (13-Y 7-N)",
+    "last_action_date": "2/13/2026",
     "patron": "Zehr",
     "history": [
       {
@@ -267,6 +267,10 @@
       {
         "date": "2/2/2026",
         "description": "H Fiscal Impact Statement from Department of Planning and Budget (HB1459)"
+      },
+      {
+        "date": "2/13/2026",
+        "description": "H Tabled in Public Safety (13-Y 7-N)"
       },
       {
         "date": "2/12/2026",

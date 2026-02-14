@@ -1074,5 +1074,13 @@
     "current_action": "Read third time and passed House (63-Y 35-N 0-A)",
     "message": "HB650 new action: Read third time and passed House (63-Y 35-N 0-A)",
     "timestamp": "2026-02-13T08:32:28.133426"
+  },
+  {
+    "bill": "HB1459",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1459)",
+    "current_action": "Tabled in Public Safety (13-Y 7-N)",
+    "message": "HB1459 new action: Tabled in Public Safety (13-Y 7-N)",
+    "timestamp": "2026-02-14T08:22:40.308639"
   }
 ]
