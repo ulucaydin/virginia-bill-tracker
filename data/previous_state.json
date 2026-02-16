@@ -448,9 +448,9 @@
     "bill_number": "HB650",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB650",
     "status": "Passed House",
-    "summary": "Certain civil arrests prohibited in  courthouses; penalty. Provides that a party who is required to attend any  court of the Commonwealth, or such party's family or household member or person  attending the court with such party to serve as a witness, shall be privileged  from civil arrest, defined in the bill, while attending, going to, or coming  from the court. The bill also prohibits a person with the lawful authority to  perform civil arrests from entering a courthouse to conduct a civil arrest  unless he complies with certain requirements, including presenting a judicial  warrant or judicial order authorizing the civil arrest to the appropriate  courthouse officer or employee. Additionally, the bill requires that any  judicial warrant or judicial order authorizing the civil arrest be reviewed by  a designated judicial officer or attorney before a civil arrest pursuant to  such warrant or order can be performed. Finally, the bill provides that any  person who conducts a civil arrest, or facilitates or assists with the  performance of, a civil arrest in violation of the provisions of the bill shall  be punished with contempt of court.",
-    "last_action": "Read third time and passed House (63-Y 35-N 0-A)",
-    "last_action_date": "2/12/2026",
+    "summary": "Prohibiting certain acts in furtherance of federal immigration enforcement in certain protected areas; exceptions; penalties. Prohibits federal civil immigration enforcement activities in certain protected areas including any courthouse, within 40 feet of any polling place or building used as a meeting place for the local electoral board while the electoral board meets to ascertain the results of an election, and any place or facility owned by the Commonwealth that is a hospital or other health care facility, a school or public institution of higher education, or an office of the attorney for the Commonwealth. The bill prohibits any civil arrest in a courthouse pursuant to a civil administrative warrant, subject to certain exemptions such as service or enforcement of an order for failure to pay child support or for any arrest occurring in connection with a court proceeding that is taking place or is scheduled to take place. The bill provides that such provisions shall not apply when such arrest is authorized by a judicial warrant or judicial subpoena.The bill also authorizes a local school board to include in its written school crisis, emergency management, and medical emergency response plan a procedure for notifying school board employees and parents of enrolled students of the presence of certain individuals on school property for immigration investigation or enforcement purposes. The bill requires each public institution of higher education to notify all students, faculty, and staff whenever such institution confirms that an individual is present on campus to investigate compliance with, enforce, or assist with such investigation or enforcement of any federal immigration law. This bill incorporates HB1260, HB1265, HB1440, and HB1442.",
+    "last_action": "Referred to Committee for Courts of Justice",
+    "last_action_date": "2/13/2026",
     "patron": "Callsen",
     "history": [
       {
@@ -496,6 +496,14 @@
       {
         "date": "2/2/2026",
         "description": "H Fiscal Impact Statement from Department of Planning and Budget (HB650)"
+      },
+      {
+        "date": "2/13/2026",
+        "description": "S Constitutional reading dispensed (on 1st reading)"
+      },
+      {
+        "date": "2/13/2026",
+        "description": "S Referred to Committee for Courts of Justice"
       },
       {
         "date": "2/12/2026",

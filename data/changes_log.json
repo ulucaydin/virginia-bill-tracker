@@ -1082,5 +1082,13 @@
     "current_action": "Tabled in Public Safety (13-Y 7-N)",
     "message": "HB1459 new action: Tabled in Public Safety (13-Y 7-N)",
     "timestamp": "2026-02-14T08:22:40.308639"
+  },
+  {
+    "bill": "HB650",
+    "type": "action_update",
+    "previous_action": "Read third time and passed House (63-Y 35-N 0-A)",
+    "current_action": "Referred to Committee for Courts of Justice",
+    "message": "HB650 new action: Referred to Committee for Courts of Justice",
+    "timestamp": "2026-02-16T08:34:37.290395"
   }
 ]
