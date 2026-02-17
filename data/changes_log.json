@@ -1090,5 +1090,13 @@
     "current_action": "Referred to Committee for Courts of Justice",
     "message": "HB650 new action: Referred to Committee for Courts of Justice",
     "timestamp": "2026-02-16T08:34:37.290395"
+  },
+  {
+    "bill": "HB1161",
+    "type": "action_update",
+    "previous_action": "Read third time and passed House (66-Y 32-N 0-A)",
+    "current_action": "Referred to Committee on General Laws and Technology",
+    "message": "HB1161 new action: Referred to Committee on General Laws and Technology",
+    "timestamp": "2026-02-17T08:34:30.457500"
   }
 ]
