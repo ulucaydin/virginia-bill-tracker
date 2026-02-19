@@ -578,12 +578,16 @@
   "HB7": {
     "bill_number": "HB7",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB7",
-    "status": "Pending",
+    "status": "Left in Committee",
     "summary": "Law-enforcement officers; restrictions  on wearing of facial coverings; exceptions; civil liability; penalty. Prohibits  certain state and federal law-enforcement officers from wearing facial  coverings, defined in the bill, while engaged in the performance of their  official duties. The bill sets out several exceptions to such prohibition,  including protective facial coverings to protect against disease, infection,  and exposure to toxic substances and facial coverings worn  by any law-enforcement officer assigned to a special weapons and tactics  team while engaged in the performance of his official duties with such team.  The bill subjects the law-enforcement officer to  disciplinary action, including dismissal, demotion, suspension, transfer, or  decertification, and creates a Class 1 misdemeanor for any  law-enforcement officer who wears a facial covering in violation of the  provisions of the bill unless the law-enforcement agency that employs such  law-enforcement officer has adopted and established a written policy for and  restrictions on the use of facial coverings. The  bill also directs the Department of Criminal Justice Services to develop a  model policy for and restrictions on the use of  facial coverings by law-enforcement officers.  Finally, the bill creates a civil cause of action for any  person injured as a result of tortious conduct by a law-enforcement officer who  knowingly and intentionally wears a facial covering in violation of the  provisions of the bill. The bill provides that sovereign immunity shall not be  a defense to civil liability for such tortious conduct.",
-    "last_action": "Fiscal Impact Statement from Department of Planning and Budget (HB7)",
-    "last_action_date": "1/19/2026",
+    "last_action": "Left in Committee Public Safety",
+    "last_action_date": "2/18/2026",
     "patron": "Jones",
     "history": [
+      {
+        "date": "2/18/2026",
+        "description": "H Left in Committee Public Safety"
+      },
       {
         "date": "11/20/2025",
         "description": "H Prefiled and ordered printed; Offered 01-14-2026 26101899D"
@@ -644,12 +648,16 @@
   "HB993": {
     "bill_number": "HB993",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB993",
-    "status": "Pending",
+    "status": "Left in Committee",
     "summary": "Driver privilege cards and permits; discontinued.  Discontinues the issuance of driver privilege cards and provides that any issued  driver privilege card is invalid as of July 1, 2026. The bill requires the Department  of Motor Vehicles to notify any person who has been issued a driver privilege card  that such driver privilege card is invalid.",
-    "last_action": "Subcommittee recommends laying on the table (6-Y 4-N)",
-    "last_action_date": "1/27/2026",
+    "last_action": "Left in Committee Transportation",
+    "last_action_date": "2/18/2026",
     "patron": "Garrett",
     "history": [
+      {
+        "date": "2/18/2026",
+        "description": "H Left in Committee Transportation"
+      },
       {
         "date": "1/27/2026",
         "description": "H Subcommittee recommends laying on the table (6-Y 4-N)"

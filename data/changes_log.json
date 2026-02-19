@@ -1114,5 +1114,37 @@
     "current_action": "Referred to Committee for Courts of Justice",
     "message": "HB1492 new action: Referred to Committee for Courts of Justice",
     "timestamp": "2026-02-18T08:35:23.821861"
+  },
+  {
+    "bill": "HB7",
+    "type": "status_change",
+    "previous_status": "Pending",
+    "current_status": "Left in Committee",
+    "message": "HB7 status changed: Pending \u2192 Left in Committee",
+    "timestamp": "2026-02-19T08:36:10.562061"
+  },
+  {
+    "bill": "HB7",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB7)",
+    "current_action": "Left in Committee Public Safety",
+    "message": "HB7 new action: Left in Committee Public Safety",
+    "timestamp": "2026-02-19T08:36:10.562072"
+  },
+  {
+    "bill": "HB993",
+    "type": "status_change",
+    "previous_status": "Pending",
+    "current_status": "Left in Committee",
+    "message": "HB993 status changed: Pending \u2192 Left in Committee",
+    "timestamp": "2026-02-19T08:36:10.562075"
+  },
+  {
+    "bill": "HB993",
+    "type": "action_update",
+    "previous_action": "Subcommittee recommends laying on the table (6-Y 4-N)",
+    "current_action": "Left in Committee Transportation",
+    "message": "HB993 new action: Left in Committee Transportation",
+    "timestamp": "2026-02-19T08:36:10.562076"
   }
 ]
