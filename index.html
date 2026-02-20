@@ -572,15 +572,15 @@
             <h1>🏛️ Virginia Bill Tracker</h1>
             <div class="header-actions">
                 <div class="sync-info">
-                    Last synced: <span class="sync-time">February 19, 2026 at 08:36 AM ET</span>
+                    Last synced: <span class="sync-time">February 20, 2026 at 08:31 AM ET</span>
                 </div>
                 <button class="btn" onclick="openConfigModal()">⚙️ Configure Bills</button>
             </div>
         </div>
         
 
-        <div class="changes-banner ">
-            <strong>⚠️ 4 change(s) detected since last sync</strong>
+        <div class="changes-banner no-changes">
+            <strong>✅ No changes detected</strong>
         </div>
         <div class="bills-grid">
 
@@ -752,11 +752,11 @@
                 </div>
             </div>
 
-            <div class="bill-card has-changes" onclick="openBillDetail('HB7')">
+            <div class="bill-card " onclick="openBillDetail('HB7')">
                 <div class="bill-header">
                     <div class="bill-number">
                         HB7
-                        <span class="change-badge">UPDATED</span>
+                        
                     </div>
                     <div class="bill-status status-left-in-committee">
                         Left in Committee
@@ -794,11 +794,11 @@
                 </div>
             </div>
 
-            <div class="bill-card has-changes" onclick="openBillDetail('HB993')">
+            <div class="bill-card " onclick="openBillDetail('HB993')">
                 <div class="bill-header">
                     <div class="bill-number">
                         HB993
-                        <span class="change-badge">UPDATED</span>
+                        
                     </div>
                     <div class="bill-status status-left-in-committee">
                         Left in Committee
@@ -835,39 +835,6 @@
                     </a>
                 </div>
             </div>
-        </div>
-
-        <div class="changes-section">
-            <h2>Recent Changes</h2>
-
-            <div class="change-item">
-                <div>HB7 status changed: Pending → Left in Committee</div>
-                <div class="change-timestamp">
-                    February 19, 2026 at 08:36 AM
-                </div>
-            </div>
-
-            <div class="change-item">
-                <div>HB7 new action: Left in Committee Public Safety</div>
-                <div class="change-timestamp">
-                    February 19, 2026 at 08:36 AM
-                </div>
-            </div>
-
-            <div class="change-item">
-                <div>HB993 status changed: Pending → Left in Committee</div>
-                <div class="change-timestamp">
-                    February 19, 2026 at 08:36 AM
-                </div>
-            </div>
-
-            <div class="change-item">
-                <div>HB993 new action: Left in Committee Transportation</div>
-                <div class="change-timestamp">
-                    February 19, 2026 at 08:36 AM
-                </div>
-            </div>
-
         </div>
 
     <!-- Bill Detail Modal -->
