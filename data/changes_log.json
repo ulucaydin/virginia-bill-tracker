@@ -1146,5 +1146,13 @@
     "current_action": "Left in Committee Transportation",
     "message": "HB993 new action: Left in Committee Transportation",
     "timestamp": "2026-02-19T08:36:10.562076"
+  },
+  {
+    "bill": "HB126",
+    "type": "action_update",
+    "previous_action": "Referred to Committee on Rehabilitation and Social Services",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB126)",
+    "message": "HB126 new action: Fiscal Impact Statement from Department of Planning and Budget (HB126)",
+    "timestamp": "2026-02-21T08:21:42.115250"
   }
 ]
