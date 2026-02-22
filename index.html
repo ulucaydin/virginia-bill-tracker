@@ -572,15 +572,15 @@
             <h1>🏛️ Virginia Bill Tracker</h1>
             <div class="header-actions">
                 <div class="sync-info">
-                    Last synced: <span class="sync-time">February 21, 2026 at 08:21 AM ET</span>
+                    Last synced: <span class="sync-time">February 22, 2026 at 08:22 AM ET</span>
                 </div>
                 <button class="btn" onclick="openConfigModal()">⚙️ Configure Bills</button>
             </div>
         </div>
         
 
-        <div class="changes-banner ">
-            <strong>⚠️ 1 change(s) detected since last sync</strong>
+        <div class="changes-banner no-changes">
+            <strong>✅ No changes detected</strong>
         </div>
         <div class="bills-grid">
 
@@ -605,11 +605,11 @@
                 </div>
             </div>
 
-            <div class="bill-card has-changes" onclick="openBillDetail('HB126')">
+            <div class="bill-card " onclick="openBillDetail('HB126')">
                 <div class="bill-header">
                     <div class="bill-number">
                         HB126
-                        <span class="change-badge">UPDATED</span>
+                        
                     </div>
                     <div class="bill-status status-passed-house">
                         Passed House
@@ -835,18 +835,6 @@
                     </a>
                 </div>
             </div>
-        </div>
-
-        <div class="changes-section">
-            <h2>Recent Changes</h2>
-
-            <div class="change-item">
-                <div>HB126 new action: Fiscal Impact Statement from Department of Planning and Budget (HB126)</div>
-                <div class="change-timestamp">
-                    February 21, 2026 at 08:21 AM
-                </div>
-            </div>
-
         </div>
 
     <!-- Bill Detail Modal -->
