@@ -1154,5 +1154,21 @@
     "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB126)",
     "message": "HB126 new action: Fiscal Impact Statement from Department of Planning and Budget (HB126)",
     "timestamp": "2026-02-21T08:21:42.115250"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "Referred to Committee for Courts of Justice",
+    "current_action": "Senate committee offered",
+    "message": "HB1482 new action: Senate committee offered",
+    "timestamp": "2026-02-26T08:36:05.668120"
+  },
+  {
+    "bill": "HB1492",
+    "type": "action_update",
+    "previous_action": "Referred to Committee for Courts of Justice",
+    "current_action": "Reported from Courts of Justice with substitute and rereferred to Finance and Appropriations (10-Y 5-N)",
+    "message": "HB1492 new action: Reported from Courts of Justice with substitute and rereferred to Finance and Appropriations (10-Y 5-N)",
+    "timestamp": "2026-02-26T08:36:05.668131"
   }
 ]

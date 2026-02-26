@@ -132,6 +132,14 @@
         "description": "H Read first time"
       },
       {
+        "date": "2/25/2026",
+        "description": "S Reported from Courts of Justice with substitute (9-Y 6-N)"
+      },
+      {
+        "date": "2/25/2026",
+        "description": "S Senate committee offered"
+      },
+      {
         "date": "2/20/2026",
         "description": "S Rereferred from Rehabilitation and Social Services to Courts of Justice (15-Y 0-N)"
       },
@@ -311,8 +319,8 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1482",
     "status": "Passed House",
     "summary": "Law-enforcement officers; restrictions on wearing of facial coverings; required identification; exceptions; civil liability; penalty. Prohibits state and local law-enforcement officers from wearing facial coverings, defined in the bill, while engaged in the performance of their official duties. The bill sets out several exceptions to such prohibition, including protective facial coverings to protect against disease, infection, and exposure to toxic substances and facial coverings worn by any law-enforcement officer assigned to a special weapons and tactics team while engaged in the performance of his official duties with such team. The bill subjects the law-enforcement officer to disciplinary action, including dismissal, demotion, suspension, transfer, or decertification. The bill also requires law-enforcement officers to visibly display certain identification while engaged in the performance of their duties and creates a Class 1 misdemeanor for any law-enforcement officer who wears a facial covering or fails to visibly display such identification in violation of the provisions of the bill. Finally, the bill creates a civil cause of action for any person injured as a result of tortious conduct by a law-enforcement officer who knowingly and intentionally wears a facial covering in violation of the provisions of the bill.",
-    "last_action": "Referred to Committee for Courts of Justice",
-    "last_action_date": "2/13/2026",
+    "last_action": "Senate committee offered",
+    "last_action_date": "2/25/2026",
     "patron": "Schmidt",
     "history": [
       {
@@ -334,6 +342,18 @@
       {
         "date": "2/3/2026",
         "description": "H Placed on Public Safety Agenda"
+      },
+      {
+        "date": "2/25/2026",
+        "description": "S Senate committee offered"
+      },
+      {
+        "date": "2/25/2026",
+        "description": "S Reported from Courts of Justice with substitute and rereferred to Finance and Appropriations (9-Y 6-N)"
+      },
+      {
+        "date": "2/25/2026",
+        "description": "S Rereferred to Finance and Appropriations"
       },
       {
         "date": "2/13/2026",
@@ -390,8 +410,8 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1492",
     "status": "Passed House",
     "summary": "Impersonating federal law-enforcement officer; penalties. Increases from a Class 1 misdemeanor to a Class 6 felony the penalty for impersonating a federal law-enforcement officer and increases the penalty for a second or subsequent violation from a Class 6 felony to a Class 5 felony. The bill also makes it a Class 5 felony to impersonate a federal law-enforcement officer while wearing a facial covering, defined in the bill, and a Class 4 felony for a second or subsequent violation.",
-    "last_action": "Referred to Committee for Courts of Justice",
-    "last_action_date": "2/13/2026",
+    "last_action": "Reported from Courts of Justice with substitute and rereferred to Finance and Appropriations (10-Y 5-N)",
+    "last_action_date": "2/25/2026",
     "patron": "Shin",
     "history": [
       {
@@ -425,6 +445,14 @@
       {
         "date": "2/3/2026",
         "description": "H Placed on Public Safety Agenda"
+      },
+      {
+        "date": "2/25/2026",
+        "description": "S Reported from Courts of Justice with substitute and rereferred to Finance and Appropriations (10-Y 5-N)"
+      },
+      {
+        "date": "2/25/2026",
+        "description": "S Rereferred to Finance and Appropriations"
       },
       {
         "date": "2/13/2026",
