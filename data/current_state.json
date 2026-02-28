@@ -132,6 +132,22 @@
         "description": "H Read first time"
       },
       {
+        "date": "2/27/2026",
+        "description": "S Rules suspended"
+      },
+      {
+        "date": "2/27/2026",
+        "description": "S Constitutional reading dispensed  Block Vote (on 2nd reading) (37-Y 0-N 0-A)"
+      },
+      {
+        "date": "2/27/2026",
+        "description": "S Passed by for the day  Block Vote (Voice Vote)"
+      },
+      {
+        "date": "2/27/2026",
+        "description": "S Committee substitute printed 26108384D-S1"
+      },
+      {
         "date": "2/25/2026",
         "description": "S Reported from Courts of Justice with substitute (9-Y 6-N)"
       },
@@ -319,8 +335,8 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1482",
     "status": "Passed House",
     "summary": "Law-enforcement officers; restrictions on wearing of facial coverings; required identification; exceptions; civil liability; penalty. Prohibits state and local law-enforcement officers from wearing facial coverings, defined in the bill, while engaged in the performance of their official duties. The bill sets out several exceptions to such prohibition, including protective facial coverings to protect against disease, infection, and exposure to toxic substances and facial coverings worn by any law-enforcement officer assigned to a special weapons and tactics team while engaged in the performance of his official duties with such team. The bill subjects the law-enforcement officer to disciplinary action, including dismissal, demotion, suspension, transfer, or decertification. The bill also requires law-enforcement officers to visibly display certain identification while engaged in the performance of their duties and creates a Class 1 misdemeanor for any law-enforcement officer who wears a facial covering or fails to visibly display such identification in violation of the provisions of the bill. Finally, the bill creates a civil cause of action for any person injured as a result of tortious conduct by a law-enforcement officer who knowingly and intentionally wears a facial covering in violation of the provisions of the bill.",
-    "last_action": "Senate committee offered",
-    "last_action_date": "2/25/2026",
+    "last_action": "Committee substitute printed 26108630D-S1",
+    "last_action_date": "2/27/2026",
     "patron": "Schmidt",
     "history": [
       {
@@ -342,6 +358,10 @@
       {
         "date": "2/3/2026",
         "description": "H Placed on Public Safety Agenda"
+      },
+      {
+        "date": "2/27/2026",
+        "description": "S Committee substitute printed 26108630D-S1"
       },
       {
         "date": "2/25/2026",
@@ -410,8 +430,8 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1492",
     "status": "Passed House",
     "summary": "Impersonating federal law-enforcement officer; penalties. Increases from a Class 1 misdemeanor to a Class 6 felony the penalty for impersonating a federal law-enforcement officer and increases the penalty for a second or subsequent violation from a Class 6 felony to a Class 5 felony. The bill also makes it a Class 5 felony to impersonate a federal law-enforcement officer while wearing a facial covering, defined in the bill, and a Class 4 felony for a second or subsequent violation.",
-    "last_action": "Reported from Courts of Justice with substitute and rereferred to Finance and Appropriations (10-Y 5-N)",
-    "last_action_date": "2/25/2026",
+    "last_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1492)",
+    "last_action_date": "2/27/2026",
     "patron": "Shin",
     "history": [
       {
@@ -445,6 +465,18 @@
       {
         "date": "2/3/2026",
         "description": "H Placed on Public Safety Agenda"
+      },
+      {
+        "date": "2/27/2026",
+        "description": "S Committee substitute printed 26108679D-S1"
+      },
+      {
+        "date": "2/27/2026",
+        "description": "H Fiscal Impact statement From VCSC (2/27/2026 3:44 pm)"
+      },
+      {
+        "date": "2/27/2026",
+        "description": "H Fiscal Impact Statement from Department of Planning and Budget (HB1492)"
       },
       {
         "date": "2/25/2026",
@@ -721,8 +753,8 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/SB351",
     "status": "Passed Senate",
     "summary": "Certain civil arrests prohibited in courthouses; penalty. Provides that a party who is required to attend any court of the Commonwealth, or such party's family or household member or person attending the court with such party to serve as a witness, shall be privileged from civil arrest, defined in the bill, while attending, going to, or coming from the court. The bill also prohibits a person with the lawful authority to perform civil arrests from entering a courthouse to conduct a civil arrest unless he complies with certain requirements, including presenting a judicial warrant or judicial order authorizing the civil arrest to a sheriff, deputy sheriff, law-enforcement officer, or other person designated to provide security to the courthouse. Additionally, the bill requires that any judicial warrant or judicial order authorizing the civil arrest be reviewed by a designated judicial officer or attorney before a civil arrest pursuant to such warrant or order can be performed. Finally, the bill provides that any person who conducts a civil arrest, or facilitates or assists with the performance of, a civil arrest in violation of the provisions of the bill shall be punished with contempt of court.",
-    "last_action": "Read first time",
-    "last_action_date": "2/6/2026",
+    "last_action": "Read third time and passed Senate (21-Y 18-N 0-A)",
+    "last_action_date": "2/3/2026",
     "patron": "Salim",
     "history": [
       {
@@ -740,6 +772,14 @@
       {
         "date": "2/3/2026",
         "description": "S Read third time and passed Senate (21-Y 18-N 0-A)"
+      },
+      {
+        "date": "2/27/2026",
+        "description": "H Reported from Public Safety with substitute (15-Y 7-N)"
+      },
+      {
+        "date": "2/27/2026",
+        "description": "H Committee substitute printed 26108859D-H1"
       },
       {
         "date": "2/26/2026",
