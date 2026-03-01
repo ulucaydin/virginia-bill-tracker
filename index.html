@@ -572,15 +572,15 @@
             <h1>🏛️ Virginia Bill Tracker</h1>
             <div class="header-actions">
                 <div class="sync-info">
-                    Last synced: <span class="sync-time">February 28, 2026 at 08:19 AM ET</span>
+                    Last synced: <span class="sync-time">March 01, 2026 at 08:20 AM ET</span>
                 </div>
                 <button class="btn" onclick="openConfigModal()">⚙️ Configure Bills</button>
             </div>
         </div>
         
 
-        <div class="changes-banner ">
-            <strong>⚠️ 3 change(s) detected since last sync</strong>
+        <div class="changes-banner no-changes">
+            <strong>✅ No changes detected</strong>
         </div>
         <div class="bills-grid">
 
@@ -689,11 +689,11 @@
                 </div>
             </div>
 
-            <div class="bill-card has-changes" onclick="openBillDetail('HB1482')">
+            <div class="bill-card " onclick="openBillDetail('HB1482')">
                 <div class="bill-header">
                     <div class="bill-number">
                         HB1482
-                        <span class="change-badge">UPDATED</span>
+                        
                     </div>
                     <div class="bill-status status-passed-house">
                         Passed House
@@ -710,11 +710,11 @@
                 </div>
             </div>
 
-            <div class="bill-card has-changes" onclick="openBillDetail('HB1492')">
+            <div class="bill-card " onclick="openBillDetail('HB1492')">
                 <div class="bill-header">
                     <div class="bill-number">
                         HB1492
-                        <span class="change-badge">UPDATED</span>
+                        
                     </div>
                     <div class="bill-status status-passed-house">
                         Passed House
@@ -815,11 +815,11 @@
                 </div>
             </div>
 
-            <div class="bill-card has-changes" onclick="openBillDetail('SB351')">
+            <div class="bill-card " onclick="openBillDetail('SB351')">
                 <div class="bill-header">
                     <div class="bill-number">
                         SB351
-                        <span class="change-badge">UPDATED</span>
+                        
                     </div>
                     <div class="bill-status status-passed-senate">
                         Passed Senate
@@ -835,32 +835,6 @@
                     </a>
                 </div>
             </div>
-        </div>
-
-        <div class="changes-section">
-            <h2>Recent Changes</h2>
-
-            <div class="change-item">
-                <div>HB1482 new action: Committee substitute printed 26108630D-S1</div>
-                <div class="change-timestamp">
-                    February 28, 2026 at 08:19 AM
-                </div>
-            </div>
-
-            <div class="change-item">
-                <div>HB1492 new action: Fiscal Impact Statement from Department of Planning and Budget (HB1492)</div>
-                <div class="change-timestamp">
-                    February 28, 2026 at 08:19 AM
-                </div>
-            </div>
-
-            <div class="change-item">
-                <div>SB351 new action: Read third time and passed Senate (21-Y 18-N 0-A)</div>
-                <div class="change-timestamp">
-                    February 28, 2026 at 08:19 AM
-                </div>
-            </div>
-
         </div>
 
     <!-- Bill Detail Modal -->
