@@ -1194,5 +1194,45 @@
     "current_action": "Read third time and passed Senate (21-Y 18-N 0-A)",
     "message": "SB351 new action: Read third time and passed Senate (21-Y 18-N 0-A)",
     "timestamp": "2026-02-28T08:19:27.311200"
+  },
+  {
+    "bill": "HB126",
+    "type": "status_change",
+    "previous_status": "Passed House",
+    "current_status": "Passed Both Chambers",
+    "message": "HB126 status changed: Passed House \u2192 Passed Both Chambers",
+    "timestamp": "2026-03-03T08:30:55.045002"
+  },
+  {
+    "bill": "HB126",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB126)",
+    "current_action": "Passed Senate with substitute (27-Y 13-N 0-A)",
+    "message": "HB126 new action: Passed Senate with substitute (27-Y 13-N 0-A)",
+    "timestamp": "2026-03-03T08:30:55.045014"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "Committee substitute printed 26108630D-S1",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1482)",
+    "message": "HB1482 new action: Fiscal Impact Statement from Department of Planning and Budget (HB1482)",
+    "timestamp": "2026-03-03T08:30:55.045019"
+  },
+  {
+    "bill": "HB650",
+    "type": "action_update",
+    "previous_action": "Referred to Committee for Courts of Justice",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB650)",
+    "message": "HB650 new action: Fiscal Impact Statement from Department of Planning and Budget (HB650)",
+    "timestamp": "2026-03-03T08:30:55.045025"
+  },
+  {
+    "bill": "SB351",
+    "type": "action_update",
+    "previous_action": "Read third time and passed Senate (21-Y 18-N 0-A)",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (SB351)",
+    "message": "SB351 new action: Fiscal Impact Statement from Department of Planning and Budget (SB351)",
+    "timestamp": "2026-03-03T08:30:55.045028"
   }
 ]
