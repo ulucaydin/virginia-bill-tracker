@@ -1234,5 +1234,21 @@
     "current_action": "Fiscal Impact Statement from Department of Planning and Budget (SB351)",
     "message": "SB351 new action: Fiscal Impact Statement from Department of Planning and Budget (SB351)",
     "timestamp": "2026-03-03T08:30:55.045028"
+  },
+  {
+    "bill": "HB126",
+    "type": "action_update",
+    "previous_action": "Passed Senate with substitute (27-Y 13-N 0-A)",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB126)",
+    "message": "HB126 new action: Fiscal Impact Statement from Department of Planning and Budget (HB126)",
+    "timestamp": "2026-03-04T08:30:07.873849"
+  },
+  {
+    "bill": "SB351",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (SB351)",
+    "current_action": "Read second time",
+    "message": "SB351 new action: Read second time",
+    "timestamp": "2026-03-04T08:30:07.873870"
   }
 ]

@@ -95,13 +95,13 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB126",
     "status": "Passed Both Chambers",
     "summary": "Local, regional, and community correctional facilities; access to counsel for inmates. Requires the State Board of Local and Regional Jails to establish additional standards no later than January 1, 2027, to ensure access to legal counsel for inmates held in any local, regional, or community correctional facility and enumerates the standards that the Board shall include in such additional standards.",
-    "last_action": "Passed Senate with substitute (27-Y 13-N 0-A)",
-    "last_action_date": "3/2/2026",
+    "last_action": "Fiscal Impact Statement from Department of Planning and Budget (HB126)",
+    "last_action_date": "3/3/2026",
     "patron": "Callsen",
     "history": [
       {
-        "date": "3/2/2026",
-        "description": "S Read third time"
+        "date": "3/3/2026",
+        "description": "H Fiscal Impact Statement from Department of Planning and Budget (HB126)"
       },
       {
         "date": "3/2/2026",
@@ -781,10 +781,14 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/SB351",
     "status": "Passed Senate",
     "summary": "Certain civil arrests prohibited in courthouses; penalty. Provides that a party who is required to attend any court of the Commonwealth, or such party's family or household member or person attending the court with such party to serve as a witness, shall be privileged from civil arrest, defined in the bill, while attending, going to, or coming from the court. The bill also prohibits a person with the lawful authority to perform civil arrests from entering a courthouse to conduct a civil arrest unless he complies with certain requirements, including presenting a judicial warrant or judicial order authorizing the civil arrest to a sheriff, deputy sheriff, law-enforcement officer, or other person designated to provide security to the courthouse. Additionally, the bill requires that any judicial warrant or judicial order authorizing the civil arrest be reviewed by a designated judicial officer or attorney before a civil arrest pursuant to such warrant or order can be performed. Finally, the bill provides that any person who conducts a civil arrest, or facilitates or assists with the performance of, a civil arrest in violation of the provisions of the bill shall be punished with contempt of court.",
-    "last_action": "Fiscal Impact Statement from Department of Planning and Budget (SB351)",
-    "last_action_date": "3/2/2026",
+    "last_action": "Read second time",
+    "last_action_date": "3/3/2026",
     "patron": "Salim",
     "history": [
+      {
+        "date": "3/3/2026",
+        "description": "H Read second time"
+      },
       {
         "date": "3/2/2026",
         "description": "S Fiscal Impact Statement from Department of Planning and Budget (SB351)"
