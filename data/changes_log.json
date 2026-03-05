@@ -1250,5 +1250,61 @@
     "current_action": "Read second time",
     "message": "SB351 new action: Read second time",
     "timestamp": "2026-03-04T08:30:07.873870"
+  },
+  {
+    "bill": "HB1161",
+    "type": "action_update",
+    "previous_action": "Referred to Committee on General Laws and Technology",
+    "current_action": "Senate committee offered",
+    "message": "HB1161 new action: Senate committee offered",
+    "timestamp": "2026-03-05T08:33:07.553135"
+  },
+  {
+    "bill": "HB126",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB126)",
+    "current_action": "Senate substitute agreed to by House (92-Y 4-N 0-A)",
+    "message": "HB126 new action: Senate substitute agreed to by House (92-Y 4-N 0-A)",
+    "timestamp": "2026-03-05T08:33:07.553147"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1482)",
+    "current_action": "Reported from Finance and Appropriations (10-Y 5-N)",
+    "message": "HB1482 new action: Reported from Finance and Appropriations (10-Y 5-N)",
+    "timestamp": "2026-03-05T08:33:07.553152"
+  },
+  {
+    "bill": "HB1492",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1492)",
+    "current_action": "Reported from Finance and Appropriations with substitute (15-Y 0-N)",
+    "message": "HB1492 new action: Reported from Finance and Appropriations with substitute (15-Y 0-N)",
+    "timestamp": "2026-03-05T08:33:07.553154"
+  },
+  {
+    "bill": "HB650",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB650)",
+    "current_action": "Reported from Courts of Justice with substitute (8-Y 6-N)",
+    "message": "HB650 new action: Reported from Courts of Justice with substitute (8-Y 6-N)",
+    "timestamp": "2026-03-05T08:33:07.553160"
+  },
+  {
+    "bill": "SB351",
+    "type": "status_change",
+    "previous_status": "Passed Senate",
+    "current_status": "Passed Both Chambers",
+    "message": "SB351 status changed: Passed Senate \u2192 Passed Both Chambers",
+    "timestamp": "2026-03-05T08:33:07.553166"
+  },
+  {
+    "bill": "SB351",
+    "type": "action_update",
+    "previous_action": "Read second time",
+    "current_action": "Passed House with substitute (64-Y 35-N 0-A)",
+    "message": "SB351 new action: Passed House with substitute (64-Y 35-N 0-A)",
+    "timestamp": "2026-03-05T08:33:07.553168"
   }
 ]
