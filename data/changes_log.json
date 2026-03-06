@@ -1306,5 +1306,37 @@
     "current_action": "Passed House with substitute (64-Y 35-N 0-A)",
     "message": "SB351 new action: Passed House with substitute (64-Y 35-N 0-A)",
     "timestamp": "2026-03-05T08:33:07.553168"
+  },
+  {
+    "bill": "HB1161",
+    "type": "action_update",
+    "previous_action": "Senate committee offered",
+    "current_action": "Committee substitute printed 26108358D-S1",
+    "message": "HB1161 new action: Committee substitute printed 26108358D-S1",
+    "timestamp": "2026-03-06T08:28:25.280291"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "Reported from Finance and Appropriations (10-Y 5-N)",
+    "current_action": "Passed by for the day  Block Vote (Voice Vote)",
+    "message": "HB1482 new action: Passed by for the day  Block Vote (Voice Vote)",
+    "timestamp": "2026-03-06T08:28:25.280307"
+  },
+  {
+    "bill": "HB1492",
+    "type": "action_update",
+    "previous_action": "Reported from Finance and Appropriations with substitute (15-Y 0-N)",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1492)",
+    "message": "HB1492 new action: Fiscal Impact Statement from Department of Planning and Budget (HB1492)",
+    "timestamp": "2026-03-06T08:28:25.280310"
+  },
+  {
+    "bill": "HB650",
+    "type": "action_update",
+    "previous_action": "Reported from Courts of Justice with substitute (8-Y 6-N)",
+    "current_action": "Committee substitute printed 26109150D-S1",
+    "message": "HB650 new action: Committee substitute printed 26109150D-S1",
+    "timestamp": "2026-03-06T08:28:25.280316"
   }
 ]
