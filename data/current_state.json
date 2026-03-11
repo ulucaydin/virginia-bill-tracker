@@ -2,10 +2,10 @@
   "HB1161": {
     "bill_number": "HB1161",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1161",
-    "status": "Passed House",
+    "status": "Passed Both Chambers",
     "summary": "Government Data Collection and Dissemination Practices Act;  dissemination of personal information to federal government; civil penalties.  Provides that any agency or political subdivision of the Commonwealth shall only  disseminate personal information (i) to the extent necessary to comply with  state or federal law, including the federal Health Insurance Portability and  Accountability Act; (ii) to the extent necessary to carry out the  administration of a state or federal program pursuant to state or federal law;  (iii) to comply with a subpoena, court order, or administrative proceeding;  (iv) to the extent necessary to ensure fulfillment of the obligations of a  purchase or contract made in accordance with the Virginia Public Procurement  Act; or (v) when the data subject has given consent. The bill authorizes a  court, in the case of a willful and knowing violation, to subject a specific  public officer, appointee, or employee of any agency to civil penalties.",
-    "last_action": "Passed by for the day",
-    "last_action_date": "3/9/2026",
+    "last_action": "Passed Senate with substitute (21-Y 19-N 0-A)",
+    "last_action_date": "3/10/2026",
     "patron": "Tran",
     "history": [
       {
@@ -35,6 +35,22 @@
       {
         "date": "3/4/2026",
         "description": "S Reported from General Laws and Technology with substitute (9-Y 6-N)"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S Read third time"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S General Laws and Technology Substitute agreed to"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S Engrossed by Senate - committee substitute"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S Passed Senate with substitute (21-Y 19-N 0-A)"
       },
       {
         "date": "2/9/2026",
@@ -123,8 +139,8 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB126",
     "status": "Passed Both Chambers",
     "summary": "Local, regional, and community correctional facilities; access to counsel for inmates. Requires the State Board of Local and Regional Jails to establish additional standards no later than January 1, 2027, to ensure access to legal counsel for inmates held in any local, regional, or community correctional facility and enumerates the standards that the Board shall include in such additional standards.",
-    "last_action": "Senate substitute agreed to by House (92-Y 4-N 0-A)",
-    "last_action_date": "3/4/2026",
+    "last_action": "Passed Senate with substitute (27-Y 13-N 0-A)",
+    "last_action_date": "3/2/2026",
     "patron": "Callsen",
     "history": [
       {
@@ -385,10 +401,10 @@
   "HB1482": {
     "bill_number": "HB1482",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1482",
-    "status": "Passed House",
+    "status": "Passed Both Chambers",
     "summary": "Law-enforcement officers; restrictions on wearing of facial coverings; required identification; exceptions; civil liability; penalty. Prohibits state and local law-enforcement officers from wearing facial coverings, defined in the bill, while engaged in the performance of their official duties. The bill sets out several exceptions to such prohibition, including protective facial coverings to protect against disease, infection, and exposure to toxic substances and facial coverings worn by any law-enforcement officer assigned to a special weapons and tactics team while engaged in the performance of his official duties with such team. The bill subjects the law-enforcement officer to disciplinary action, including dismissal, demotion, suspension, transfer, or decertification. The bill also requires law-enforcement officers to visibly display certain identification while engaged in the performance of their duties and creates a Class 1 misdemeanor for any law-enforcement officer who wears a facial covering or fails to visibly display such identification in violation of the provisions of the bill. Finally, the bill creates a civil cause of action for any person injured as a result of tortious conduct by a law-enforcement officer who knowingly and intentionally wears a facial covering in violation of the provisions of the bill.",
-    "last_action": "Passed by for the day",
-    "last_action_date": "3/9/2026",
+    "last_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1482)",
+    "last_action_date": "3/2/2026",
     "patron": "Schmidt",
     "history": [
       {
@@ -418,6 +434,22 @@
       {
         "date": "3/2/2026",
         "description": "H Fiscal Impact Statement from Department of Planning and Budget (HB1482)"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S Read third time"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S Committee substitute agreed to (Voice Vote)"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S Engrossed by Senate - committee substitute"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S Passed Senate with substitute (21-Y 19-N 0-A)"
       },
       {
         "date": "2/6/2026",
@@ -508,10 +540,10 @@
   "HB1492": {
     "bill_number": "HB1492",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1492",
-    "status": "Passed House",
+    "status": "Passed Both Chambers",
     "summary": "Impersonating federal law-enforcement officer; penalties. Increases from a Class 1 misdemeanor to a Class 6 felony the penalty for impersonating a federal law-enforcement officer and increases the penalty for a second or subsequent violation from a Class 6 felony to a Class 5 felony. The bill also makes it a Class 5 felony to impersonate a federal law-enforcement officer while wearing a facial covering, defined in the bill, and a Class 4 felony for a second or subsequent violation.",
-    "last_action": "Passed by for the day",
-    "last_action_date": "3/9/2026",
+    "last_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1492)",
+    "last_action_date": "3/5/2026",
     "patron": "Shin",
     "history": [
       {
@@ -549,6 +581,26 @@
       {
         "date": "3/4/2026",
         "description": "S Reported from Finance and Appropriations with substitute (15-Y 0-N)"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S Read third time"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S Courts of Justice Substitute rejected"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S Finance and Appropriations Substitute agreed to"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S Engrossed by Senate - committee substitute"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S Passed Senate with substitute (27-Y 13-N 0-A)"
       },
       {
         "date": "2/6/2026",
@@ -655,10 +707,10 @@
   "HB650": {
     "bill_number": "HB650",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB650",
-    "status": "Passed House",
+    "status": "Passed Both Chambers",
     "summary": "Prohibiting certain acts in furtherance of federal immigration enforcement in certain protected areas; exceptions; penalties. Prohibits federal civil immigration enforcement activities in certain protected areas including any courthouse, within 40 feet of any polling place or building used as a meeting place for the local electoral board while the electoral board meets to ascertain the results of an election, and any place or facility owned by the Commonwealth that is a hospital or other health care facility, a school or public institution of higher education, or an office of the attorney for the Commonwealth. The bill prohibits any civil arrest in a courthouse pursuant to a civil administrative warrant, subject to certain exemptions such as service or enforcement of an order for failure to pay child support or for any arrest occurring in connection with a court proceeding that is taking place or is scheduled to take place. The bill provides that such provisions shall not apply when such arrest is authorized by a judicial warrant or judicial subpoena.The bill also authorizes a local school board to include in its written school crisis, emergency management, and medical emergency response plan a procedure for notifying school board employees and parents of enrolled students of the presence of certain individuals on school property for immigration investigation or enforcement purposes. The bill requires each public institution of higher education to notify all students, faculty, and staff whenever such institution confirms that an individual is present on campus to investigate compliance with, enforce, or assist with such investigation or enforcement of any federal immigration law. This bill incorporates HB1260, HB1265, HB1440, and HB1442.",
-    "last_action": "Passed by for the day",
-    "last_action_date": "3/9/2026",
+    "last_action": "Fiscal Impact Statement from Department of Planning and Budget (HB650)",
+    "last_action_date": "3/2/2026",
     "patron": "Callsen",
     "history": [
       {
@@ -688,6 +740,22 @@
       {
         "date": "3/2/2026",
         "description": "H Fiscal Impact Statement from Department of Planning and Budget (HB650)"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S Read third time"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S Courts of Justice Substitute agreed to"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S Engrossed by Senate - committee substitute"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S Passed Senate with substitute (21-Y 19-N 0-A)"
       },
       {
         "date": "2/6/2026",
@@ -936,6 +1004,18 @@
       {
         "date": "3/2/2026",
         "description": "S Fiscal Impact Statement from Department of Planning and Budget (SB351)"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S Senate acceded to request  Block Vote (40-Y 0-N 0-A)"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S Conferees appointed by Senate"
+      },
+      {
+        "date": "3/10/2026",
+        "description": "S Senate Conferees: Salim, Perry, McDougle"
       },
       {
         "date": "2/6/2026",

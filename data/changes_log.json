@@ -1418,5 +1418,77 @@
     "current_action": "House requested conference committee",
     "message": "SB351 new action: House requested conference committee",
     "timestamp": "2026-03-10T09:33:43.558438"
+  },
+  {
+    "bill": "HB1161",
+    "type": "status_change",
+    "previous_status": "Passed House",
+    "current_status": "Passed Both Chambers",
+    "message": "HB1161 status changed: Passed House \u2192 Passed Both Chambers",
+    "timestamp": "2026-03-11T09:33:57.500202"
+  },
+  {
+    "bill": "HB1161",
+    "type": "action_update",
+    "previous_action": "Passed by for the day",
+    "current_action": "Passed Senate with substitute (21-Y 19-N 0-A)",
+    "message": "HB1161 new action: Passed Senate with substitute (21-Y 19-N 0-A)",
+    "timestamp": "2026-03-11T09:33:57.500215"
+  },
+  {
+    "bill": "HB126",
+    "type": "action_update",
+    "previous_action": "Senate substitute agreed to by House (92-Y 4-N 0-A)",
+    "current_action": "Passed Senate with substitute (27-Y 13-N 0-A)",
+    "message": "HB126 new action: Passed Senate with substitute (27-Y 13-N 0-A)",
+    "timestamp": "2026-03-11T09:33:57.500218"
+  },
+  {
+    "bill": "HB1482",
+    "type": "status_change",
+    "previous_status": "Passed House",
+    "current_status": "Passed Both Chambers",
+    "message": "HB1482 status changed: Passed House \u2192 Passed Both Chambers",
+    "timestamp": "2026-03-11T09:33:57.500223"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "Passed by for the day",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1482)",
+    "message": "HB1482 new action: Fiscal Impact Statement from Department of Planning and Budget (HB1482)",
+    "timestamp": "2026-03-11T09:33:57.500225"
+  },
+  {
+    "bill": "HB1492",
+    "type": "status_change",
+    "previous_status": "Passed House",
+    "current_status": "Passed Both Chambers",
+    "message": "HB1492 status changed: Passed House \u2192 Passed Both Chambers",
+    "timestamp": "2026-03-11T09:33:57.500227"
+  },
+  {
+    "bill": "HB1492",
+    "type": "action_update",
+    "previous_action": "Passed by for the day",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1492)",
+    "message": "HB1492 new action: Fiscal Impact Statement from Department of Planning and Budget (HB1492)",
+    "timestamp": "2026-03-11T09:33:57.500228"
+  },
+  {
+    "bill": "HB650",
+    "type": "status_change",
+    "previous_status": "Passed House",
+    "current_status": "Passed Both Chambers",
+    "message": "HB650 status changed: Passed House \u2192 Passed Both Chambers",
+    "timestamp": "2026-03-11T09:33:57.500234"
+  },
+  {
+    "bill": "HB650",
+    "type": "action_update",
+    "previous_action": "Passed by for the day",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB650)",
+    "message": "HB650 new action: Fiscal Impact Statement from Department of Planning and Budget (HB650)",
+    "timestamp": "2026-03-11T09:33:57.500237"
   }
 ]
