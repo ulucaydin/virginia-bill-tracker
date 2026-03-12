@@ -1490,5 +1490,37 @@
     "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB650)",
     "message": "HB650 new action: Fiscal Impact Statement from Department of Planning and Budget (HB650)",
     "timestamp": "2026-03-11T09:33:57.500237"
+  },
+  {
+    "bill": "HB1161",
+    "type": "action_update",
+    "previous_action": "Passed Senate with substitute (21-Y 19-N 0-A)",
+    "current_action": "Senate substitute agreed to by House (67-Y 32-N 0-A)",
+    "message": "HB1161 new action: Senate substitute agreed to by House (67-Y 32-N 0-A)",
+    "timestamp": "2026-03-12T09:33:21.052669"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1482)",
+    "current_action": "Senate substitute rejected by House (0-Y 99-N 0-A)",
+    "message": "HB1482 new action: Senate substitute rejected by House (0-Y 99-N 0-A)",
+    "timestamp": "2026-03-12T09:33:21.052686"
+  },
+  {
+    "bill": "HB1492",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1492)",
+    "current_action": "Senate substitute rejected by House (0-Y 99-N 0-A)",
+    "message": "HB1492 new action: Senate substitute rejected by House (0-Y 99-N 0-A)",
+    "timestamp": "2026-03-12T09:33:21.052688"
+  },
+  {
+    "bill": "HB650",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB650)",
+    "current_action": "Senate substitute rejected by House (0-Y 98-N 0-A)",
+    "message": "HB650 new action: Senate substitute rejected by House (0-Y 98-N 0-A)",
+    "timestamp": "2026-03-12T09:33:21.052695"
   }
 ]
