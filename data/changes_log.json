@@ -1562,5 +1562,13 @@
     "current_action": "House Conferees: Callsen, Simon, Cornett",
     "message": "SB351 new action: House Conferees: Callsen, Simon, Cornett",
     "timestamp": "2026-03-13T09:31:46.163574"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "House Conferees: Schmidt, Simon, Wilt",
+    "current_action": "Conference report agreed to by Senate (21-Y 18-N 0-A)",
+    "message": "HB1482 new action: Conference report agreed to by Senate (21-Y 18-N 0-A)",
+    "timestamp": "2026-03-14T09:23:22.846272"
   }
 ]
