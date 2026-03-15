@@ -1570,5 +1570,45 @@
     "current_action": "Conference report agreed to by Senate (21-Y 18-N 0-A)",
     "message": "HB1482 new action: Conference report agreed to by Senate (21-Y 18-N 0-A)",
     "timestamp": "2026-03-14T09:23:22.846272"
+  },
+  {
+    "bill": "HB126",
+    "type": "action_update",
+    "previous_action": "No action recorded",
+    "current_action": "Enrolled Bill communicated to Governor on March 14, 2026",
+    "message": "HB126 new action: Enrolled Bill communicated to Governor on March 14, 2026",
+    "timestamp": "2026-03-15T09:24:37.860176"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "Conference report agreed to by Senate (21-Y 18-N 0-A)",
+    "current_action": "Conference report agreed to by House (62-Y 35-N 0-A)",
+    "message": "HB1482 new action: Conference report agreed to by House (62-Y 35-N 0-A)",
+    "timestamp": "2026-03-15T09:24:37.860192"
+  },
+  {
+    "bill": "HB1492",
+    "type": "action_update",
+    "previous_action": "House Conferees: Shin, Clark, Wilt",
+    "current_action": "Conference report agreed to by House (63-Y 32-N 0-A)",
+    "message": "HB1492 new action: Conference report agreed to by House (63-Y 32-N 0-A)",
+    "timestamp": "2026-03-15T09:24:37.860194"
+  },
+  {
+    "bill": "HB650",
+    "type": "action_update",
+    "previous_action": "House Conferees: Callsen, Simon, Cornett",
+    "current_action": "Conference report agreed to by House (62-Y 35-N 0-A)",
+    "message": "HB650 new action: Conference report agreed to by House (62-Y 35-N 0-A)",
+    "timestamp": "2026-03-15T09:24:37.860201"
+  },
+  {
+    "bill": "SB351",
+    "type": "action_update",
+    "previous_action": "House Conferees: Callsen, Simon, Cornett",
+    "current_action": "Conference report agreed to by House (62-Y 35-N 0-A)",
+    "message": "SB351 new action: Conference report agreed to by House (62-Y 35-N 0-A)",
+    "timestamp": "2026-03-15T09:24:37.860205"
   }
 ]

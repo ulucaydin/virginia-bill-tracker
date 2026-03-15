@@ -143,8 +143,8 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB126",
     "status": "Passed Both Chambers",
     "summary": "Local, regional, and community correctional facilities; access to counsel for inmates. Requires the State Board of Local and Regional Jails to establish additional standards no later than January 1, 2027, to ensure access to legal counsel for inmates held in any local, regional, or community correctional facility and enumerates the standards that the Board shall include in such additional standards.",
-    "last_action": "No action recorded",
-    "last_action_date": "3/12/2026",
+    "last_action": "Enrolled Bill communicated to Governor on March 14, 2026",
+    "last_action_date": "3/14/2026",
     "patron": "Callsen",
     "history": [
       {
@@ -170,6 +170,14 @@
       {
         "date": "3/2/2026",
         "description": "S Passed Senate with substitute (27-Y 13-N 0-A)"
+      },
+      {
+        "date": "3/14/2026",
+        "description": "H Enrolled Bill communicated to Governor on March 14, 2026"
+      },
+      {
+        "date": "3/14/2026",
+        "description": "Governor's Action Deadline 11:59 p.m., April 13, 2026"
       },
       {
         "date": "3/12/2026",
@@ -427,8 +435,8 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1482",
     "status": "Passed Both Chambers",
     "summary": "Law-enforcement officers; restrictions on wearing of facial coverings; required identification; exceptions; civil liability; penalty. Prohibits state and local law-enforcement officers from wearing facial coverings, defined in the bill, while engaged in the performance of their official duties. The bill sets out several exceptions to such prohibition, including protective facial coverings to protect against disease, infection, and exposure to toxic substances and facial coverings worn by any law-enforcement officer assigned to a special weapons and tactics team while engaged in the performance of his official duties with such team. The bill subjects the law-enforcement officer to disciplinary action, including dismissal, demotion, suspension, transfer, or decertification. The bill also requires law-enforcement officers to visibly display certain identification while engaged in the performance of their duties and creates a Class 1 misdemeanor for any law-enforcement officer who wears a facial covering or fails to visibly display such identification in violation of the provisions of the bill. Finally, the bill creates a civil cause of action for any person injured as a result of tortious conduct by a law-enforcement officer who knowingly and intentionally wears a facial covering in violation of the provisions of the bill.",
-    "last_action": "Conference report agreed to by Senate (21-Y 18-N 0-A)",
-    "last_action_date": "3/13/2026",
+    "last_action": "Conference report agreed to by House (62-Y 35-N 0-A)",
+    "last_action_date": "3/14/2026",
     "patron": "Schmidt",
     "history": [
       {
@@ -458,6 +466,10 @@
       {
         "date": "3/2/2026",
         "description": "H Fiscal Impact Statement from Department of Planning and Budget (HB1482)"
+      },
+      {
+        "date": "3/14/2026",
+        "description": "H Conference report agreed to by House (62-Y 35-N 0-A)"
       },
       {
         "date": "3/13/2026",
@@ -610,8 +622,8 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1492",
     "status": "Passed Both Chambers",
     "summary": "Impersonating federal law-enforcement officer; penalties. Increases from a Class 1 misdemeanor to a Class 6 felony the penalty for impersonating a federal law-enforcement officer and increases the penalty for a second or subsequent violation from a Class 6 felony to a Class 5 felony. The bill also makes it a Class 5 felony to impersonate a federal law-enforcement officer while wearing a facial covering, defined in the bill, and a Class 4 felony for a second or subsequent violation.",
-    "last_action": "House Conferees: Shin, Clark, Wilt",
-    "last_action_date": "3/12/2026",
+    "last_action": "Conference report agreed to by House (63-Y 32-N 0-A)",
+    "last_action_date": "3/14/2026",
     "patron": "Shin",
     "history": [
       {
@@ -649,6 +661,26 @@
       {
         "date": "3/4/2026",
         "description": "S Reported from Finance and Appropriations with substitute (15-Y 0-N)"
+      },
+      {
+        "date": "3/14/2026",
+        "description": "H Conferees appointed by House"
+      },
+      {
+        "date": "3/14/2026",
+        "description": "H House Conferees: Shin, Lopez, Wilt"
+      },
+      {
+        "date": "3/14/2026",
+        "description": "Conference Report released"
+      },
+      {
+        "date": "3/14/2026",
+        "description": "H Conference report agreed to by House (63-Y 32-N 0-A)"
+      },
+      {
+        "date": "3/14/2026",
+        "description": "S Conference report agreed to by Senate (22-Y 17-N 0-A)"
       },
       {
         "date": "3/12/2026",
@@ -809,8 +841,8 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB650",
     "status": "Passed Both Chambers",
     "summary": "Prohibiting certain acts in furtherance of federal immigration enforcement in certain protected areas; exceptions; penalties. Prohibits federal civil immigration enforcement activities in certain protected areas including any courthouse, within 40 feet of any polling place or building used as a meeting place for the local electoral board while the electoral board meets to ascertain the results of an election, and any place or facility owned by the Commonwealth that is a hospital or other health care facility, a school or public institution of higher education, or an office of the attorney for the Commonwealth. The bill prohibits any civil arrest in a courthouse pursuant to a civil administrative warrant, subject to certain exemptions such as service or enforcement of an order for failure to pay child support or for any arrest occurring in connection with a court proceeding that is taking place or is scheduled to take place. The bill provides that such provisions shall not apply when such arrest is authorized by a judicial warrant or judicial subpoena.The bill also authorizes a local school board to include in its written school crisis, emergency management, and medical emergency response plan a procedure for notifying school board employees and parents of enrolled students of the presence of certain individuals on school property for immigration investigation or enforcement purposes. The bill requires each public institution of higher education to notify all students, faculty, and staff whenever such institution confirms that an individual is present on campus to investigate compliance with, enforce, or assist with such investigation or enforcement of any federal immigration law. This bill incorporates HB1260, HB1265, HB1440, and HB1442.",
-    "last_action": "House Conferees: Callsen, Simon, Cornett",
-    "last_action_date": "3/12/2026",
+    "last_action": "Conference report agreed to by House (62-Y 35-N 0-A)",
+    "last_action_date": "3/14/2026",
     "patron": "Callsen",
     "history": [
       {
@@ -840,6 +872,14 @@
       {
         "date": "3/2/2026",
         "description": "H Fiscal Impact Statement from Department of Planning and Budget (HB650)"
+      },
+      {
+        "date": "3/14/2026",
+        "description": "H Conference report agreed to by House (62-Y 35-N 0-A)"
+      },
+      {
+        "date": "3/14/2026",
+        "description": "S Conference report agreed to by Senate (21-Y 18-N 0-A)"
       },
       {
         "date": "3/13/2026",
@@ -1105,8 +1145,8 @@
     "bill_url": "https://lis.virginia.gov/bill-details/20261/SB351",
     "status": "Passed Both Chambers",
     "summary": "Certain civil arrests prohibited in courthouses; penalty. Provides that a party who is required to attend any court of the Commonwealth, or such party's family or household member or person attending the court with such party to serve as a witness, shall be privileged from civil arrest, defined in the bill, while attending, going to, or coming from the court. The bill also prohibits a person with the lawful authority to perform civil arrests from entering a courthouse to conduct a civil arrest unless he complies with certain requirements, including presenting a judicial warrant or judicial order authorizing the civil arrest to a sheriff, deputy sheriff, law-enforcement officer, or other person designated to provide security to the courthouse. Additionally, the bill requires that any judicial warrant or judicial order authorizing the civil arrest be reviewed by a designated judicial officer or attorney before a civil arrest pursuant to such warrant or order can be performed. Finally, the bill provides that any person who conducts a civil arrest, or facilitates or assists with the performance of, a civil arrest in violation of the provisions of the bill shall be punished with contempt of court.",
-    "last_action": "House Conferees: Callsen, Simon, Cornett",
-    "last_action_date": "3/12/2026",
+    "last_action": "Conference report agreed to by House (62-Y 35-N 0-A)",
+    "last_action_date": "3/14/2026",
     "patron": "Salim",
     "history": [
       {
@@ -1144,6 +1184,26 @@
       {
         "date": "3/2/2026",
         "description": "S Fiscal Impact Statement from Department of Planning and Budget (SB351)"
+      },
+      {
+        "date": "3/14/2026",
+        "description": "S Conference substitute printed 26109956D-S2"
+      },
+      {
+        "date": "3/14/2026",
+        "description": "Conference Report released"
+      },
+      {
+        "date": "3/14/2026",
+        "description": "Conference Report released"
+      },
+      {
+        "date": "3/14/2026",
+        "description": "H Conference report agreed to by House (62-Y 35-N 0-A)"
+      },
+      {
+        "date": "3/14/2026",
+        "description": "S Conference report agreed to by Senate (21-Y 18-N 0-A)"
       },
       {
         "date": "3/12/2026",
