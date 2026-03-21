@@ -1610,5 +1610,13 @@
     "current_action": "Conference report agreed to by House (62-Y 35-N 0-A)",
     "message": "SB351 new action: Conference report agreed to by House (62-Y 35-N 0-A)",
     "timestamp": "2026-03-15T09:24:37.860205"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "Conference report agreed to by House (62-Y 35-N 0-A)",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1482)",
+    "message": "HB1482 new action: Fiscal Impact Statement from Department of Planning and Budget (HB1482)",
+    "timestamp": "2026-03-21T09:21:55.394131"
   }
 ]
