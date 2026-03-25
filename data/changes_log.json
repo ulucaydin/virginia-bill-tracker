@@ -1618,5 +1618,13 @@
     "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1482)",
     "message": "HB1482 new action: Fiscal Impact Statement from Department of Planning and Budget (HB1482)",
     "timestamp": "2026-03-21T09:21:55.394131"
+  },
+  {
+    "bill": "HB650",
+    "type": "action_update",
+    "previous_action": "Conference report agreed to by House (62-Y 35-N 0-A)",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB650)",
+    "message": "HB650 new action: Fiscal Impact Statement from Department of Planning and Budget (HB650)",
+    "timestamp": "2026-03-25T09:37:30.464774"
   }
 ]
