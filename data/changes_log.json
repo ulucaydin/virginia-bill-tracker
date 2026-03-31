@@ -1626,5 +1626,45 @@
     "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB650)",
     "message": "HB650 new action: Fiscal Impact Statement from Department of Planning and Budget (HB650)",
     "timestamp": "2026-03-25T09:37:30.464774"
+  },
+  {
+    "bill": "HB1161",
+    "type": "action_update",
+    "previous_action": "Senate substitute agreed to by House (67-Y 32-N 0-A)",
+    "current_action": "Bill text as passed House and Senate (HB1161ER)",
+    "message": "HB1161 new action: Bill text as passed House and Senate (HB1161ER)",
+    "timestamp": "2026-03-31T09:39:12.129579"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1482)",
+    "current_action": "Bill text as passed House and Senate (HB1482ER)",
+    "message": "HB1482 new action: Bill text as passed House and Senate (HB1482ER)",
+    "timestamp": "2026-03-31T09:39:12.129595"
+  },
+  {
+    "bill": "HB1492",
+    "type": "action_update",
+    "previous_action": "Conference report agreed to by House (63-Y 32-N 0-A)",
+    "current_action": "Bill text as passed House and Senate (HB1492ER)",
+    "message": "HB1492 new action: Bill text as passed House and Senate (HB1492ER)",
+    "timestamp": "2026-03-31T09:39:12.129597"
+  },
+  {
+    "bill": "HB650",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB650)",
+    "current_action": "Bill text as passed House and Senate (HB650ER)",
+    "message": "HB650 new action: Bill text as passed House and Senate (HB650ER)",
+    "timestamp": "2026-03-31T09:39:12.129603"
+  },
+  {
+    "bill": "SB351",
+    "type": "action_update",
+    "previous_action": "Conference report agreed to by House (62-Y 35-N 0-A)",
+    "current_action": "Bill text as passed Senate and House (SB351ER)",
+    "message": "SB351 new action: Bill text as passed Senate and House (SB351ER)",
+    "timestamp": "2026-03-31T09:39:12.129607"
   }
 ]
