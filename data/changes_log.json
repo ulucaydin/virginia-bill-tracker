@@ -1666,5 +1666,45 @@
     "current_action": "Bill text as passed Senate and House (SB351ER)",
     "message": "SB351 new action: Bill text as passed Senate and House (SB351ER)",
     "timestamp": "2026-03-31T09:39:12.129607"
+  },
+  {
+    "bill": "HB1161",
+    "type": "action_update",
+    "previous_action": "Bill text as passed House and Senate (HB1161ER)",
+    "current_action": "No action recorded",
+    "message": "HB1161 new action: No action recorded",
+    "timestamp": "2026-04-01T09:38:22.741562"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "Bill text as passed House and Senate (HB1482ER)",
+    "current_action": "No action recorded",
+    "message": "HB1482 new action: No action recorded",
+    "timestamp": "2026-04-01T09:38:22.741576"
+  },
+  {
+    "bill": "HB1492",
+    "type": "action_update",
+    "previous_action": "Bill text as passed House and Senate (HB1492ER)",
+    "current_action": "No action recorded",
+    "message": "HB1492 new action: No action recorded",
+    "timestamp": "2026-04-01T09:38:22.741578"
+  },
+  {
+    "bill": "HB650",
+    "type": "action_update",
+    "previous_action": "Bill text as passed House and Senate (HB650ER)",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB650)",
+    "message": "HB650 new action: Fiscal Impact Statement from Department of Planning and Budget (HB650)",
+    "timestamp": "2026-04-01T09:38:22.741585"
+  },
+  {
+    "bill": "SB351",
+    "type": "action_update",
+    "previous_action": "Bill text as passed Senate and House (SB351ER)",
+    "current_action": "No action recorded",
+    "message": "SB351 new action: No action recorded",
+    "timestamp": "2026-04-01T09:38:22.741588"
   }
 ]
