@@ -1706,5 +1706,29 @@
     "current_action": "No action recorded",
     "message": "SB351 new action: No action recorded",
     "timestamp": "2026-04-01T09:38:22.741588"
+  },
+  {
+    "bill": "HB1161",
+    "type": "action_update",
+    "previous_action": "No action recorded",
+    "current_action": "Enrolled Bill communicated to Governor on March 31, 2026",
+    "message": "HB1161 new action: Enrolled Bill communicated to Governor on March 31, 2026",
+    "timestamp": "2026-04-02T09:37:56.074987"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "No action recorded",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1482)",
+    "message": "HB1482 new action: Fiscal Impact Statement from Department of Planning and Budget (HB1482)",
+    "timestamp": "2026-04-02T09:37:56.075003"
+  },
+  {
+    "bill": "HB1492",
+    "type": "action_update",
+    "previous_action": "No action recorded",
+    "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1492)",
+    "message": "HB1492 new action: Fiscal Impact Statement from Department of Planning and Budget (HB1492)",
+    "timestamp": "2026-04-02T09:37:56.075005"
   }
 ]
