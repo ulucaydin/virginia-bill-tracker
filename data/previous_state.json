@@ -165,12 +165,16 @@
   "HB126": {
     "bill_number": "HB126",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB126",
-    "status": "Passed Both Chambers",
+    "status": "Signed into Law",
     "summary": "Local, regional, and community correctional facilities; access to counsel for inmates. Requires the State Board of Local and Regional Jails to establish additional standards no later than January 1, 2027, to ensure access to legal counsel for inmates held in any local, regional, or community correctional facility and enumerates the standards that the Board shall include in such additional standards.",
     "last_action": "Enrolled Bill communicated to Governor on March 14, 2026",
     "last_action_date": "3/14/2026",
     "patron": "Callsen",
     "history": [
+      {
+        "date": "4/6/2026",
+        "description": "Approved by Governor-Chapter 73 (effective 7/1/2026)"
+      },
       {
         "date": "3/4/2026",
         "description": "H Senate substitute agreed to by House (92-Y 4-N 0-A)"

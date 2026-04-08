@@ -1730,5 +1730,13 @@
     "current_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1492)",
     "message": "HB1492 new action: Fiscal Impact Statement from Department of Planning and Budget (HB1492)",
     "timestamp": "2026-04-02T09:37:56.075005"
+  },
+  {
+    "bill": "HB126",
+    "type": "status_change",
+    "previous_status": "Passed Both Chambers",
+    "current_status": "Signed into Law",
+    "message": "HB126 status changed: Passed Both Chambers \u2192 Signed into Law",
+    "timestamp": "2026-04-08T09:38:31.748212"
   }
 ]
