@@ -1738,5 +1738,13 @@
     "current_status": "Signed into Law",
     "message": "HB126 status changed: Passed Both Chambers \u2192 Signed into Law",
     "timestamp": "2026-04-08T09:38:31.748212"
+  },
+  {
+    "bill": "HB126",
+    "type": "status_change",
+    "previous_status": "Signed into Law",
+    "current_status": "Passed Both Chambers",
+    "message": "HB126 status changed: Signed into Law \u2192 Passed Both Chambers",
+    "timestamp": "2026-04-09T09:39:52.137992"
   }
 ]
