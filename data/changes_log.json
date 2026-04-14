@@ -1746,5 +1746,21 @@
     "current_status": "Passed Both Chambers",
     "message": "HB126 status changed: Signed into Law \u2192 Passed Both Chambers",
     "timestamp": "2026-04-09T09:39:52.137992"
+  },
+  {
+    "bill": "HB1161",
+    "type": "status_change",
+    "previous_status": "Passed Both Chambers",
+    "current_status": "Signed into Law",
+    "message": "HB1161 status changed: Passed Both Chambers \u2192 Signed into Law",
+    "timestamp": "2026-04-14T09:40:14.258259"
+  },
+  {
+    "bill": "HB1492",
+    "type": "status_change",
+    "previous_status": "Passed Both Chambers",
+    "current_status": "Signed into Law",
+    "message": "HB1492 status changed: Passed Both Chambers \u2192 Signed into Law",
+    "timestamp": "2026-04-14T09:40:14.258275"
   }
 ]
