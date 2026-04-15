@@ -476,6 +476,14 @@
     "patron": "Schmidt",
     "history": [
       {
+        "date": "4/13/2026",
+        "description": "H Governor's substitute printed (HB1482H2)"
+      },
+      {
+        "date": "4/12/2026",
+        "description": "Governor's recommendation received by House"
+      },
+      {
         "date": "4/1/2026",
         "description": "H Fiscal Impact Statement from Department of Planning and Budget (HB1482)"
       },
@@ -694,6 +702,10 @@
     "last_action_date": "4/1/2026",
     "patron": "Shin",
     "history": [
+      {
+        "date": "4/13/2026",
+        "description": "Approved by Governor-Chapter 867 (effective 7/1/2026)"
+      },
       {
         "date": "4/1/2026",
         "description": "H Fiscal Impact Statement from Department of Planning and Budget (HB1492)"
@@ -941,6 +953,22 @@
     "last_action_date": "3/31/2026",
     "patron": "Callsen",
     "history": [
+      {
+        "date": "4/14/2026",
+        "description": "H Governor's substitute printed (HB650H3)"
+      },
+      {
+        "date": "4/13/2026",
+        "description": "H Governor's substitute printed (HB650H3)"
+      },
+      {
+        "date": "4/12/2026",
+        "description": "Governor's recommendation received by House"
+      },
+      {
+        "date": "4/12/2026",
+        "description": "Governor's Recommendation"
+      },
       {
         "date": "3/9/2026",
         "description": "S Passed by for the day"
@@ -1277,6 +1305,22 @@
     "last_action_date": "3/31/2026",
     "patron": "Salim",
     "history": [
+      {
+        "date": "4/14/2026",
+        "description": "S Governor's substitute printed (SB351S3)"
+      },
+      {
+        "date": "4/12/2026",
+        "description": "Governor's recommendation received by Senate"
+      },
+      {
+        "date": "4/12/2026",
+        "description": "Governor's Recommendation"
+      },
+      {
+        "date": "4/12/2026",
+        "description": "S Governor's substitute printed (SB351S3)"
+      },
       {
         "date": "3/9/2026",
         "description": "H House insisted on substitute"
