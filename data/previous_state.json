@@ -476,16 +476,16 @@
     "patron": "Schmidt",
     "history": [
       {
-        "date": "4/13/2026",
-        "description": "H Governor's substitute printed (HB1482H2)"
-      },
-      {
         "date": "4/12/2026",
         "description": "Governor's recommendation received by House"
       },
       {
         "date": "4/12/2026",
         "description": "Governor's Recommendation"
+      },
+      {
+        "date": "4/12/2026",
+        "description": "H Governor's substitute printed (HB1482H2)"
       },
       {
         "date": "4/1/2026",
