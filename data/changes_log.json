@@ -1762,5 +1762,37 @@
     "current_status": "Signed into Law",
     "message": "HB1492 status changed: Passed Both Chambers \u2192 Signed into Law",
     "timestamp": "2026-04-14T09:40:14.258275"
+  },
+  {
+    "bill": "HB1161",
+    "type": "status_change",
+    "previous_status": "Signed into Law",
+    "current_status": "Passed Both Chambers",
+    "message": "HB1161 status changed: Signed into Law \u2192 Passed Both Chambers",
+    "timestamp": "2026-04-23T09:39:31.084700"
+  },
+  {
+    "bill": "HB1482",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1482)",
+    "current_action": "Passed by for the day",
+    "message": "HB1482 new action: Passed by for the day",
+    "timestamp": "2026-04-23T09:39:31.084717"
+  },
+  {
+    "bill": "HB650",
+    "type": "action_update",
+    "previous_action": "Fiscal Impact Statement from Department of Planning and Budget (HB650)",
+    "current_action": "Passed by for the day",
+    "message": "HB650 new action: Passed by for the day",
+    "timestamp": "2026-04-23T09:39:31.084724"
+  },
+  {
+    "bill": "SB351",
+    "type": "action_update",
+    "previous_action": "No action recorded",
+    "current_action": "Passed by for the day (21-Y 18-N 0-A)",
+    "message": "SB351 new action: Passed by for the day (21-Y 18-N 0-A)",
+    "timestamp": "2026-04-23T09:39:31.084728"
   }
 ]
