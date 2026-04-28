@@ -1794,5 +1794,13 @@
     "current_action": "Passed by for the day (21-Y 18-N 0-A)",
     "message": "SB351 new action: Passed by for the day (21-Y 18-N 0-A)",
     "timestamp": "2026-04-23T09:39:31.084728"
+  },
+  {
+    "bill": "HB1492",
+    "type": "status_change",
+    "previous_status": "Signed into Law",
+    "current_status": "Passed Both Chambers",
+    "message": "HB1492 status changed: Signed into Law \u2192 Passed Both Chambers",
+    "timestamp": "2026-04-28T09:42:50.784380"
   }
 ]

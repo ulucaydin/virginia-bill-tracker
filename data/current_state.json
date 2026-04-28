@@ -712,7 +712,7 @@
   "HB1492": {
     "bill_number": "HB1492",
     "bill_url": "https://lis.virginia.gov/bill-details/20261/HB1492",
-    "status": "Signed into Law",
+    "status": "Passed Both Chambers",
     "summary": "Impersonating law-enforcement officer; penalties. Creates a Class 5 felony for impersonating a law-enforcement officer while wearing a facial covering, as that term is defined in the bill, and a Class 4 felony for a second or subsequent violation.",
     "last_action": "Fiscal Impact Statement from Department of Planning and Budget (HB1492)",
     "last_action_date": "4/1/2026",
@@ -721,6 +721,10 @@
       {
         "date": "4/13/2026",
         "description": "Approved by Governor-Chapter 867 (effective 7/1/2026)"
+      },
+      {
+        "date": "4/13/2026",
+        "description": "Acts of Assembly Chapter text (CHAP0867)"
       },
       {
         "date": "4/1/2026",
