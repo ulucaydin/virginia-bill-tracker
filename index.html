@@ -572,15 +572,15 @@
             <h1>🏛️ Virginia Bill Tracker</h1>
             <div class="header-actions">
                 <div class="sync-info">
-                    Last synced: <span class="sync-time">April 28, 2026 at 09:42 AM ET</span>
+                    Last synced: <span class="sync-time">April 29, 2026 at 09:40 AM ET</span>
                 </div>
                 <button class="btn" onclick="openConfigModal()">⚙️ Configure Bills</button>
             </div>
         </div>
         
 
-        <div class="changes-banner ">
-            <strong>⚠️ 1 change(s) detected since last sync</strong>
+        <div class="changes-banner no-changes">
+            <strong>✅ No changes detected</strong>
         </div>
         <div class="bills-grid">
 
@@ -710,11 +710,11 @@
                 </div>
             </div>
 
-            <div class="bill-card has-changes" onclick="openBillDetail('HB1492')">
+            <div class="bill-card " onclick="openBillDetail('HB1492')">
                 <div class="bill-header">
                     <div class="bill-number">
                         HB1492
-                        <span class="change-badge">UPDATED</span>
+                        
                     </div>
                     <div class="bill-status status-passed-both-chambers">
                         Passed Both Chambers
@@ -835,18 +835,6 @@
                     </a>
                 </div>
             </div>
-        </div>
-
-        <div class="changes-section">
-            <h2>Recent Changes</h2>
-
-            <div class="change-item">
-                <div>HB1492 status changed: Signed into Law → Passed Both Chambers</div>
-                <div class="change-timestamp">
-                    April 28, 2026 at 09:42 AM
-                </div>
-            </div>
-
         </div>
 
     <!-- Bill Detail Modal -->
