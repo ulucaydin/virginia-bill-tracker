@@ -1802,5 +1802,13 @@
     "current_status": "Passed Both Chambers",
     "message": "HB1492 status changed: Signed into Law \u2192 Passed Both Chambers",
     "timestamp": "2026-04-28T09:42:50.784380"
+  },
+  {
+    "bill": "HB650",
+    "type": "status_change",
+    "previous_status": "Passed Both Chambers",
+    "current_status": "Vetoed",
+    "message": "HB650 status changed: Passed Both Chambers \u2192 Vetoed",
+    "timestamp": "2026-05-21T10:09:29.769641"
   }
 ]
