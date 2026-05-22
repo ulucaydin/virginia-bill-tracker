@@ -1810,5 +1810,21 @@
     "current_status": "Vetoed",
     "message": "HB650 status changed: Passed Both Chambers \u2192 Vetoed",
     "timestamp": "2026-05-21T10:09:29.769641"
+  },
+  {
+    "bill": "SB351",
+    "type": "status_change",
+    "previous_status": "Passed Both Chambers",
+    "current_status": "Vetoed",
+    "message": "SB351 status changed: Passed Both Chambers \u2192 Vetoed",
+    "timestamp": "2026-05-22T09:51:41.708934"
+  },
+  {
+    "bill": "SB351",
+    "type": "action_update",
+    "previous_action": "Passed by for the day (21-Y 18-N 0-A)",
+    "current_action": "Governor's Veto Received by Senate",
+    "message": "SB351 new action: Governor's Veto Received by Senate",
+    "timestamp": "2026-05-22T09:51:41.708946"
   }
 ]
