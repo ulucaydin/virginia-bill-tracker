@@ -1826,5 +1826,21 @@
     "current_action": "Governor's Veto Received by Senate",
     "message": "SB351 new action: Governor's Veto Received by Senate",
     "timestamp": "2026-05-22T09:51:41.708946"
+  },
+  {
+    "bill": "HB1264",
+    "type": "status_change",
+    "previous_status": "Continued",
+    "current_status": "Pending",
+    "message": "HB1264 status changed: Continued \u2192 Pending",
+    "timestamp": "2026-07-21T11:07:21.258830"
+  },
+  {
+    "bill": "HB1264",
+    "type": "action_update",
+    "previous_action": "Continued to next session in Public Safety (Voice Vote)",
+    "current_action": "Continued from last session",
+    "message": "HB1264 new action: Continued from last session",
+    "timestamp": "2026-07-21T11:07:21.258843"
   }
 ]
