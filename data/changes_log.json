@@ -1842,5 +1842,21 @@
     "current_action": "Continued from last session",
     "message": "HB1264 new action: Continued from last session",
     "timestamp": "2026-07-21T11:07:21.258843"
+  },
+  {
+    "bill": "HB1264",
+    "type": "status_change",
+    "previous_status": "Pending",
+    "current_status": "Left in Committee",
+    "message": "HB1264 status changed: Pending \u2192 Left in Committee",
+    "timestamp": "2026-11-18T16:15:31.440181"
+  },
+  {
+    "bill": "HB1264",
+    "type": "action_update",
+    "previous_action": "Continued from last session",
+    "current_action": "Left in Committee Public Safety",
+    "message": "HB1264 new action: Left in Committee Public Safety",
+    "timestamp": "2026-11-18T16:15:31.440192"
   }
 ]
